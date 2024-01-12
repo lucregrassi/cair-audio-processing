@@ -12,7 +12,7 @@ tagged and sent to the client.
 The class also gives the possibility of performing just a single recognition and returns the result.
 """
 from cairlib.DialogueTurn import DialogueTurn, TurnPiece
-from speaker_recognition_util import recognize_speaker
+from speaker_recognition_util import identify_speaker
 import azure.cognitiveservices.speech as speechsdk
 import xml.etree.cElementTree as ET
 import threading
@@ -36,6 +36,9 @@ s_width = 2
 split_silence_time = 0.5
 final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
+
+log_filename = "../CAIRclient/logs/microphone_log_thesis.txt"
+file_lock = threading.Lock()
 
 
 class Recorder:
@@ -68,14 +71,35 @@ class Recorder:
         self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"],
                                                     region="westeurope", speech_recognition_language=lang)
         self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=("", 0,))
+        self.log = open(log_filename, "a+")
+
+    def speaker_recognition(self, wav_filename, prof_dict, ident_spk):
+        prof_ids = ','.join(prof_dict.keys())
+        print("T2: Trying to identify speaker...")
+        start_time = time.time()
+        ident_speaker_id, confidence = identify_speaker(prof_ids, wav_filename)
+        end_time = time.time()
+        if confidence > 0.3:
+            with file_lock:
+                self.log.write("chunk_speaker_recognition_time:" + str(end_time-start_time) + "\n")
+            ident_spk[0] = ident_speaker_id
+            speaker_name = prof_dict[ident_speaker_id]
+            print("T2: Identified speaker:", speaker_name)
+            print("T2: Confidence:", confidence)
+        else:
+            print("T2: No speaker identified")
 
     def speech_recognition(self, wav_filename):
         print("T1: Performing speech to text...")
         audio_input = speechsdk.AudioConfig(filename=wav_filename)
         speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_input)
+        start_time = time.time()
         result = speech_recognizer.recognize_once_async().get()
+        end_time = time.time()
         # If something has been recognized by Microsoft
         if result.text:
+            with file_lock:
+                self.log.write("speech_to_text_time:" + str(end_time - start_time) + "\n")
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
@@ -98,15 +122,20 @@ class Recorder:
         else:
             prof_dict = {}
         ident_speaker_id = ["00000000-0000-0000-0000-000000000000"]
-        t2 = threading.Thread(target=recognize_speaker, args=(format(wav_filename), prof_dict, ident_speaker_id))
+        t2 = threading.Thread(target=self.speaker_recognition, args=(format(wav_filename), prof_dict, ident_speaker_id))
         if prof_dict:
             t2.start()
         print("T1: Performing speech to text...")
         audio_input = speechsdk.AudioConfig(filename=wav_filename)
         speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_input)
+        start_time = time.time()
         result = speech_recognizer.recognize_once_async().get()
+        end_time = time.time()
         # If something has been recognized by Microsoft
         if result.text:
+            with file_lock:
+                self.log.write("chunk_duration:" + str(wav_duration) + "\n")
+                self.log.write("chunk_speech_to_text_time:" + str(end_time - start_time) + "\n")
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
@@ -191,12 +220,10 @@ class Recorder:
             connection.recv(256).decode('utf-8')
             self.stream.start_stream()
             print("*** Listening ***")
-
             while True:
                 self.dialogue_turn = DialogueTurn()
                 current = time.time()
                 end = time.time() + final_silence_time
-                print("init current = ", current, " end = ", end)
                 while current <= end:
                     audio_input = self.stream.read(chunk, exception_on_overflow=False)
                     rms_val = self.rms(audio_input)
@@ -209,16 +236,22 @@ class Recorder:
                             self.prev_input = self.prev_input[1:]
                         current = time.time()
                 if self.dialogue_turn.get_text() not in ["", " "]:
-                    two_secs_silence = time.time()
                     self.stream.stop_stream()
+                    two_secs_silence = time.time()
                     # as soon as the user has finished talking, send an ack to the server
                     connection.send("user finished talking".encode('utf-8'))
+                    # To check if client is still connected and has received the message
+                    client_msg = connection.recv(256).decode('utf-8')
+                    if client_msg == "":
+                        print("*** Client disconnected from socket! ***")
+                        break
                     print("*** Waiting for last thread to finish transcription ***")
                     self.t1.join()
                     finished_transcription = time.time()
-                    # TODO: write this time in log file
-                    final_delay = finished_transcription - two_secs_silence
-                    print("# FINAL DELAY:", final_delay)
+                    with file_lock:
+                        final_delay = finished_transcription - two_secs_silence
+                        self.log.write("final_delay_time:" + str(final_delay) + "\n")
+                        self.log.write("********************\n")
                     print("Recognized string:", self.dialogue_turn.get_text())
                     xml_string = self.dialogue_turn.to_xml_string()
                     print("*** Sending to client:", xml_string)

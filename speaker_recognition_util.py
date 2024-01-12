@@ -7,6 +7,8 @@ Affiliation: RICE, DIBRIS, University of Genoa, Italy
 
 This file contains the methods used to recognize speakers connecting to Microsoft APIs
 """
+import time
+
 from dotenv import load_dotenv, find_dotenv
 import requests
 import pyaudio
@@ -128,19 +130,6 @@ def identify_speaker(prof_ids, filename):
         identified_speaker = "00000000-0000-0000-0000-000000000000"
         confidence = 0
     return identified_speaker, confidence
-
-
-def recognize_speaker(wav_filename, prof_dict, ident_spk):
-    prof_ids = ','.join(prof_dict.keys())
-    print("T2: Trying to identify speaker...")
-    ident_speaker_id, confidence = identify_speaker(prof_ids, wav_filename)
-    if confidence > 0.3:
-        ident_spk[0] = ident_speaker_id
-        speaker_name = prof_dict[ident_speaker_id]
-        print("T2: Identified speaker:", speaker_name)
-        print("T2: Confidence:", confidence)
-    else:
-        print("T2: No speaker identified")
 
 # Delete all profiles
 # profile_ids = get_profiles()
