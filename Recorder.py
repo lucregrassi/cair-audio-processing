@@ -13,6 +13,7 @@ The class also gives the possibility of performing just a single recognition and
 """
 from cairlib.DialogueTurn import DialogueTurn, TurnPiece
 from speaker_recognition_util import identify_speaker
+from datetime import datetime
 import azure.cognitiveservices.speech as speechsdk
 import xml.etree.cElementTree as ET
 import threading
@@ -37,7 +38,7 @@ split_silence_time = 0.5
 final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
-log_filename = "../CAIRclient/logs/microphone_log_thesis.txt"
+log_filename = "logs/microphone_log_thesis.txt"
 file_lock = threading.Lock()
 
 
@@ -133,7 +134,10 @@ class Recorder:
         end_time = time.time()
         # If something has been recognized by Microsoft
         if result.text:
+            now = datetime.now()
+            date_time_str = now.strftime("%Y-%m-%d %H:%M:%S")
             with file_lock:
+                self.log.write("timestamp:" + date_time_str + "\n")
                 self.log.write("chunk_duration:" + str(wav_duration) + "\n")
                 self.log.write("chunk_speech_to_text_time:" + str(end_time - start_time) + "\n")
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
@@ -237,7 +241,7 @@ class Recorder:
                         current = time.time()
                 if self.dialogue_turn.get_text() not in ["", " "]:
                     self.stream.stop_stream()
-                    two_secs_silence = time.time()
+                    time_after_final_silence = time.time()
                     # as soon as the user has finished talking, send an ack to the server
                     connection.send("user finished talking".encode('utf-8'))
                     # To check if client is still connected and has received the message
@@ -247,9 +251,9 @@ class Recorder:
                         break
                     print("*** Waiting for last thread to finish transcription ***")
                     self.t1.join()
-                    finished_transcription = time.time()
+                    time_after_final_chunk_transcription = time.time()
                     with file_lock:
-                        final_delay = finished_transcription - two_secs_silence
+                        final_delay = time_after_final_chunk_transcription - time_after_final_silence
                         self.log.write("final_delay_time:" + str(final_delay) + "\n")
                         self.log.write("********************\n")
                     print("Recognized string:", self.dialogue_turn.get_text())
