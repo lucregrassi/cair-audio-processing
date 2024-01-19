@@ -73,16 +73,16 @@ class Recorder:
                                                     region="westeurope", speech_recognition_language=lang)
         self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=("", 0,))
         self.log = open(log_filename, "a+")
+        self.speaker_reco_start_time = 0
+        self.speaker_reco_end_time = 0
 
     def speaker_recognition(self, wav_filename, prof_dict, ident_spk):
         prof_ids = ','.join(prof_dict.keys())
         print("T2: Trying to identify speaker...")
-        start_time = time.time()
+        self.speaker_reco_start_time = time.time()
         ident_speaker_id, confidence = identify_speaker(prof_ids, wav_filename)
-        end_time = time.time()
+        self.speaker_reco_end_time = time.time()
         if confidence > 0.3:
-            with file_lock:
-                self.log.write("chunk_speaker_recognition_time:" + str(end_time-start_time) + "\n")
             ident_spk[0] = ident_speaker_id
             speaker_name = prof_dict[ident_speaker_id]
             print("T2: Identified speaker:", speaker_name)
@@ -134,12 +134,6 @@ class Recorder:
         end_time = time.time()
         # If something has been recognized by Microsoft
         if result.text:
-            now = datetime.now()
-            date_time_str = now.strftime("%Y-%m-%d %H:%M:%S")
-            with file_lock:
-                self.log.write("timestamp:" + date_time_str + "\n")
-                self.log.write("chunk_duration:" + str(wav_duration) + "\n")
-                self.log.write("chunk_speech_to_text_time:" + str(end_time - start_time) + "\n")
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
@@ -147,6 +141,15 @@ class Recorder:
             if prof_dict:
                 t2.join()
                 print("T1: T2 has completed the identification")
+            now = datetime.now()
+            date_time_str = now.strftime("%Y-%m-%d %H:%M:%S")
+            with file_lock:
+                self.log.write("timestamp:" + date_time_str + "\n")
+                self.log.write("chunk_duration:" + str(wav_duration) + "\n")
+                self.log.write("chunk_speech_to_text_time:" + str(end_time - start_time) + "\n")
+                if prof_dict:
+                    self.log.write("chunk_speaker_recognition_time:" +
+                                   str(self.speaker_reco_end_time - self.speaker_reco_start_time) + "\n")
             ident_speaker_id = ident_speaker_id[0]
             # Add a turn piece only if the user said something more than the phrase to end the turn
             if sentence:
