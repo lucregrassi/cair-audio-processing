@@ -124,13 +124,6 @@ second_request_response_time:2.20856785774
 first_sentence_speaking_time:11.2451329231
 second_sentence_speaking_time:6.58264613152
 ********************
-timestamp:2024-01-21 16:26:04
-first_request_response_time:2.02503705025
-ack_sentence_speaking_time:2.81276297569
-second_request_response_time:3.69110393524
-first_sentence_speaking_time:9.31863212585
-second_sentence_speaking_time:10.5629341602
-********************
 timestamp:2024-01-21 16:26:39
 ack_sentence_speaking_time:2.38969922066
 first_request_response_time:2.63740110397

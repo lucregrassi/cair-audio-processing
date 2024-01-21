@@ -412,20 +412,6 @@ chunk_speech_to_text_time:1.0014889240264893
 chunk_speaker_recognition_time:0.5439107418060303
 final_delay_time:0.008684873580932617
 ********************
-timestamp:2024-01-21 16:53:32
-chunk_duration:2.6468186378479004
-chunk_speech_to_text_time:1.1432890892028809
-chunk_speaker_recognition_time:0.6545469760894775
-timestamp:2024-01-21 16:53:35
-chunk_duration:2.8808298110961914
-chunk_speech_to_text_time:1.1538240909576416
-chunk_speaker_recognition_time:0.4804961681365967
-timestamp:2024-01-21 16:53:38
-chunk_duration:2.838844060897827
-chunk_speech_to_text_time:1.2027528285980225
-chunk_speaker_recognition_time:0.6538751125335693
-final_delay_time:0.11864423751831055
-********************
 timestamp:2024-01-21 16:54:14
 chunk_duration:2.453123092651367
 chunk_speech_to_text_time:0.9900949001312256
