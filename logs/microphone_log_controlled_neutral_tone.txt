@@ -176,12 +176,6 @@ chunk_speech_to_text_time:1.3982770442962646
 chunk_speaker_recognition_time:0.8277828693389893
 final_delay_time:0.0196378231048584
 ********************
-timestamp:2024-01-21 22:19:35
-chunk_duration:5.524598121643066
-chunk_speech_to_text_time:1.539701223373413
-chunk_speaker_recognition_time:0.7736620903015137
-final_delay_time:0.010355949401855469
-********************
 timestamp:2024-01-21 22:20:05
 chunk_duration:4.135192155838013
 chunk_speech_to_text_time:1.5577991008758545
@@ -327,20 +321,6 @@ chunk_duration:4.906595945358276
 chunk_speech_to_text_time:2.2121458053588867
 chunk_speaker_recognition_time:0.4016292095184326
 final_delay_time:0.022620201110839844
-********************
-timestamp:2024-01-21 22:29:43
-chunk_duration:2.496009111404419
-chunk_speech_to_text_time:1.604207992553711
-chunk_speaker_recognition_time:0.7417850494384766
-timestamp:2024-01-21 22:29:45
-chunk_duration:1.7922461032867432
-chunk_speech_to_text_time:1.1145501136779785
-chunk_speaker_recognition_time:-0.5843808650970459
-timestamp:2024-01-21 22:29:45
-chunk_duration:0.9845950603485107
-chunk_speech_to_text_time:0.6284592151641846
-chunk_speaker_recognition_time:0.367840051651001
-final_delay_time:0.00826406478881836
 ********************
 timestamp:2024-01-21 22:30:17
 chunk_duration:4.031251907348633
@@ -889,4 +869,24 @@ chunk_duration:1.423717975616455
 chunk_speech_to_text_time:0.8185610771179199
 chunk_speaker_recognition_time:0.45609092712402344
 final_delay_time:0.008049726486206055
+********************
+timestamp:2024-01-21 23:07:07
+chunk_duration:3.838505983352661
+chunk_speech_to_text_time:1.9263520240783691
+chunk_speaker_recognition_time:-0.5551879405975342
+timestamp:2024-01-21 23:07:08
+chunk_duration:1.5815589427947998
+chunk_speech_to_text_time:0.8161180019378662
+chunk_speaker_recognition_time:0.4365842342376709
+final_delay_time:0.015470027923583984
+********************
+timestamp:2024-01-21 23:07:35
+chunk_duration:2.5810859203338623
+chunk_speech_to_text_time:1.7971198558807373
+chunk_speaker_recognition_time:1.0174140930175781
+timestamp:2024-01-21 23:07:38
+chunk_duration:2.881147861480713
+chunk_speech_to_text_time:1.6905369758605957
+chunk_speaker_recognition_time:0.7516360282897949
+final_delay_time:0.006536006927490234
 ********************
