@@ -632,10 +632,6 @@ chunk_speech_to_text_time:0.9736888408660889
 chunk_speaker_recognition_time:0.6546428203582764
 final_delay_time:0.0071048736572265625
 ********************
-timestamp:2024-01-20 23:08:41
-chunk_duration:1.473642110824585
-chunk_speech_to_text_time:1.0329318046569824
-chunk_speaker_recognition_time:1.0292680263519287
 timestamp:2024-01-21 12:28:05
 chunk_duration:4.713364124298096
 chunk_speech_to_text_time:1.7657127380371094
