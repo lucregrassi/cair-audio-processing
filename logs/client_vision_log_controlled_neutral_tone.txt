@@ -6473,3 +6473,373 @@ image_capture_time:0.149839162827
 compressed_image_size_bytes:25092
 densecap_request_response_time:1.24917006493
 ********************
+timestamp:2024-01-21 12:20:30
+image_capture_time:0.205355167389
+compressed_image_size_bytes:66789
+densecap_request_response_time:1.3490459919
+********************
+timestamp:2024-01-21 12:20:32
+image_capture_time:0.149753093719
+compressed_image_size_bytes:67446
+densecap_request_response_time:1.27886795998
+********************
+timestamp:2024-01-21 12:20:33
+image_capture_time:0.136620044708
+compressed_image_size_bytes:69096
+densecap_request_response_time:1.30461287498
+********************
+timestamp:2024-01-21 12:20:34
+image_capture_time:0.15660405159
+compressed_image_size_bytes:69771
+densecap_request_response_time:1.33629703522
+********************
+timestamp:2024-01-21 12:20:36
+image_capture_time:0.135995149612
+compressed_image_size_bytes:66357
+densecap_request_response_time:1.26270604134
+********************
+timestamp:2024-01-21 12:20:37
+image_capture_time:0.13191986084
+compressed_image_size_bytes:67626
+densecap_request_response_time:1.23089909554
+********************
+timestamp:2024-01-21 12:20:39
+image_capture_time:0.134429931641
+compressed_image_size_bytes:68886
+densecap_request_response_time:1.28203701973
+********************
+timestamp:2024-01-21 12:20:40
+image_capture_time:0.155719041824
+compressed_image_size_bytes:69849
+densecap_request_response_time:1.2612631321
+********************
+timestamp:2024-01-21 12:20:42
+image_capture_time:0.133805036545
+compressed_image_size_bytes:66891
+densecap_request_response_time:1.30189394951
+********************
+timestamp:2024-01-21 12:20:43
+image_capture_time:0.128313064575
+compressed_image_size_bytes:69045
+densecap_request_response_time:1.32155990601
+********************
+timestamp:2024-01-21 12:20:44
+image_capture_time:0.17568898201
+compressed_image_size_bytes:69969
+densecap_request_response_time:1.35845899582
+********************
+timestamp:2024-01-21 12:20:46
+image_capture_time:0.141450881958
+compressed_image_size_bytes:66219
+densecap_request_response_time:1.25226593018
+********************
+timestamp:2024-01-21 12:20:47
+image_capture_time:0.166414022446
+compressed_image_size_bytes:69114
+densecap_request_response_time:1.25202488899
+********************
+timestamp:2024-01-21 12:20:49
+image_capture_time:0.12556385994
+compressed_image_size_bytes:70116
+densecap_request_response_time:1.20290112495
+********************
+timestamp:2024-01-21 12:20:50
+image_capture_time:0.151912927628
+compressed_image_size_bytes:70731
+densecap_request_response_time:1.28935408592
+********************
+timestamp:2024-01-21 12:20:52
+image_capture_time:0.156472206116
+compressed_image_size_bytes:67428
+densecap_request_response_time:1.20015382767
+********************
+timestamp:2024-01-21 12:20:53
+image_capture_time:0.151107788086
+compressed_image_size_bytes:70158
+densecap_request_response_time:1.28556203842
+********************
+timestamp:2024-01-21 12:20:54
+image_capture_time:0.16077709198
+compressed_image_size_bytes:70773
+densecap_request_response_time:1.30754613876
+********************
+timestamp:2024-01-21 12:20:56
+image_capture_time:0.122107028961
+compressed_image_size_bytes:67206
+densecap_request_response_time:1.25303006172
+********************
+timestamp:2024-01-21 12:20:57
+image_capture_time:0.146994829178
+compressed_image_size_bytes:68913
+densecap_request_response_time:1.21456098557
+********************
+timestamp:2024-01-21 12:20:59
+image_capture_time:0.15181183815
+compressed_image_size_bytes:70104
+densecap_request_response_time:1.19687390327
+********************
+timestamp:2024-01-21 12:21:00
+image_capture_time:0.134883165359
+compressed_image_size_bytes:70869
+densecap_request_response_time:1.26462316513
+********************
+timestamp:2024-01-21 12:21:01
+image_capture_time:0.144279956818
+compressed_image_size_bytes:67218
+densecap_request_response_time:1.33006310463
+********************
+timestamp:2024-01-21 12:21:03
+image_capture_time:0.125295877457
+compressed_image_size_bytes:69834
+densecap_request_response_time:1.38016295433
+********************
+timestamp:2024-01-21 12:21:04
+image_capture_time:0.171364784241
+compressed_image_size_bytes:70647
+densecap_request_response_time:1.35994791985
+********************
+timestamp:2024-01-21 12:21:06
+image_capture_time:0.123908996582
+compressed_image_size_bytes:67164
+densecap_request_response_time:1.24447798729
+********************
+timestamp:2024-01-21 12:27:57
+image_capture_time:0.135140895844
+compressed_image_size_bytes:74970
+densecap_request_response_time:1.42606782913
+********************
+timestamp:2024-01-21 12:27:58
+image_capture_time:0.223685026169
+compressed_image_size_bytes:74766
+densecap_request_response_time:1.34094500542
+********************
+timestamp:2024-01-21 12:28:00
+image_capture_time:0.134928941727
+compressed_image_size_bytes:72000
+densecap_request_response_time:1.24641704559
+********************
+timestamp:2024-01-21 12:28:01
+image_capture_time:0.15544295311
+compressed_image_size_bytes:70662
+densecap_request_response_time:1.19750404358
+********************
+timestamp:2024-01-21 12:28:03
+image_capture_time:0.13436293602
+compressed_image_size_bytes:70743
+densecap_request_response_time:1.29726600647
+********************
+timestamp:2024-01-21 12:28:04
+image_capture_time:0.13721704483
+compressed_image_size_bytes:74286
+densecap_request_response_time:1.31874203682
+********************
+timestamp:2024-01-21 12:28:05
+image_capture_time:0.156459093094
+compressed_image_size_bytes:71130
+densecap_request_response_time:1.44826889038
+********************
+timestamp:2024-01-21 12:28:07
+image_capture_time:0.139245986938
+compressed_image_size_bytes:84225
+densecap_request_response_time:1.28385806084
+********************
+timestamp:2024-01-21 12:28:09
+image_capture_time:0.233120918274
+compressed_image_size_bytes:83433
+densecap_request_response_time:1.25434613228
+********************
+timestamp:2024-01-21 12:28:10
+image_capture_time:0.128551006317
+compressed_image_size_bytes:64938
+densecap_request_response_time:1.19791507721
+********************
+timestamp:2024-01-21 12:28:11
+image_capture_time:0.165501117706
+compressed_image_size_bytes:73623
+densecap_request_response_time:1.24195504189
+********************
+timestamp:2024-01-21 12:28:13
+image_capture_time:0.140908956528
+compressed_image_size_bytes:73800
+densecap_request_response_time:1.30406594276
+********************
+timestamp:2024-01-21 12:28:14
+image_capture_time:0.150895118713
+compressed_image_size_bytes:68208
+densecap_request_response_time:1.28529810905
+********************
+timestamp:2024-01-21 12:28:16
+image_capture_time:0.157223939896
+compressed_image_size_bytes:72597
+densecap_request_response_time:1.23540496826
+********************
+timestamp:2024-01-21 12:28:17
+image_capture_time:0.164689064026
+compressed_image_size_bytes:65475
+densecap_request_response_time:1.23814988136
+********************
+timestamp:2024-01-21 12:28:18
+image_capture_time:0.159466028214
+compressed_image_size_bytes:66417
+densecap_request_response_time:1.32109498978
+********************
+timestamp:2024-01-21 12:28:20
+image_capture_time:0.127252101898
+compressed_image_size_bytes:71334
+densecap_request_response_time:1.32742190361
+********************
+timestamp:2024-01-21 12:28:21
+image_capture_time:0.171561002731
+compressed_image_size_bytes:74118
+densecap_request_response_time:1.37223601341
+********************
+timestamp:2024-01-21 12:28:23
+image_capture_time:0.144546985626
+compressed_image_size_bytes:65307
+densecap_request_response_time:1.28324484825
+********************
+timestamp:2024-01-21 12:28:24
+image_capture_time:0.218595981598
+compressed_image_size_bytes:71091
+densecap_request_response_time:1.43303084373
+********************
+timestamp:2024-01-21 12:28:26
+image_capture_time:0.164451122284
+compressed_image_size_bytes:65319
+densecap_request_response_time:1.35028719902
+********************
+timestamp:2024-01-21 12:28:27
+image_capture_time:0.128154993057
+compressed_image_size_bytes:73104
+densecap_request_response_time:1.19640088081
+********************
+timestamp:2024-01-21 12:28:29
+image_capture_time:0.136684894562
+compressed_image_size_bytes:72033
+densecap_request_response_time:1.18740391731
+********************
+timestamp:2024-01-21 12:28:30
+image_capture_time:0.16198682785
+compressed_image_size_bytes:87708
+densecap_request_response_time:1.32185196877
+********************
+timestamp:2024-01-21 12:28:32
+image_capture_time:0.177573919296
+compressed_image_size_bytes:88527
+densecap_request_response_time:1.27842712402
+********************
+timestamp:2024-01-21 12:28:33
+image_capture_time:0.155986070633
+compressed_image_size_bytes:84921
+densecap_request_response_time:1.37469291687
+********************
+timestamp:2024-01-21 12:37:59
+image_capture_time:0.151749134064
+compressed_image_size_bytes:67353
+densecap_request_response_time:1.41936707497
+********************
+timestamp:2024-01-21 12:38:01
+image_capture_time:0.162670135498
+compressed_image_size_bytes:67812
+densecap_request_response_time:1.30892395973
+********************
+timestamp:2024-01-21 12:38:02
+image_capture_time:0.151947021484
+compressed_image_size_bytes:70389
+densecap_request_response_time:1.38707518578
+********************
+timestamp:2024-01-21 12:38:04
+image_capture_time:0.149496078491
+compressed_image_size_bytes:72948
+densecap_request_response_time:1.25976800919
+********************
+timestamp:2024-01-21 12:38:05
+image_capture_time:0.1551861763
+compressed_image_size_bytes:70224
+densecap_request_response_time:1.31637001038
+********************
+timestamp:2024-01-21 12:38:07
+image_capture_time:0.131226062775
+compressed_image_size_bytes:68550
+densecap_request_response_time:1.31624507904
+********************
+timestamp:2024-01-21 12:38:08
+image_capture_time:0.146226882935
+compressed_image_size_bytes:71619
+densecap_request_response_time:1.36089515686
+********************
+timestamp:2024-01-21 12:38:10
+image_capture_time:0.13973402977
+compressed_image_size_bytes:62715
+densecap_request_response_time:1.21471405029
+********************
+timestamp:2024-01-21 12:38:11
+image_capture_time:0.117974042892
+compressed_image_size_bytes:64929
+densecap_request_response_time:1.24671792984
+********************
+timestamp:2024-01-21 12:38:12
+image_capture_time:0.121057033539
+compressed_image_size_bytes:66066
+densecap_request_response_time:1.20244717598
+********************
+timestamp:2024-01-21 12:38:14
+image_capture_time:0.164115905762
+compressed_image_size_bytes:69891
+densecap_request_response_time:1.28483200073
+********************
+timestamp:2024-01-21 12:38:15
+image_capture_time:0.158435106277
+compressed_image_size_bytes:67956
+densecap_request_response_time:1.31769108772
+********************
+timestamp:2024-01-21 12:38:17
+image_capture_time:0.2184009552
+compressed_image_size_bytes:67899
+densecap_request_response_time:1.30827403069
+********************
+timestamp:2024-01-21 12:38:18
+image_capture_time:0.160995960236
+compressed_image_size_bytes:74952
+densecap_request_response_time:1.27894496918
+********************
+timestamp:2024-01-21 12:38:20
+image_capture_time:0.149976015091
+compressed_image_size_bytes:68190
+densecap_request_response_time:1.28846597672
+********************
+timestamp:2024-01-21 12:38:21
+image_capture_time:0.1626060009
+compressed_image_size_bytes:76749
+densecap_request_response_time:1.35904693604
+********************
+timestamp:2024-01-21 12:38:23
+image_capture_time:0.157086133957
+compressed_image_size_bytes:63951
+densecap_request_response_time:1.27008104324
+********************
+timestamp:2024-01-21 12:38:24
+image_capture_time:0.139628887177
+compressed_image_size_bytes:60321
+densecap_request_response_time:1.21269822121
+********************
+timestamp:2024-01-21 12:38:25
+image_capture_time:0.120479822159
+compressed_image_size_bytes:63603
+densecap_request_response_time:1.28111004829
+********************
+timestamp:2024-01-21 12:38:27
+image_capture_time:0.172038078308
+compressed_image_size_bytes:65868
+densecap_request_response_time:1.14866280556
+********************
+timestamp:2024-01-21 12:38:28
+image_capture_time:0.144338846207
+compressed_image_size_bytes:67272
+densecap_request_response_time:1.27258396149
+********************
+timestamp:2024-01-21 12:38:29
+image_capture_time:0.144581079483
+compressed_image_size_bytes:84861
+densecap_request_response_time:1.16842985153
+********************
