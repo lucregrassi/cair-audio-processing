@@ -2,11 +2,11 @@ import csv
 import os.path
 from datetime import datetime
 
-microphone_log_filename = "microphone_log_thesis.txt"
+microphone_log_filename = "microphone_log_controlled_neutral_tone.txt"
 microphone_csv_output_filename = microphone_log_filename.split('.')[0] + ".csv"
-client_dialogue_log_filename = "client_dialogue_log_thesis.txt"
+client_dialogue_log_filename = "client_dialogue_log_controlled_neutral_tone.txt"
 client_dialogue_csv_output_filename = client_dialogue_log_filename.split('.')[0] + ".csv"
-client_vision_log_filename = "client_vision_log_thesis.txt"
+client_vision_log_filename = "client_vision_log_controlled_neutral_tone.txt"
 client_vision_csv_output_filename = client_vision_log_filename.split('.')[0] + ".csv"
 
 

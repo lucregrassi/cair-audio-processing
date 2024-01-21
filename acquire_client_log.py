@@ -21,11 +21,10 @@ if __name__ == '__main__':
 
         while True:
             data_chunk = connection.recv(1024).decode('utf-8')
-            print("Data received")
+            print("* Data received *")
             if not data_chunk:
                 print("Client disconnected!")
                 break
-
             accumulated_data += data_chunk
             messages = accumulated_data.split("\n")
             # Process complete messages and update accumulated_data with any remaining partial message
