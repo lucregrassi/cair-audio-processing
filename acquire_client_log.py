@@ -1,7 +1,7 @@
 import socket
 
-log_dialogue_filename = "logs/client_dialogue_log_thesis.txt"
-log_vision_filename = "logs/client_vision_log_thesis.txt"
+log_dialogue_filename = "logs/client_dialogue_log_controlled_humorous_tone.txt"
+log_vision_filename = "logs/client_vision_log_controlled_humorous_tone.txt"
 
 dialogue_logfile = open(log_dialogue_filename, 'a+')
 vision_logfile = open(log_vision_filename, 'a+')

@@ -38,7 +38,7 @@ split_silence_time = 0.5
 final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
-log_filename = "logs/microphone_log_thesis.txt"
+log_filename = "logs/microphone_log_controlled_humorous_tone.txt"
 file_lock = threading.Lock()
 
 
