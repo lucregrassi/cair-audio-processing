@@ -1,4 +1,4 @@
-import csv
+import thesis_csv
 import os.path
 from datetime import datetime
 
@@ -47,7 +47,7 @@ def from_log_to_csv(log_filename, csv_headers):
 
     # Crea il file CSV
     with open("csv/" + log_filename.split('.')[0] + ".csv", 'w', newline='') as csv_file:
-        csv_writer = csv.DictWriter(csv_file, fieldnames=csv_headers)
+        csv_writer = thesis_csv.DictWriter(csv_file, fieldnames=csv_headers)
         # write the headers in the csv
         csv_writer.writeheader()
         # write data in the csv
