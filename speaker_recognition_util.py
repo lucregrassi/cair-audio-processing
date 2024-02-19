@@ -7,8 +7,6 @@ Affiliation: RICE, DIBRIS, University of Genoa, Italy
 
 This file contains the methods used to recognize speakers connecting to Microsoft APIs
 """
-import time
-
 from dotenv import load_dotenv, find_dotenv
 import requests
 import pyaudio

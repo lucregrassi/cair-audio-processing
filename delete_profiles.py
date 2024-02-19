@@ -1,3 +1,13 @@
+"""
+Authors:     Lucrezia Grassi (concept, design and code writing),
+             Carmine Tommaso Recchiuto (concept and design),
+             Antonio Sgorbissa (concept and design)
+Email:       lucrezia.grassi@edu.unige.it
+Affiliation: RICE, DIBRIS, University of Genoa, Italy
+
+This script allows to delete data related to the specified ID both from Microsoft and locally
+"""
+
 import os
 import shutil
 import json

@@ -1,3 +1,12 @@
+"""
+Authors:     Lucrezia Grassi (concept, design and code writing),
+             Carmine Tommaso Recchiuto (concept and design),
+             Antonio Sgorbissa (concept and design)
+Email:       lucrezia.grassi@edu.unige.it
+Affiliation: RICE, DIBRIS, University of Genoa, Italy
+
+This script logs data related to the dialogue and vision from the client
+"""
 import socket
 
 log_dialogue_filename = "logs/client_dialogue_log.txt"
