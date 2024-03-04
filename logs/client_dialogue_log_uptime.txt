@@ -1,0 +1,3261 @@
+timestamp:2024-02-21 18:41:51
+ack_sentence_speaking_time:1.64350986481
+first_request_response_time:3.40737581253
+second_request_response_time:1.82043814659
+first_sentence_speaking_time:3.07504892349
+second_sentence_speaking_time:4.04669690132
+********************
+timestamp:2024-02-21 18:42:16
+ack_sentence_speaking_time:2.78147792816
+first_request_response_time:2.84180688858
+first_sentence_speaking_time:3.31191396713
+second_request_response_time:6.93681812286
+second_sentence_speaking_time:3.49618387222
+********************
+timestamp:2024-02-21 18:42:37
+ack_sentence_speaking_time:2.20851302147
+first_request_response_time:2.49801802635
+second_request_response_time:2.06332492828
+first_sentence_speaking_time:5.2179749012
+second_sentence_speaking_time:3.31300783157
+********************
+timestamp:2024-02-21 18:42:54
+ack_sentence_speaking_time:0.798525094986
+first_request_response_time:2.14699602127
+second_request_response_time:2.61909198761
+first_sentence_speaking_time:5.58895611763
+second_sentence_speaking_time:3.90865182877
+********************
+timestamp:2024-02-21 18:43:18
+ack_sentence_speaking_time:2.05914402008
+first_request_response_time:2.51046085358
+second_request_response_time:2.79436397552
+first_sentence_speaking_time:6.70591688156
+second_sentence_speaking_time:3.0534157753
+********************
+timestamp:2024-02-21 18:43:38
+ack_sentence_speaking_time:1.53344488144
+first_request_response_time:3.32316684723
+second_request_response_time:1.15729999542
+first_sentence_speaking_time:4.01903295517
+second_sentence_speaking_time:2.41900205612
+********************
+timestamp:2024-02-21 18:43:57
+ack_sentence_speaking_time:1.9258108139
+first_request_response_time:3.08096599579
+second_request_response_time:3.73495602608
+first_sentence_speaking_time:6.30714607239
+second_sentence_speaking_time:3.58445501328
+********************
+timestamp:2024-02-21 18:44:19
+ack_sentence_speaking_time:1.58383893967
+first_request_response_time:1.97820401192
+second_request_response_time:0.997766971588
+first_sentence_speaking_time:3.89891600609
+second_sentence_speaking_time:1.6116437912
+********************
+timestamp:2024-02-21 18:44:33
+first_request_response_time:1.50072288513
+ack_sentence_speaking_time:2.33030080795
+second_request_response_time:1.33367395401
+first_sentence_speaking_time:4.25508308411
+second_sentence_speaking_time:4.20436906815
+********************
+timestamp:2024-02-21 18:44:53
+ack_sentence_speaking_time:1.81437706947
+first_request_response_time:2.11554002762
+second_request_response_time:1.49970006943
+first_sentence_speaking_time:2.89961194992
+second_sentence_speaking_time:3.81437182426
+********************
+timestamp:2024-02-21 21:35:41
+first_request_response_time:2.27610111237
+ack_sentence_speaking_time:2.86792182922
+second_request_response_time:2.04104804993
+first_sentence_speaking_time:4.26599192619
+second_sentence_speaking_time:4.35915493965
+********************
+timestamp:2024-02-21 21:36:11
+first_request_response_time:2.12436509132
+ack_sentence_speaking_time:3.11155414581
+second_request_response_time:1.87785601616
+first_sentence_speaking_time:5.12890601158
+second_sentence_speaking_time:4.37799191475
+********************
+timestamp:2024-02-21 21:36:30
+first_request_response_time:1.58624410629
+ack_sentence_speaking_time:2.63257694244
+second_request_response_time:1.47306895256
+first_sentence_speaking_time:5.37903499603
+second_sentence_speaking_time:6.21106505394
+********************
+timestamp:2024-02-21 21:36:55
+first_request_response_time:2.27340292931
+ack_sentence_speaking_time:2.78528594971
+second_request_response_time:1.58771300316
+first_sentence_speaking_time:6.2705578804
+second_sentence_speaking_time:5.903673172
+********************
+timestamp:2024-02-21 21:37:18
+first_request_response_time:2.11685013771
+ack_sentence_speaking_time:3.56020307541
+second_request_response_time:2.29552292824
+first_sentence_speaking_time:8.17001676559
+second_sentence_speaking_time:5.69991111755
+********************
+timestamp:2024-02-21 21:37:46
+ack_sentence_speaking_time:2.18746900558
+first_request_response_time:2.76418018341
+second_request_response_time:6.10019898415
+first_sentence_speaking_time:8.81113791466
+second_sentence_speaking_time:7.4008769989
+********************
+timestamp:2024-02-21 21:38:14
+ack_sentence_speaking_time:2.80414295197
+first_request_response_time:4.39030408859
+second_request_response_time:3.46379208565
+first_sentence_speaking_time:7.02550792694
+second_sentence_speaking_time:9.5461359024
+********************
+timestamp:2024-02-21 21:38:41
+ack_sentence_speaking_time:2.51805210114
+first_request_response_time:3.49138092995
+second_request_response_time:2.52504396439
+first_sentence_speaking_time:9.47738790512
+second_sentence_speaking_time:5.92414999008
+********************
+timestamp:2024-02-21 21:39:06
+first_request_response_time:2.03885602951
+ack_sentence_speaking_time:2.81072497368
+second_request_response_time:1.62512612343
+first_sentence_speaking_time:8.88849282265
+second_sentence_speaking_time:6.9395301342
+********************
+timestamp:2024-02-21 21:39:34
+ack_sentence_speaking_time:1.72441697121
+first_request_response_time:5.22918701172
+second_request_response_time:2.91612005234
+first_sentence_speaking_time:7.16978597641
+second_sentence_speaking_time:6.79790401459
+********************
+timestamp:2024-02-21 22:47:25
+first_request_response_time:1.73403120041
+ack_sentence_speaking_time:2.7930150032
+second_request_response_time:3.27371311188
+first_sentence_speaking_time:5.32323694229
+second_sentence_speaking_time:9.44685721397
+********************
+timestamp:2024-02-21 22:47:53
+first_request_response_time:2.50225806236
+ack_sentence_speaking_time:2.80331015587
+second_request_response_time:1.62177705765
+first_sentence_speaking_time:7.64405298233
+second_sentence_speaking_time:8.28321194649
+********************
+timestamp:2024-02-21 22:48:18
+ack_sentence_speaking_time:2.52334594727
+first_request_response_time:4.06026005745
+second_request_response_time:2.16651296616
+first_sentence_speaking_time:7.45646500587
+second_sentence_speaking_time:4.5251019001
+********************
+timestamp:2024-02-21 22:48:40
+ack_sentence_speaking_time:1.93800783157
+first_request_response_time:3.69731998444
+second_request_response_time:1.92259907722
+first_sentence_speaking_time:8.76185178757
+second_sentence_speaking_time:6.06063103676
+********************
+timestamp:2024-02-21 22:49:04
+first_request_response_time:1.84869098663
+ack_sentence_speaking_time:3.12624001503
+second_request_response_time:1.21919393539
+first_sentence_speaking_time:6.65019893646
+second_sentence_speaking_time:4.08821177483
+********************
+timestamp:2024-02-21 22:49:23
+ack_sentence_speaking_time:2.28767704964
+first_request_response_time:2.29503798485
+second_request_response_time:2.03250479698
+first_sentence_speaking_time:4.99006390572
+second_sentence_speaking_time:3.58774209023
+********************
+timestamp:2024-02-21 22:49:39
+first_request_response_time:2.19648098946
+ack_sentence_speaking_time:2.27708601952
+second_request_response_time:6.27650213242
+first_sentence_speaking_time:7.340736866
+second_sentence_speaking_time:7.45492291451
+********************
+timestamp:2024-02-21 22:50:03
+first_request_response_time:1.85111117363
+ack_sentence_speaking_time:2.76591992378
+second_request_response_time:1.8654718399
+first_sentence_speaking_time:5.17931413651
+second_sentence_speaking_time:6.2156150341
+********************
+timestamp:2024-02-21 22:50:25
+first_request_response_time:2.03791594505
+ack_sentence_speaking_time:3.47344899178
+second_request_response_time:1.49729990959
+first_sentence_speaking_time:7.80386400223
+second_sentence_speaking_time:3.27481794357
+********************
+timestamp:2024-02-21 22:50:46
+first_request_response_time:1.74331998825
+ack_sentence_speaking_time:1.94144010544
+second_request_response_time:1.86268806458
+first_sentence_speaking_time:7.27193498611
+second_sentence_speaking_time:8.43188405037
+********************
+timestamp:2024-02-22 08:13:17
+ack_sentence_speaking_time:3.57644581795
+first_request_response_time:4.15384793282
+second_request_response_time:2.68934392929
+first_sentence_speaking_time:7.90544509888
+second_sentence_speaking_time:6.90885901451
+********************
+timestamp:2024-02-22 08:13:43
+ack_sentence_speaking_time:2.53568696976
+first_request_response_time:3.49196219444
+second_request_response_time:1.57234978676
+first_sentence_speaking_time:6.77894902229
+second_sentence_speaking_time:6.00641417503
+********************
+timestamp:2024-02-22 08:14:17
+first_request_response_time:2.52433800697
+ack_sentence_speaking_time:3.57790994644
+second_request_response_time:2.78210806847
+first_sentence_speaking_time:10.5639379025
+second_sentence_speaking_time:7.83338212967
+********************
+timestamp:2024-02-22 08:14:53
+first_request_response_time:2.22979807854
+ack_sentence_speaking_time:3.07035088539
+second_request_response_time:1.37450098991
+first_sentence_speaking_time:6.0030670166
+second_sentence_speaking_time:4.79661107063
+********************
+timestamp:2024-02-22 08:15:17
+ack_sentence_speaking_time:2.51303005219
+first_request_response_time:3.7983880043
+second_request_response_time:2.59187602997
+first_sentence_speaking_time:6.80790495872
+second_sentence_speaking_time:6.2365000248
+********************
+timestamp:2024-02-22 08:15:44
+first_request_response_time:2.8167860508
+ack_sentence_speaking_time:3.83489394188
+second_request_response_time:2.68433904648
+first_sentence_speaking_time:9.00560307503
+second_sentence_speaking_time:6.5405600071
+********************
+timestamp:2024-02-22 08:16:11
+ack_sentence_speaking_time:3.02956008911
+first_request_response_time:3.15194988251
+second_request_response_time:2.64140915871
+first_sentence_speaking_time:6.24107694626
+second_sentence_speaking_time:4.05557012558
+********************
+timestamp:2024-02-22 08:16:30
+first_request_response_time:2.41059207916
+ack_sentence_speaking_time:2.75263190269
+second_request_response_time:1.77206110954
+first_sentence_speaking_time:7.30695390701
+second_sentence_speaking_time:7.26666617393
+********************
+timestamp:2024-02-22 08:16:57
+first_request_response_time:2.6878759861
+ack_sentence_speaking_time:3.55802798271
+second_request_response_time:1.37535595894
+first_sentence_speaking_time:9.30261802673
+second_sentence_speaking_time:4.00051808357
+********************
+timestamp:2024-02-22 08:17:22
+first_request_response_time:1.71237182617
+ack_sentence_speaking_time:3.79289603233
+second_request_response_time:2.91451191902
+first_sentence_speaking_time:6.14101004601
+second_sentence_speaking_time:5.0067460537
+********************
+timestamp:2024-02-22 17:27:47
+first_request_response_time:2.04267907143
+ack_sentence_speaking_time:2.296448946
+second_request_response_time:1.62008690834
+first_sentence_speaking_time:4.07614898682
+second_sentence_speaking_time:2.85677409172
+********************
+timestamp:2024-02-22 17:28:04
+ack_sentence_speaking_time:0.807851076126
+first_request_response_time:1.68185806274
+second_request_response_time:3.00844192505
+first_sentence_speaking_time:4.04148197174
+second_sentence_speaking_time:4.8343808651
+********************
+timestamp:2024-02-22 17:28:33
+ack_sentence_speaking_time:1.85012817383
+first_request_response_time:3.97808694839
+second_request_response_time:2.09480595589
+first_sentence_speaking_time:4.02433800697
+second_sentence_speaking_time:3.26750707626
+********************
+timestamp:2024-02-22 17:28:49
+ack_sentence_speaking_time:1.89962410927
+first_request_response_time:2.72787809372
+second_request_response_time:1.77785992622
+first_sentence_speaking_time:4.27100300789
+second_sentence_speaking_time:3.38694596291
+********************
+timestamp:2024-02-22 17:29:07
+ack_sentence_speaking_time:1.94246315956
+first_request_response_time:3.87762308121
+second_request_response_time:2.47027993202
+first_sentence_speaking_time:4.45857787132
+second_sentence_speaking_time:3.50088787079
+********************
+timestamp:2024-02-22 17:29:24
+first_request_response_time:1.75497603416
+ack_sentence_speaking_time:2.1113948822
+second_request_response_time:3.10034108162
+first_sentence_speaking_time:4.05578613281
+second_sentence_speaking_time:5.25213694572
+********************
+timestamp:2024-02-22 17:29:46
+ack_sentence_speaking_time:1.17348814011
+first_request_response_time:2.86991882324
+second_request_response_time:2.22297787666
+first_sentence_speaking_time:4.42969799042
+second_sentence_speaking_time:3.01053905487
+********************
+timestamp:2024-02-22 17:30:01
+ack_sentence_speaking_time:1.93564796448
+first_request_response_time:2.92123293877
+second_request_response_time:1.47304797173
+first_sentence_speaking_time:3.24316000938
+second_sentence_speaking_time:2.68643712997
+********************
+timestamp:2024-02-22 17:30:14
+ack_sentence_speaking_time:1.19619894028
+first_request_response_time:2.18889307976
+second_request_response_time:4.08675312996
+first_sentence_speaking_time:4.35235500336
+second_sentence_speaking_time:5.74733996391
+********************
+timestamp:2024-02-22 17:30:32
+ack_sentence_speaking_time:1.92869901657
+first_request_response_time:1.83565688133
+second_request_response_time:1.95666193962
+first_sentence_speaking_time:5.85701608658
+second_sentence_speaking_time:3.54137086868
+********************
+timestamp:2024-02-22 17:30:51
+ack_sentence_speaking_time:1.59825015068
+first_request_response_time:2.00983715057
+second_request_response_time:1.51515293121
+first_sentence_speaking_time:3.0389688015
+second_sentence_speaking_time:6.07347178459
+********************
+timestamp:2024-02-22 21:44:59
+first_request_response_time:1.81238889694
+ack_sentence_speaking_time:2.31141018867
+second_request_response_time:0.920915126801
+first_sentence_speaking_time:5.15509605408
+second_sentence_speaking_time:2.70811796188
+********************
+timestamp:2024-02-22 21:45:17
+ack_sentence_speaking_time:2.86781907082
+first_request_response_time:2.66127586365
+second_request_response_time:2.52853107452
+first_sentence_speaking_time:5.36125397682
+second_sentence_speaking_time:7.51922678947
+********************
+timestamp:2024-02-22 21:45:49
+ack_sentence_speaking_time:2.86337995529
+first_request_response_time:8.85603618622
+second_request_response_time:4.20512199402
+first_sentence_speaking_time:8.05731797218
+second_sentence_speaking_time:10.1073050499
+********************
+timestamp:2024-02-22 21:46:30
+first_request_response_time:2.39248895645
+ack_sentence_speaking_time:2.7369120121
+second_request_response_time:1.52373409271
+first_sentence_speaking_time:8.22715902328
+second_sentence_speaking_time:3.63718795776
+********************
+timestamp:2024-02-22 21:47:00
+ack_sentence_speaking_time:2.91586709023
+first_request_response_time:8.38999319077
+second_request_response_time:1.55710792542
+first_sentence_speaking_time:9.79349398613
+second_sentence_speaking_time:3.41414785385
+********************
+timestamp:2024-02-22 21:47:27
+ack_sentence_speaking_time:3.09421992302
+first_request_response_time:5.27246403694
+second_request_response_time:3.46896195412
+first_sentence_speaking_time:6.16486001015
+second_sentence_speaking_time:5.68484210968
+********************
+timestamp:2024-02-22 21:47:58
+ack_sentence_speaking_time:2.54076194763
+first_request_response_time:8.7236790657
+second_request_response_time:1.83180212975
+first_sentence_speaking_time:7.95068192482
+second_sentence_speaking_time:3.85468101501
+********************
+timestamp:2024-02-22 21:48:34
+ack_sentence_speaking_time:3.55456590652
+first_request_response_time:5.09079098701
+second_request_response_time:2.31113982201
+first_sentence_speaking_time:5.47665309906
+second_sentence_speaking_time:6.58363986015
+********************
+timestamp:2024-02-22 21:49:11
+ack_sentence_speaking_time:1.25354599953
+first_request_response_time:2.45849323273
+second_request_response_time:2.79824185371
+first_sentence_speaking_time:5.56038498878
+second_sentence_speaking_time:10.2794260979
+********************
+timestamp:2024-02-22 21:49:49
+ack_sentence_speaking_time:1.45576381683
+first_request_response_time:2.31684398651
+second_request_response_time:1.77423095703
+first_sentence_speaking_time:6.30936002731
+second_sentence_speaking_time:3.15295386314
+********************
+timestamp:2024-02-22 21:50:13
+ack_sentence_speaking_time:2.27411007881
+first_request_response_time:3.30015611649
+second_request_response_time:1.64552807808
+first_sentence_speaking_time:5.96733403206
+second_sentence_speaking_time:6.56860208511
+********************
+timestamp:2024-02-22 21:50:35
+first_request_response_time:2.29117298126
+ack_sentence_speaking_time:3.20317387581
+second_request_response_time:2.23260092735
+first_sentence_speaking_time:6.68709397316
+second_sentence_speaking_time:5.43389201164
+********************
+timestamp:2024-02-22 21:50:57
+first_request_response_time:2.3400759697
+ack_sentence_speaking_time:3.42177915573
+second_request_response_time:2.68837094307
+first_sentence_speaking_time:7.10778093338
+second_sentence_speaking_time:1.89279484749
+********************
+timestamp:2024-02-22 21:51:28
+ack_sentence_speaking_time:2.63883900642
+first_request_response_time:3.28371691704
+second_request_response_time:2.23653697968
+first_sentence_speaking_time:7.57230997086
+second_sentence_speaking_time:4.74624896049
+********************
+timestamp:2024-02-23 08:38:23
+first_request_response_time:1.42792987823
+ack_sentence_speaking_time:3.56756401062
+second_request_response_time:2.23824214935
+first_sentence_speaking_time:2.84451293945
+second_sentence_speaking_time:4.75765490532
+********************
+timestamp:2024-02-23 08:38:40
+ack_sentence_speaking_time:1.44373607635
+first_request_response_time:3.29811191559
+second_request_response_time:1.5607688427
+first_sentence_speaking_time:6.84541487694
+second_sentence_speaking_time:6.65920805931
+********************
+timestamp:2024-02-23 08:39:13
+first_request_response_time:1.47283411026
+ack_sentence_speaking_time:2.30416202545
+first_sentence_speaking_time:4.96324801445
+second_request_response_time:5.09058117867
+second_sentence_speaking_time:5.1585149765
+********************
+timestamp:2024-02-23 08:39:38
+ack_sentence_speaking_time:1.70977902412
+first_request_response_time:2.26253795624
+second_request_response_time:2.86279678345
+first_sentence_speaking_time:6.2262570858
+second_sentence_speaking_time:6.73660087585
+********************
+timestamp:2024-02-23 08:40:06
+ack_sentence_speaking_time:2.88533496857
+first_request_response_time:3.63459610939
+second_request_response_time:2.9970228672
+first_sentence_speaking_time:10.1375119686
+second_sentence_speaking_time:6.1824400425
+********************
+timestamp:2024-02-23 08:40:39
+ack_sentence_speaking_time:2.38692688942
+first_request_response_time:3.92246699333
+second_request_response_time:2.96301293373
+first_sentence_speaking_time:6.12449216843
+second_sentence_speaking_time:8.08478593826
+********************
+timestamp:2024-02-23 08:41:10
+ack_sentence_speaking_time:2.20130896568
+first_request_response_time:2.93156409264
+second_request_response_time:2.88364100456
+first_sentence_speaking_time:6.99421906471
+second_sentence_speaking_time:5.21654891968
+********************
+timestamp:2024-02-23 08:41:31
+ack_sentence_speaking_time:2.64623498917
+first_request_response_time:3.03661298752
+second_request_response_time:1.84821796417
+first_sentence_speaking_time:10.8365340233
+second_sentence_speaking_time:16.2165329456
+********************
+timestamp:2024-02-23 08:42:08
+ack_sentence_speaking_time:2.78654098511
+first_request_response_time:3.94299912453
+second_request_response_time:1.7713830471
+first_sentence_speaking_time:12.8271729946
+second_sentence_speaking_time:5.48810982704
+********************
+timestamp:2024-02-23 08:42:36
+first_request_response_time:2.06745505333
+ack_sentence_speaking_time:2.14843797684
+second_request_response_time:1.86790084839
+first_sentence_speaking_time:8.1631860733
+second_sentence_speaking_time:3.11815905571
+********************
+timestamp:2024-02-23 08:42:57
+ack_sentence_speaking_time:1.92651700974
+first_request_response_time:2.21997308731
+second_request_response_time:1.35819292068
+first_sentence_speaking_time:7.00945401192
+second_sentence_speaking_time:3.44291806221
+********************
+timestamp:2024-02-23 08:43:14
+ack_sentence_speaking_time:2.62610793114
+first_request_response_time:4.85041189194
+second_request_response_time:1.3478808403
+first_sentence_speaking_time:8.9795601368
+second_sentence_speaking_time:4.59010410309
+********************
+timestamp:2024-02-23 08:43:45
+ack_sentence_speaking_time:2.89516806602
+first_request_response_time:6.2188398838
+second_request_response_time:1.22949790955
+first_sentence_speaking_time:7.45505595207
+second_sentence_speaking_time:3.97562718391
+********************
+timestamp:2024-02-23 08:46:29
+first_request_response_time:2.27197098732
+ack_sentence_speaking_time:2.79022407532
+second_request_response_time:1.56546711922
+first_sentence_speaking_time:7.40830588341
+second_sentence_speaking_time:5.15333008766
+********************
+timestamp:2024-02-23 08:46:59
+first_request_response_time:2.9710059166
+ack_sentence_speaking_time:3.07089805603
+second_request_response_time:1.46129798889
+first_sentence_speaking_time:11.769338131
+second_sentence_speaking_time:2.1765871048
+********************
+timestamp:2024-02-23 08:47:22
+first_request_response_time:1.89377498627
+ack_sentence_speaking_time:3.49849200249
+second_request_response_time:3.14609193802
+first_sentence_speaking_time:8.20381999016
+second_sentence_speaking_time:3.67054700851
+********************
+timestamp:2024-02-23 08:47:46
+ack_sentence_speaking_time:1.9590549469
+first_request_response_time:2.28362083435
+second_request_response_time:2.23206186295
+first_sentence_speaking_time:6.44211101532
+second_sentence_speaking_time:6.50277400017
+********************
+timestamp:2024-02-23 08:48:19
+first_request_response_time:2.18182396889
+ack_sentence_speaking_time:2.38999009132
+second_request_response_time:1.92040109634
+first_sentence_speaking_time:8.98303484917
+second_sentence_speaking_time:6.65704393387
+********************
+timestamp:2024-02-23 08:48:51
+ack_sentence_speaking_time:2.25511789322
+first_request_response_time:3.07995390892
+second_request_response_time:1.18125796318
+first_sentence_speaking_time:7.24715900421
+second_sentence_speaking_time:3.5427441597
+********************
+timestamp:2024-02-23 08:49:09
+first_request_response_time:1.23932981491
+ack_sentence_speaking_time:1.75513195992
+second_request_response_time:1.64312005043
+first_sentence_speaking_time:4.86713194847
+second_sentence_speaking_time:1.92041110992
+********************
+timestamp:2024-02-23 08:49:24
+ack_sentence_speaking_time:1.88960814476
+first_request_response_time:3.0344080925
+second_request_response_time:2.02316808701
+first_sentence_speaking_time:7.16720604897
+second_sentence_speaking_time:3.69055294991
+********************
+timestamp:2024-02-23 08:49:47
+ack_sentence_speaking_time:1.74377894402
+first_request_response_time:2.90699982643
+second_request_response_time:2.74716114998
+first_sentence_speaking_time:6.81031298637
+second_sentence_speaking_time:5.81843400002
+********************
+timestamp:2024-02-23 08:50:09
+first_request_response_time:2.14993309975
+ack_sentence_speaking_time:2.32305693626
+second_request_response_time:3.24353098869
+first_sentence_speaking_time:5.04501795769
+second_sentence_speaking_time:6.71751689911
+********************
+timestamp:2024-02-23 08:50:38
+first_request_response_time:2.54991006851
+ack_sentence_speaking_time:2.64931201935
+first_sentence_speaking_time:6.72018814087
+second_request_response_time:10.477216959
+second_sentence_speaking_time:4.9147400856
+********************
+timestamp:2024-02-23 08:51:07
+ack_sentence_speaking_time:1.27421998978
+first_request_response_time:3.75771594048
+second_request_response_time:3.32637500763
+first_sentence_speaking_time:5.48862099648
+second_sentence_speaking_time:5.85270786285
+********************
+timestamp:2024-02-23 08:51:37
+ack_sentence_speaking_time:2.55061411858
+first_request_response_time:3.52481079102
+second_request_response_time:1.68320989609
+first_sentence_speaking_time:6.79796099663
+second_sentence_speaking_time:6.99792385101
+********************
+timestamp:2024-02-23 08:52:09
+ack_sentence_speaking_time:3.1284840107
+first_request_response_time:3.42010116577
+second_request_response_time:2.36924600601
+first_sentence_speaking_time:9.06771421432
+second_sentence_speaking_time:8.47785997391
+********************
+timestamp:2024-02-23 08:52:35
+ack_sentence_speaking_time:2.29270100594
+first_request_response_time:4.15709996223
+second_request_response_time:1.58358693123
+first_sentence_speaking_time:5.81260609627
+second_sentence_speaking_time:1.90962696075
+********************
+timestamp:2024-02-23 08:53:02
+ack_sentence_speaking_time:1.42873001099
+first_request_response_time:3.71256899834
+second_request_response_time:3.61046504974
+first_sentence_speaking_time:4.95492005348
+second_sentence_speaking_time:6.54618310928
+********************
+timestamp:2024-02-23 18:25:04
+first_request_response_time:1.36364984512
+ack_sentence_speaking_time:1.62128400803
+second_request_response_time:1.19259095192
+first_sentence_speaking_time:3.2617828846
+second_sentence_speaking_time:3.24642705917
+********************
+timestamp:2024-02-23 18:25:21
+ack_sentence_speaking_time:1.62570500374
+first_request_response_time:2.68955898285
+second_request_response_time:1.36145401001
+first_sentence_speaking_time:4.66271615028
+second_sentence_speaking_time:2.63606595993
+********************
+timestamp:2024-02-23 18:25:40
+ack_sentence_speaking_time:2.43244194984
+first_request_response_time:3.0684440136
+second_request_response_time:1.66182589531
+first_sentence_speaking_time:5.07886600494
+second_sentence_speaking_time:4.66698098183
+********************
+timestamp:2024-02-23 18:26:02
+first_request_response_time:2.00063991547
+ack_sentence_speaking_time:2.23126196861
+second_request_response_time:1.72637200356
+first_sentence_speaking_time:5.29590892792
+second_sentence_speaking_time:4.68631005287
+********************
+timestamp:2024-02-23 18:26:28
+ack_sentence_speaking_time:2.03356099129
+first_request_response_time:4.66739487648
+second_request_response_time:1.6542069912
+first_sentence_speaking_time:3.68208408356
+second_sentence_speaking_time:5.7761759758
+********************
+timestamp:2024-02-23 18:26:45
+first_request_response_time:1.81898498535
+ack_sentence_speaking_time:2.28431296349
+second_request_response_time:1.29152297974
+first_sentence_speaking_time:5.44848012924
+second_sentence_speaking_time:4.35638213158
+********************
+timestamp:2024-02-23 18:27:11
+ack_sentence_speaking_time:1.92234587669
+first_request_response_time:3.10910010338
+second_request_response_time:1.87557506561
+first_sentence_speaking_time:5.6915128231
+second_sentence_speaking_time:6.64086890221
+********************
+timestamp:2024-02-23 18:27:40
+ack_sentence_speaking_time:2.21059298515
+first_request_response_time:2.43672895432
+second_request_response_time:2.28175592422
+first_sentence_speaking_time:6.27270102501
+second_sentence_speaking_time:2.66751790047
+********************
+timestamp:2024-02-23 18:28:06
+ack_sentence_speaking_time:1.44934105873
+first_request_response_time:2.35898709297
+second_request_response_time:1.65037298203
+first_sentence_speaking_time:2.91145205498
+second_sentence_speaking_time:6.80274105072
+********************
+timestamp:2024-02-23 18:28:27
+ack_sentence_speaking_time:1.88286113739
+first_request_response_time:2.14786481857
+second_request_response_time:1.49131894112
+first_sentence_speaking_time:3.83249092102
+second_sentence_speaking_time:3.7526011467
+********************
+timestamp:2024-02-23 18:28:48
+first_request_response_time:1.38433909416
+ack_sentence_speaking_time:1.60637903214
+second_request_response_time:1.402987957
+first_sentence_speaking_time:2.50527620316
+second_sentence_speaking_time:3.79994797707
+********************
+timestamp:2024-02-23 18:29:02
+ack_sentence_speaking_time:2.0189371109
+first_request_response_time:2.18145298958
+second_request_response_time:1.60756611824
+first_sentence_speaking_time:3.81922507286
+second_sentence_speaking_time:2.99229288101
+********************
+timestamp:2024-02-23 18:29:18
+first_request_response_time:1.98115682602
+ack_sentence_speaking_time:2.2846121788
+second_request_response_time:1.65688204765
+first_sentence_speaking_time:2.21021294594
+second_sentence_speaking_time:1.83880615234
+********************
+timestamp:2024-02-23 18:29:32
+ack_sentence_speaking_time:0.935850143433
+first_request_response_time:1.56277394295
+second_request_response_time:1.68236804008
+first_sentence_speaking_time:3.61783385277
+second_sentence_speaking_time:2.06314182281
+********************
+timestamp:2024-02-23 18:29:45
+first_request_response_time:1.52434301376
+ack_sentence_speaking_time:2.037525177
+second_request_response_time:2.45099496841
+first_sentence_speaking_time:2.74848818779
+second_sentence_speaking_time:4.67035293579
+********************
+timestamp:2024-02-23 22:54:39
+ack_sentence_speaking_time:2.912896156311035
+first_request_response_time:3.813123941421509
+second_request_response_time:3.747506856918335
+first_response_speaking_time:17.26356315612793
+second_sentence_speaking_time:13.47266697883606
+********************
+timestamp:2024-02-23 22:55:20
+first_request_response_time:2.2889180183410645
+ack_sentence_speaking_time:2.797390937805176
+second_request_response_time:4.812495231628418
+first_response_speaking_time:13.137858152389526
+second_sentence_speaking_time:5.214091062545776
+********************
+timestamp:2024-02-23 22:56:15
+ack_sentence_speaking_time:2.723876953125
+first_request_response_time:3.4531259536743164
+second_request_response_time:5.324594020843506
+first_response_speaking_time:18.100075006484985
+second_sentence_speaking_time:8.43520188331604
+********************
+timestamp:2024-02-23 22:56:49
+ack_sentence_speaking_time:2.3423492908477783
+first_request_response_time:2.467682123184204
+second_request_response_time:2.100008964538574
+first_response_speaking_time:15.340877056121826
+second_sentence_speaking_time:2.8542771339416504
+********************
+timestamp:2024-02-23 22:57:35
+first_request_response_time:2.6301019191741943
+ack_sentence_speaking_time:2.6606101989746094
+second_request_response_time:2.737860918045044
+first_response_speaking_time:11.680839776992798
+second_sentence_speaking_time:3.723649024963379
+********************
+timestamp:2024-02-23 22:58:07
+ack_sentence_speaking_time:1.7151973247528076
+first_request_response_time:2.6124348640441895
+second_request_response_time:2.1392321586608887
+first_response_speaking_time:11.465934038162231
+second_sentence_speaking_time:4.713930130004883
+********************
+timestamp:2024-02-23 22:58:42
+first_request_response_time:2.202935218811035
+ack_sentence_speaking_time:3.4960618019104004
+second_request_response_time:1.8960325717926025
+first_response_speaking_time:13.759818077087402
+second_sentence_speaking_time:5.890383243560791
+********************
+timestamp:2024-02-23 22:59:30
+ack_sentence_speaking_time:2.8841300010681152
+first_request_response_time:3.3413267135620117
+second_request_response_time:4.085575103759766
+first_response_speaking_time:16.682554960250854
+second_sentence_speaking_time:12.802218914031982
+********************
+timestamp:2024-02-23 23:00:10
+ack_sentence_speaking_time:1.7742290496826172
+first_request_response_time:2.7962889671325684
+second_request_response_time:3.453752040863037
+first_response_speaking_time:15.67176604270935
+second_sentence_speaking_time:17.262372255325317
+********************
+timestamp:2024-02-23 23:01:16
+ack_sentence_speaking_time:1.9479658603668213
+first_request_response_time:4.466894149780273
+second_request_response_time:1.3093492984771729
+first_response_speaking_time:29.529661893844604
+second_sentence_speaking_time:1.959907054901123
+********************
+timestamp:2024-02-23 23:01:59
+ack_sentence_speaking_time:1.7862040996551514
+first_request_response_time:4.7683000564575195
+second_request_response_time:2.6274359226226807
+first_response_speaking_time:19.89635419845581
+second_sentence_speaking_time:17.69848108291626
+********************
+timestamp:2024-02-23 23:02:50
+ack_sentence_speaking_time:1.6938822269439697
+first_request_response_time:5.920655012130737
+second_request_response_time:2.4161131381988525
+first_response_speaking_time:19.087198972702026
+second_sentence_speaking_time:11.76279616355896
+********************
+timestamp:2024-02-24 10:17:55
+ack_sentence_speaking_time:2.783921003341675
+first_request_response_time:2.8505699634552
+second_request_response_time:1.4732139110565186
+first_response_speaking_time:7.698936939239502
+second_sentence_speaking_time:3.9360928535461426
+********************
+timestamp:2024-02-24 10:18:15
+first_request_response_time:2.36885404586792
+ack_sentence_speaking_time:3.02026104927063
+second_request_response_time:1.3760461807250977
+first_response_speaking_time:12.48502516746521
+second_sentence_speaking_time:4.153975009918213
+********************
+timestamp:2024-02-24 10:18:42
+ack_sentence_speaking_time:2.738490104675293
+first_request_response_time:3.578697919845581
+second_request_response_time:1.7309439182281494
+first_response_speaking_time:10.72883677482605
+second_sentence_speaking_time:6.68503999710083
+********************
+timestamp:2024-02-24 10:19:12
+ack_sentence_speaking_time:3.3778538703918457
+first_request_response_time:11.09740400314331
+second_request_response_time:2.093221664428711
+first_response_speaking_time:14.471590042114258
+second_sentence_speaking_time:3.3208272457122803
+********************
+timestamp:2024-02-24 10:19:45
+ack_sentence_speaking_time:1.3370001316070557
+first_request_response_time:5.1590070724487305
+second_request_response_time:2.340078115463257
+first_response_speaking_time:15.529204845428467
+second_sentence_speaking_time:13.146692037582397
+********************
+timestamp:2024-02-24 10:20:26
+ack_sentence_speaking_time:2.6789638996124268
+first_request_response_time:5.846375226974487
+second_request_response_time:1.9250061511993408
+first_response_speaking_time:23.747150182724
+second_sentence_speaking_time:5.52544903755188
+********************
+timestamp:2024-02-24 10:21:07
+ack_sentence_speaking_time:3.891566038131714
+first_request_response_time:4.027720212936401
+second_request_response_time:1.303288221359253
+timestamp:2024-02-24 10:22:27
+first_request_response_time:1.7381300926208496
+ack_sentence_speaking_time:2.8730390071868896
+second_request_response_time:0.9549460411071777
+first_response_speaking_time:3.4119651317596436
+second_sentence_speaking_time:2.7151951789855957
+********************
+timestamp:2024-02-24 10:22:41
+ack_sentence_speaking_time:3.237595796585083
+first_request_response_time:3.4793272018432617
+second_request_response_time:2.145789861679077
+first_response_speaking_time:8.738400936126709
+second_sentence_speaking_time:4.972613096237183
+********************
+timestamp:2024-02-24 10:23:06
+first_request_response_time:1.4162681102752686
+ack_sentence_speaking_time:1.6606528759002686
+second_request_response_time:1.6718778610229492
+first_response_speaking_time:5.097839832305908
+second_sentence_speaking_time:3.2877650260925293
+********************
+timestamp:2024-02-24 10:23:21
+first_request_response_time:1.4459099769592285
+ack_sentence_speaking_time:2.7637269496917725
+second_request_response_time:1.5606141090393066
+first_response_speaking_time:8.326519250869751
+second_sentence_speaking_time:4.596819877624512
+********************
+timestamp:2024-02-24 10:23:46
+ack_sentence_speaking_time:2.415286064147949
+first_request_response_time:2.5456960201263428
+second_request_response_time:1.2743580341339111
+first_response_speaking_time:7.132907152175903
+second_sentence_speaking_time:2.293764114379883
+********************
+timestamp:2024-02-24 10:24:08
+first_request_response_time:1.5005228519439697
+ack_sentence_speaking_time:2.7643940448760986
+second_request_response_time:1.315549373626709
+first_response_speaking_time:6.004303932189941
+second_sentence_speaking_time:5.985626935958862
+********************
+timestamp:2024-02-24 10:24:30
+first_request_response_time:2.4841060638427734
+ack_sentence_speaking_time:3.128681182861328
+second_request_response_time:2.3606929779052734
+first_response_speaking_time:6.5022242069244385
+second_sentence_speaking_time:9.00500202178955
+********************
+timestamp:2024-02-24 10:25:41
+first_request_response_time:1.6197707653045654
+ack_sentence_speaking_time:2.9504780769348145
+second_request_response_time:1.89109468460083
+first_response_speaking_time:8.009618043899536
+second_sentence_speaking_time:4.941029787063599
+********************
+timestamp:2024-02-24 16:02:07
+ack_sentence_speaking_time:2.1924171447753906
+first_request_response_time:4.007673978805542
+second_request_response_time:1.458871841430664
+first_response_speaking_time:10.245101928710938
+second_sentence_speaking_time:3.8530681133270264
+********************
+timestamp:2024-02-24 16:02:31
+ack_sentence_speaking_time:2.1571738719940186
+first_request_response_time:2.8240292072296143
+second_request_response_time:2.033566951751709
+first_response_speaking_time:7.665051698684692
+second_sentence_speaking_time:7.685170888900757
+********************
+timestamp:2024-02-24 16:02:57
+ack_sentence_speaking_time:1.2255878448486328
+first_request_response_time:2.7464442253112793
+second_request_response_time:2.8575522899627686
+first_response_speaking_time:6.632816314697266
+second_sentence_speaking_time:5.084704875946045
+********************
+timestamp:2024-02-24 16:03:18
+first_request_response_time:2.2402679920196533
+ack_sentence_speaking_time:3.34838604927063
+second_request_response_time:3.5001630783081055
+first_response_speaking_time:6.713085889816284
+second_sentence_speaking_time:6.607659816741943
+********************
+timestamp:2024-02-24 16:03:39
+ack_sentence_speaking_time:2.2312371730804443
+first_request_response_time:4.75285005569458
+second_request_response_time:2.2244679927825928
+first_response_speaking_time:4.136284112930298
+second_sentence_speaking_time:4.482192754745483
+********************
+timestamp:2024-02-24 16:03:58
+first_request_response_time:1.5473449230194092
+ack_sentence_speaking_time:2.375554084777832
+second_request_response_time:3.0626370906829834
+first_response_speaking_time:5.143531084060669
+second_sentence_speaking_time:3.839599132537842
+********************
+timestamp:2024-02-24 16:04:17
+first_request_response_time:1.2928080558776855
+ack_sentence_speaking_time:1.8188490867614746
+second_request_response_time:5.358582019805908
+first_response_speaking_time:5.944099187850952
+second_sentence_speaking_time:9.7330322265625
+********************
+timestamp:2024-02-24 16:04:41
+first_request_response_time:1.528867244720459
+ack_sentence_speaking_time:3.346845865249634
+second_request_response_time:2.879595994949341
+first_response_speaking_time:7.058450937271118
+second_sentence_speaking_time:4.1328980922698975
+********************
+timestamp:2024-02-24 16:05:00
+first_request_response_time:1.9639623165130615
+ack_sentence_speaking_time:3.1537320613861084
+second_request_response_time:3.2103350162506104
+first_response_speaking_time:8.666107177734375
+second_sentence_speaking_time:6.95736289024353
+********************
+timestamp:2024-02-24 16:05:24
+first_request_response_time:1.5701580047607422
+ack_sentence_speaking_time:2.0267040729522705
+second_request_response_time:1.148359775543213
+first_response_speaking_time:10.425993919372559
+second_sentence_speaking_time:2.8451449871063232
+********************
+timestamp:2024-02-24 16:06:17
+first_request_response_time:2.0754871368408203
+ack_sentence_speaking_time:2.2741799354553223
+second_request_response_time:1.4850397109985352
+first_response_speaking_time:5.710022211074829
+second_sentence_speaking_time:3.7196779251098633
+********************
+timestamp:2024-02-24 16:06:34
+first_request_response_time:2.638188123703003
+ack_sentence_speaking_time:3.9397592544555664
+second_request_response_time:0.9799108505249023
+first_response_speaking_time:6.098244905471802
+second_sentence_speaking_time:2.4318411350250244
+********************
+timestamp:2024-02-24 16:06:51
+first_request_response_time:1.6040658950805664
+ack_sentence_speaking_time:3.294358015060425
+second_request_response_time:1.6617579460144043
+first_response_speaking_time:6.871748924255371
+second_sentence_speaking_time:9.269157886505127
+********************
+timestamp:2024-02-24 16:07:26
+ack_sentence_speaking_time:1.792316198348999
+first_request_response_time:2.3715598583221436
+second_request_response_time:1.2138359546661377
+first_response_speaking_time:7.217235326766968
+second_sentence_speaking_time:4.450823783874512
+********************
+timestamp:2024-02-24 23:47:36
+first_request_response_time:1.4032261371612549
+ack_sentence_speaking_time:2.23470401763916
+second_request_response_time:0.8672800064086914
+first_response_speaking_time:5.147453308105469
+second_sentence_speaking_time:3.399534225463867
+********************
+timestamp:2024-02-24 23:48:00
+first_request_response_time:1.5033988952636719
+ack_sentence_speaking_time:2.660623073577881
+second_request_response_time:1.1420068740844727
+first_response_speaking_time:8.474231958389282
+second_sentence_speaking_time:7.455638885498047
+********************
+timestamp:2024-02-24 23:48:28
+first_request_response_time:1.3060517311096191
+ack_sentence_speaking_time:1.651536226272583
+second_request_response_time:1.5190260410308838
+first_response_speaking_time:8.393687963485718
+second_sentence_speaking_time:5.869132041931152
+********************
+timestamp:2024-02-24 23:48:53
+ack_sentence_speaking_time:2.151212215423584
+first_request_response_time:3.0704259872436523
+second_request_response_time:1.8432400226593018
+first_response_speaking_time:8.64736008644104
+second_sentence_speaking_time:9.63974380493164
+********************
+timestamp:2024-02-24 23:49:22
+first_request_response_time:2.69775390625
+ack_sentence_speaking_time:3.016918897628784
+second_request_response_time:2.468353748321533
+first_response_speaking_time:7.511035919189453
+second_sentence_speaking_time:7.631786108016968
+********************
+timestamp:2024-02-24 23:49:50
+first_request_response_time:1.4830288887023926
+ack_sentence_speaking_time:2.5855300426483154
+second_request_response_time:1.318800926208496
+first_response_speaking_time:9.438314199447632
+second_sentence_speaking_time:4.698383092880249
+********************
+timestamp:2024-02-24 23:50:16
+ack_sentence_speaking_time:1.3629741668701172
+first_request_response_time:2.526733875274658
+second_request_response_time:1.2236368656158447
+first_response_speaking_time:9.091948986053467
+second_sentence_speaking_time:8.333045959472656
+********************
+timestamp:2024-02-24 23:50:48
+first_request_response_time:2.220694065093994
+ack_sentence_speaking_time:2.8770480155944824
+second_request_response_time:2.444692373275757
+first_response_speaking_time:8.3420090675354
+second_sentence_speaking_time:10.039899110794067
+********************
+timestamp:2024-02-24 23:51:23
+ack_sentence_speaking_time:3.006133556365967
+first_request_response_time:4.252613067626953
+second_request_response_time:1.428184986114502
+first_response_speaking_time:14.460495233535767
+second_sentence_speaking_time:4.37846302986145
+********************
+timestamp:2024-02-24 23:52:08
+ack_sentence_speaking_time:1.7140660285949707
+first_request_response_time:4.09186315536499
+second_request_response_time:1.5328800678253174
+first_response_speaking_time:20.036678791046143
+second_sentence_speaking_time:7.698093891143799
+********************
+timestamp:2024-02-24 23:52:57
+first_request_response_time:1.9115040302276611
+ack_sentence_speaking_time:2.3124032020568848
+second_request_response_time:1.286057949066162
+first_response_speaking_time:14.02039885520935
+second_sentence_speaking_time:2.743997097015381
+********************
+timestamp:2024-02-25 22:21:41
+ack_sentence_speaking_time:1.4046142101287842
+first_request_response_time:2.5110549926757812
+second_request_response_time:1.147294044494629
+first_response_speaking_time:4.741282939910889
+second_sentence_speaking_time:3.0563719272613525
+********************
+timestamp:2024-02-25 22:21:57
+first_request_response_time:2.0610408782958984
+ack_sentence_speaking_time:2.3876991271972656
+second_request_response_time:1.4661898612976074
+first_response_speaking_time:6.0746681690216064
+second_sentence_speaking_time:6.319179058074951
+********************
+timestamp:2024-02-25 22:22:18
+first_request_response_time:1.1098089218139648
+ack_sentence_speaking_time:2.892488956451416
+second_request_response_time:1.3581161499023438
+first_response_speaking_time:4.571117162704468
+second_sentence_speaking_time:3.351999282836914
+********************
+timestamp:2024-02-25 22:22:34
+first_request_response_time:1.989274024963379
+ack_sentence_speaking_time:2.8066799640655518
+second_request_response_time:1.87101411819458
+first_response_speaking_time:3.5636579990386963
+second_sentence_speaking_time:4.194448947906494
+********************
+timestamp:2024-02-25 22:22:51
+first_request_response_time:2.636223077774048
+ack_sentence_speaking_time:3.282335042953491
+second_request_response_time:1.726820707321167
+first_response_speaking_time:5.008774042129517
+second_sentence_speaking_time:6.678184986114502
+********************
+timestamp:2024-02-25 22:23:11
+first_request_response_time:1.4823482036590576
+ack_sentence_speaking_time:2.2480130195617676
+second_request_response_time:1.549637794494629
+first_response_speaking_time:6.617127895355225
+second_sentence_speaking_time:6.646639108657837
+********************
+timestamp:2024-02-25 22:23:33
+first_request_response_time:2.0036280155181885
+ack_sentence_speaking_time:3.3420660495758057
+second_request_response_time:1.0422987937927246
+first_response_speaking_time:4.359492063522339
+second_sentence_speaking_time:2.9321019649505615
+********************
+timestamp:2024-02-25 22:23:50
+ack_sentence_speaking_time:1.961596965789795
+first_request_response_time:2.25993013381958
+second_request_response_time:2.0940537452697754
+first_response_speaking_time:7.4419519901275635
+second_sentence_speaking_time:9.567498922348022
+********************
+timestamp:2024-02-25 22:24:20
+first_request_response_time:1.7180511951446533
+ack_sentence_speaking_time:1.72849702835083
+second_request_response_time:1.8328969478607178
+first_response_speaking_time:9.170454025268555
+second_sentence_speaking_time:12.31112289428711
+********************
+timestamp:2024-02-25 22:24:49
+first_request_response_time:1.7459619045257568
+ack_sentence_speaking_time:3.234199047088623
+second_request_response_time:1.2500569820404053
+first_response_speaking_time:5.146450042724609
+second_sentence_speaking_time:6.391971111297607
+********************
+timestamp:2024-02-25 22:25:11
+ack_sentence_speaking_time:3.1228229999542236
+first_request_response_time:5.587486028671265
+second_request_response_time:1.1950387954711914
+first_response_speaking_time:7.034350156784058
+second_sentence_speaking_time:5.056801080703735
+********************
+timestamp:2024-02-25 22:25:33
+first_request_response_time:1.2827401161193848
+ack_sentence_speaking_time:2.2219910621643066
+second_request_response_time:2.501197099685669
+first_response_speaking_time:5.596322059631348
+second_sentence_speaking_time:7.738306999206543
+********************
+timestamp:2024-02-25 22:25:56
+first_request_response_time:2.701171875
+ack_sentence_speaking_time:3.1141700744628906
+second_request_response_time:1.831045150756836
+first_response_speaking_time:8.232564926147461
+second_sentence_speaking_time:8.065702199935913
+********************
+timestamp:2024-02-25 22:26:21
+ack_sentence_speaking_time:1.2350120544433594
+first_request_response_time:2.639206886291504
+second_request_response_time:1.689706802368164
+first_response_speaking_time:5.990155935287476
+second_sentence_speaking_time:8.428350925445557
+********************
+timestamp:2024-02-25 22:44:46
+ack_sentence_speaking_time:1.393629789352417
+first_request_response_time:4.365391969680786
+second_request_response_time:2.72192120552063
+first_response_speaking_time:6.609563112258911
+second_sentence_speaking_time:10.645307064056396
+********************
+timestamp:2024-02-25 22:45:14
+first_request_response_time:1.6427488327026367
+ack_sentence_speaking_time:2.7252790927886963
+second_request_response_time:1.889862298965454
+first_response_speaking_time:7.248245000839233
+second_sentence_speaking_time:5.887749910354614
+********************
+timestamp:2024-02-25 22:45:37
+first_request_response_time:1.3481180667877197
+ack_sentence_speaking_time:3.01299786567688
+second_request_response_time:5.083297967910767
+first_response_speaking_time:8.470072031021118
+second_sentence_speaking_time:1.9437289237976074
+********************
+timestamp:2024-02-25 22:45:57
+ack_sentence_speaking_time:2.5669121742248535
+first_request_response_time:5.842119932174683
+second_request_response_time:2.162672996520996
+first_response_speaking_time:7.370345115661621
+second_sentence_speaking_time:5.039783954620361
+********************
+timestamp:2024-02-25 22:46:21
+first_request_response_time:1.5239710807800293
+ack_sentence_speaking_time:2.749011754989624
+second_request_response_time:1.237283706665039
+first_response_speaking_time:6.166950941085815
+second_sentence_speaking_time:9.530507802963257
+********************
+timestamp:2024-02-25 22:46:46
+ack_sentence_speaking_time:2.659945249557495
+first_request_response_time:3.475677251815796
+second_request_response_time:0.8875761032104492
+first_response_speaking_time:9.411072015762329
+second_sentence_speaking_time:2.5109682083129883
+********************
+timestamp:2024-02-25 22:47:06
+first_request_response_time:2.103506326675415
+ack_sentence_speaking_time:2.997584104537964
+second_request_response_time:2.3902008533477783
+first_response_speaking_time:5.055073976516724
+second_sentence_speaking_time:10.454061031341553
+********************
+timestamp:2024-02-25 22:47:28
+first_request_response_time:1.917602777481079
+ack_sentence_speaking_time:3.3666067123413086
+second_request_response_time:1.6194450855255127
+first_response_speaking_time:9.993895769119263
+second_sentence_speaking_time:4.155665874481201
+********************
+timestamp:2024-02-25 22:47:52
+first_request_response_time:1.7725639343261719
+ack_sentence_speaking_time:3.3964998722076416
+second_request_response_time:1.3147242069244385
+first_response_speaking_time:10.959977865219116
+second_sentence_speaking_time:7.23966121673584
+********************
+timestamp:2024-02-25 22:48:18
+first_request_response_time:2.2624857425689697
+ack_sentence_speaking_time:2.6558470726013184
+second_request_response_time:1.8088877201080322
+first_response_speaking_time:10.702128171920776
+second_sentence_speaking_time:4.127379894256592
+********************
+timestamp:2024-02-25 22:48:41
+first_request_response_time:1.9833848476409912
+ack_sentence_speaking_time:2.4551050662994385
+second_request_response_time:1.4925997257232666
+first_response_speaking_time:8.657174110412598
+second_sentence_speaking_time:3.7365329265594482
+********************
+timestamp:2024-02-25 23:35:05
+first_request_response_time:1.1053540706634521
+ack_sentence_speaking_time:1.670384168624878
+second_request_response_time:2.9618818759918213
+first_response_speaking_time:3.9690778255462646
+second_sentence_speaking_time:11.492645025253296
+********************
+timestamp:2024-02-25 23:35:30
+ack_sentence_speaking_time:1.262998104095459
+first_request_response_time:5.524011135101318
+second_request_response_time:1.5320448875427246
+first_response_speaking_time:11.961786031723022
+second_sentence_speaking_time:8.856547832489014
+********************
+timestamp:2024-02-25 23:36:04
+ack_sentence_speaking_time:2.7109720706939697
+first_request_response_time:3.199434995651245
+second_request_response_time:2.148629903793335
+first_response_speaking_time:4.238180160522461
+second_sentence_speaking_time:3.8768551349639893
+********************
+timestamp:2024-02-25 23:36:22
+ack_sentence_speaking_time:2.8107082843780518
+first_request_response_time:3.1827080249786377
+second_request_response_time:2.1320040225982666
+first_response_speaking_time:8.018577098846436
+second_sentence_speaking_time:6.3149802684783936
+********************
+timestamp:2024-02-25 23:36:48
+first_request_response_time:2.5951449871063232
+ack_sentence_speaking_time:3.3643250465393066
+second_request_response_time:1.7203381061553955
+first_response_speaking_time:9.3372962474823
+second_sentence_speaking_time:3.345618724822998
+********************
+timestamp:2024-02-25 23:37:11
+ack_sentence_speaking_time:2.0339720249176025
+first_request_response_time:2.7281508445739746
+second_request_response_time:1.9929988384246826
+first_response_speaking_time:8.236278057098389
+second_sentence_speaking_time:7.0023627281188965
+********************
+timestamp:2024-02-25 23:37:35
+first_request_response_time:1.8230400085449219
+ack_sentence_speaking_time:2.784165143966675
+second_request_response_time:2.4307968616485596
+first_response_speaking_time:7.130542755126953
+second_sentence_speaking_time:10.074628114700317
+********************
+timestamp:2024-02-25 23:38:03
+ack_sentence_speaking_time:2.2201640605926514
+first_request_response_time:3.999728202819824
+second_request_response_time:1.224377155303955
+first_response_speaking_time:12.616621971130371
+second_sentence_speaking_time:4.816057920455933
+********************
+timestamp:2024-02-25 23:38:28
+first_request_response_time:2.47560715675354
+ack_sentence_speaking_time:3.1655521392822266
+second_request_response_time:1.4450187683105469
+first_response_speaking_time:8.33077597618103
+second_sentence_speaking_time:9.775619983673096
+********************
+timestamp:2024-02-25 23:38:55
+first_request_response_time:1.3934900760650635
+ack_sentence_speaking_time:3.3001880645751953
+second_request_response_time:2.4781839847564697
+first_response_speaking_time:9.49137806892395
+second_sentence_speaking_time:7.796986818313599
+********************
+timestamp:2024-02-25 23:39:23
+first_request_response_time:1.7366793155670166
+ack_sentence_speaking_time:1.7833061218261719
+second_request_response_time:3.186406135559082
+first_response_speaking_time:8.571380853652954
+second_sentence_speaking_time:6.364911079406738
+********************
+timestamp:2024-02-25 23:39:47
+ack_sentence_speaking_time:1.9804120063781738
+first_request_response_time:4.731367349624634
+second_request_response_time:5.001521348953247
+first_response_speaking_time:8.62253999710083
+second_sentence_speaking_time:13.48530125617981
+********************
+timestamp:2024-02-25 23:40:25
+ack_sentence_speaking_time:2.6317620277404785
+first_request_response_time:5.091456890106201
+second_request_response_time:2.114377975463867
+first_response_speaking_time:14.09902310371399
+second_sentence_speaking_time:9.871715784072876
+********************
+timestamp:2024-02-25 23:41:04
+first_request_response_time:1.6247432231903076
+ack_sentence_speaking_time:1.756892204284668
+second_request_response_time:1.7155239582061768
+first_response_speaking_time:10.043233871459961
+second_sentence_speaking_time:2.8371081352233887
+********************
+timestamp:2024-02-25 23:41:28
+ack_sentence_speaking_time:2.279463768005371
+first_request_response_time:3.6152729988098145
+second_request_response_time:1.127918004989624
+first_response_speaking_time:15.443839073181152
+second_sentence_speaking_time:5.125240802764893
+********************
+timestamp:2024-02-25 23:41:58
+ack_sentence_speaking_time:2.3933281898498535
+first_request_response_time:4.896438121795654
+second_request_response_time:2.482635974884033
+first_response_speaking_time:22.989672899246216
+second_sentence_speaking_time:17.045317888259888
+********************
+timestamp:2024-02-25 23:42:48
+first_request_response_time:2.0185701847076416
+ack_sentence_speaking_time:2.7010891437530518
+second_request_response_time:3.4204957485198975
+first_response_speaking_time:14.931325912475586
+second_sentence_speaking_time:6.826330900192261
+********************
+timestamp:2024-02-26 08:17:54
+first_request_response_time:1.5543968677520752
+ack_sentence_speaking_time:2.995220899581909
+second_request_response_time:2.1357622146606445
+first_response_speaking_time:6.945326805114746
+second_sentence_speaking_time:3.9348108768463135
+********************
+timestamp:2024-02-26 08:18:19
+ack_sentence_speaking_time:2.475182056427002
+first_request_response_time:4.537093877792358
+second_request_response_time:1.6823351383209229
+first_response_speaking_time:6.829955101013184
+second_sentence_speaking_time:10.21828007698059
+********************
+timestamp:2024-02-26 08:18:48
+first_request_response_time:1.7675631046295166
+ack_sentence_speaking_time:2.8247931003570557
+second_request_response_time:2.5418648719787598
+first_response_speaking_time:6.620438098907471
+second_sentence_speaking_time:13.82856297492981
+********************
+timestamp:2024-02-26 08:19:18
+first_request_response_time:1.6510200500488281
+ack_sentence_speaking_time:2.2941761016845703
+second_request_response_time:4.259033203125
+first_response_speaking_time:7.895522117614746
+second_sentence_speaking_time:6.593235969543457
+********************
+timestamp:2024-02-26 08:19:41
+ack_sentence_speaking_time:3.08943510055542
+first_request_response_time:4.024526834487915
+second_request_response_time:1.626791000366211
+first_response_speaking_time:9.89847993850708
+second_sentence_speaking_time:9.209856033325195
+********************
+timestamp:2024-02-26 08:20:20
+ack_sentence_speaking_time:1.4730067253112793
+first_request_response_time:4.012887954711914
+second_request_response_time:4.3277788162231445
+first_response_speaking_time:9.711860179901123
+second_sentence_speaking_time:12.782049179077148
+********************
+timestamp:2024-02-26 08:20:56
+ack_sentence_speaking_time:2.666795015335083
+first_request_response_time:3.687903881072998
+second_request_response_time:1.4242870807647705
+first_response_speaking_time:7.538898944854736
+second_sentence_speaking_time:5.333244800567627
+********************
+timestamp:2024-02-26 08:21:46
+first_request_response_time:2.035728931427002
+ack_sentence_speaking_time:3.177137851715088
+second_request_response_time:2.6902031898498535
+first_response_speaking_time:9.160673141479492
+second_sentence_speaking_time:6.471582889556885
+********************
+timestamp:2024-02-26 08:22:14
+ack_sentence_speaking_time:1.7716121673583984
+first_request_response_time:2.818476676940918
+second_request_response_time:1.833461046218872
+first_response_speaking_time:9.034734964370728
+second_sentence_speaking_time:6.967685222625732
+********************
+timestamp:2024-02-26 08:22:40
+ack_sentence_speaking_time:2.3463637828826904
+first_request_response_time:4.047130823135376
+second_request_response_time:1.8350636959075928
+first_response_speaking_time:4.9571778774261475
+second_sentence_speaking_time:8.645212173461914
+********************
+timestamp:2024-02-26 08:23:07
+ack_sentence_speaking_time:1.6481280326843262
+first_request_response_time:1.8600940704345703
+second_request_response_time:1.8105010986328125
+first_response_speaking_time:7.931971788406372
+second_sentence_speaking_time:5.511778116226196
+********************
+timestamp:2024-02-26 08:23:28
+first_request_response_time:2.518282890319824
+ack_sentence_speaking_time:2.644129991531372
+second_request_response_time:1.5215461254119873
+first_response_speaking_time:10.561545848846436
+second_sentence_speaking_time:6.924547910690308
+********************
+timestamp:2024-02-26 08:24:29
+ack_sentence_speaking_time:2.035907030105591
+first_request_response_time:3.3309109210968018
+second_request_response_time:2.40575909614563
+first_response_speaking_time:9.870902061462402
+second_sentence_speaking_time:5.343781232833862
+********************
+timestamp:2024-02-26 08:24:52
+first_request_response_time:2.5773561000823975
+ack_sentence_speaking_time:3.204960823059082
+second_request_response_time:3.032839059829712
+first_response_speaking_time:5.282433986663818
+second_sentence_speaking_time:14.265834093093872
+********************
+timestamp:2014-04-04 00:20:07
+ack_sentence_speaking_time:1.90550398827
+first_request_response_time:5.04243707657
+second_request_response_time:1.51042294502
+first_sentence_speaking_time:4.12512302399
+second_sentence_speaking_time:4.26176285744
+********************
+timestamp:2014-04-04 00:20:38
+ack_sentence_speaking_time:1.97596406937
+first_request_response_time:4.75537014008
+second_request_response_time:1.85561609268
+first_sentence_speaking_time:4.9356739521
+second_sentence_speaking_time:3.3905339241
+********************
+timestamp:2014-04-04 00:21:19
+ack_sentence_speaking_time:2.78525686264
+first_request_response_time:8.07184100151
+timestamp:2014-04-04 00:23:27
+first_request_response_time:1.64131212234
+ack_sentence_speaking_time:1.70053195953
+first_sentence_speaking_time:6.44554591179
+second_request_response_time:9.90717601776
+second_sentence_speaking_time:6.27144598961
+********************
+timestamp:2014-04-04 00:31:47
+ack_sentence_speaking_time:1.82751107216
+first_request_response_time:2.46856784821
+second_request_response_time:2.28993797302
+first_sentence_speaking_time:4.67578697205
+second_sentence_speaking_time:6.08871603012
+********************
+timestamp:2014-04-04 00:35:07
+ack_sentence_speaking_time:1.82033610344
+first_request_response_time:2.92829298973
+first_sentence_speaking_time:4.27018284798
+second_request_response_time:4.99615907669
+second_sentence_speaking_time:4.33871483803
+********************
+timestamp:2014-04-04 00:53:05
+ack_sentence_speaking_time:2.23414897919
+first_request_response_time:12.3011608124
+first_sentence_speaking_time:3.83025717735
+second_request_response_time:33.8203167915
+second_sentence_speaking_time:6.51805400848
+********************
+timestamp:2014-04-04 00:54:52
+ack_sentence_speaking_time:2.03202199936
+timestamp:2014-04-04 01:20:42
+ack_sentence_speaking_time:1.44556999207
+first_request_response_time:9.26206302643
+first_sentence_speaking_time:5.28871297836
+second_request_response_time:9.27519583702
+second_sentence_speaking_time:7.1104850769
+********************
+timestamp:2014-04-04 01:22:24
+ack_sentence_speaking_time:2.03341794014
+first_request_response_time:1.67997312546
+first_sentence_speaking_time:3.68550515175
+second_request_response_time:11.7553448677
+second_sentence_speaking_time:4.28605604172
+********************
+timestamp:2014-04-04 01:41:45
+ack_sentence_speaking_time:2.45042991638
+first_request_response_time:2.80129098892
+second_request_response_time:2.96781086922
+first_sentence_speaking_time:4.79434013367
+second_sentence_speaking_time:3.86391401291
+********************
+timestamp:2014-04-04 01:42:27
+ack_sentence_speaking_time:1.44197797775
+first_request_response_time:3.29729604721
+second_request_response_time:2.42739295959
+first_sentence_speaking_time:4.26125502586
+second_sentence_speaking_time:5.08136701584
+********************
+timestamp:2014-04-04 01:43:33
+ack_sentence_speaking_time:3.2821829319
+first_request_response_time:4.21356892586
+second_request_response_time:2.85686993599
+first_sentence_speaking_time:6.08466506004
+second_sentence_speaking_time:3.65836501122
+********************
+timestamp:2014-04-04 01:44:32
+ack_sentence_speaking_time:1.01903891563
+first_request_response_time:2.52171993256
+second_request_response_time:2.3126411438
+first_sentence_speaking_time:6.70638179779
+second_sentence_speaking_time:1.83820295334
+********************
+timestamp:2014-04-04 01:45:35
+ack_sentence_speaking_time:1.42655682564
+first_request_response_time:1.95227980614
+first_sentence_speaking_time:4.68116903305
+second_request_response_time:8.37379002571
+second_sentence_speaking_time:2.84704303741
+********************
+timestamp:2014-04-04 01:46:13
+ack_sentence_speaking_time:2.24463510513
+first_request_response_time:3.99975395203
+second_request_response_time:1.0209839344
+first_sentence_speaking_time:4.3043589592
+second_sentence_speaking_time:1.23785805702
+********************
+timestamp:2014-04-04 01:46:40
+ack_sentence_speaking_time:1.6369831562
+first_request_response_time:2.92729401588
+second_request_response_time:2.56020402908
+first_sentence_speaking_time:4.26583409309
+second_sentence_speaking_time:4.27407503128
+********************
+timestamp:2014-04-04 01:47:28
+ack_sentence_speaking_time:2.44518589973
+first_request_response_time:2.53767299652
+second_request_response_time:1.98543286324
+first_sentence_speaking_time:5.50330018997
+second_sentence_speaking_time:2.44222211838
+********************
+timestamp:2014-04-04 01:48:00
+ack_sentence_speaking_time:2.45204091072
+first_request_response_time:5.9121530056
+second_request_response_time:2.30051183701
+first_sentence_speaking_time:4.67822504044
+second_sentence_speaking_time:3.66534614563
+********************
+timestamp:2014-04-04 01:48:39
+ack_sentence_speaking_time:2.44344305992
+first_request_response_time:4.06711316109
+second_request_response_time:3.00725793839
+first_sentence_speaking_time:9.94419503212
+second_sentence_speaking_time:12.5811648369
+********************
+timestamp:2014-04-04 01:49:20
+first_request_response_time:2.30844902992
+ack_sentence_speaking_time:3.26035404205
+first_sentence_speaking_time:4.66343092918
+second_request_response_time:8.75715994835
+second_sentence_speaking_time:2.84493780136
+********************
+timestamp:2014-04-04 01:50:30
+ack_sentence_speaking_time:2.02386713028
+first_request_response_time:2.37863683701
+second_request_response_time:1.16696810722
+first_sentence_speaking_time:4.26451396942
+second_sentence_speaking_time:1.63343310356
+********************
+timestamp:2014-04-04 01:51:15
+first_request_response_time:1.60640001297
+ack_sentence_speaking_time:2.4544801712
+second_request_response_time:2.44354104996
+first_sentence_speaking_time:2.64481282234
+second_sentence_speaking_time:3.85803985596
+********************
+timestamp:2014-04-04 01:51:54
+ack_sentence_speaking_time:2.4480240345
+first_request_response_time:3.92030501366
+first_sentence_speaking_time:6.33675599098
+second_request_response_time:9.78065800667
+second_sentence_speaking_time:2.44817686081
+********************
+timestamp:2014-04-04 01:52:24
+ack_sentence_speaking_time:2.24007081985
+first_request_response_time:5.81122589111
+second_request_response_time:5.11891102791
+first_sentence_speaking_time:6.08727407455
+second_sentence_speaking_time:3.25978302956
+********************
+timestamp:2014-04-04 01:52:57
+ack_sentence_speaking_time:1.82710886002
+first_request_response_time:20.325854063
+first_sentence_speaking_time:8.33477807045
+second_request_response_time:9.32285189629
+second_sentence_speaking_time:3.0425260067
+********************
+timestamp:2014-04-04 01:54:14
+ack_sentence_speaking_time:2.43895888329
+first_request_response_time:3.40351390839
+second_request_response_time:2.24548101425
+first_sentence_speaking_time:9.34999799728
+second_sentence_speaking_time:2.4474170208
+********************
+timestamp:2014-04-04 01:56:00
+ack_sentence_speaking_time:2.24019289017
+first_request_response_time:3.732640028
+second_request_response_time:3.56770706177
+first_sentence_speaking_time:9.94759392738
+second_sentence_speaking_time:7.73098492622
+********************
+timestamp:2014-04-04 01:57:01
+ack_sentence_speaking_time:2.44441914558
+first_request_response_time:2.82322907448
+second_request_response_time:3.93157410622
+first_sentence_speaking_time:6.7150080204
+second_sentence_speaking_time:5.0850918293
+********************
+timestamp:2014-04-04 01:57:57
+ack_sentence_speaking_time:1.8356730938
+first_request_response_time:4.33217406273
+second_request_response_time:3.83234214783
+first_sentence_speaking_time:8.3438129425
+second_sentence_speaking_time:7.72211098671
+********************
+timestamp:2014-04-04 02:41:52
+ack_sentence_speaking_time:2.23589611053
+first_request_response_time:3.03548693657
+second_request_response_time:1.70609712601
+first_sentence_speaking_time:5.29810714722
+second_sentence_speaking_time:5.30147099495
+********************
+timestamp:2014-04-04 02:43:09
+ack_sentence_speaking_time:2.65072107315
+first_request_response_time:6.15965414047
+first_sentence_speaking_time:4.6690518856
+timestamp:2024-02-27 09:44:20
+ack_sentence_speaking_time:2.3275251388549805
+first_request_response_time:2.4150919914245605
+second_request_response_time:2.782494068145752
+first_response_speaking_time:6.319164037704468
+second_sentence_speaking_time:10.295676946640015
+********************
+timestamp:2024-02-27 09:44:45
+first_request_response_time:2.129359006881714
+ack_sentence_speaking_time:2.4561820030212402
+second_request_response_time:3.002689838409424
+first_response_speaking_time:7.90441107749939
+second_sentence_speaking_time:7.468981981277466
+********************
+timestamp:2024-02-27 09:45:15
+first_request_response_time:2.917931079864502
+ack_sentence_speaking_time:3.3807339668273926
+second_request_response_time:4.197810888290405
+first_response_speaking_time:8.757444143295288
+second_sentence_speaking_time:12.847732067108154
+********************
+timestamp:2024-02-27 09:45:44
+first_request_response_time:2.647392988204956
+ack_sentence_speaking_time:3.417069911956787
+second_request_response_time:2.4474289417266846
+first_response_speaking_time:7.863983154296875
+second_sentence_speaking_time:6.6477439403533936
+********************
+timestamp:2024-02-27 09:46:07
+ack_sentence_speaking_time:2.378122091293335
+first_request_response_time:3.018052101135254
+second_request_response_time:2.9173192977905273
+first_response_speaking_time:7.741348743438721
+second_sentence_speaking_time:2.94674015045166
+********************
+timestamp:2024-02-27 09:46:25
+ack_sentence_speaking_time:2.9153430461883545
+first_request_response_time:3.467604875564575
+second_request_response_time:1.5274062156677246
+first_response_speaking_time:7.974323987960815
+second_sentence_speaking_time:3.815880060195923
+********************
+timestamp:2024-02-27 09:46:45
+ack_sentence_speaking_time:1.9995899200439453
+first_request_response_time:4.260648012161255
+second_request_response_time:1.339771032333374
+first_response_speaking_time:11.033196926116943
+second_sentence_speaking_time:7.573430061340332
+********************
+timestamp:2024-02-27 09:47:14
+ack_sentence_speaking_time:1.4125351905822754
+first_request_response_time:2.297545909881592
+second_request_response_time:2.9351840019226074
+first_response_speaking_time:8.533077001571655
+second_sentence_speaking_time:8.565110921859741
+********************
+timestamp:2024-02-27 09:47:39
+first_request_response_time:2.2159152030944824
+ack_sentence_speaking_time:3.086695909500122
+second_request_response_time:2.5155179500579834
+first_response_speaking_time:4.657701253890991
+second_sentence_speaking_time:5.773015260696411
+********************
+timestamp:2024-02-27 09:48:01
+ack_sentence_speaking_time:1.6781058311462402
+first_request_response_time:2.12086820602417
+second_request_response_time:3.984637975692749
+first_response_speaking_time:12.212815999984741
+second_sentence_speaking_time:11.693026065826416
+********************
+timestamp:2024-02-27 09:48:38
+first_request_response_time:1.8440330028533936
+ack_sentence_speaking_time:3.05621600151062
+second_request_response_time:2.7840969562530518
+first_response_speaking_time:4.328458786010742
+second_sentence_speaking_time:4.895638942718506
+********************
+timestamp:2024-02-27 23:34:08
+ack_sentence_speaking_time:2.3615028858184814
+first_request_response_time:4.977632999420166
+second_request_response_time:3.3059580326080322
+first_response_speaking_time:8.796662092208862
+second_sentence_speaking_time:10.79576587677002
+********************
+timestamp:2024-02-27 23:34:37
+first_request_response_time:2.3091390132904053
+ack_sentence_speaking_time:2.8543570041656494
+second_request_response_time:2.823335886001587
+first_response_speaking_time:4.67023491859436
+second_sentence_speaking_time:6.275805234909058
+********************
+timestamp:2024-02-27 23:34:56
+first_request_response_time:2.341218948364258
+ack_sentence_speaking_time:2.7589828968048096
+second_request_response_time:1.6326799392700195
+first_response_speaking_time:5.05890679359436
+second_sentence_speaking_time:10.381141185760498
+********************
+timestamp:2024-02-27 23:35:18
+ack_sentence_speaking_time:2.518160104751587
+first_request_response_time:3.102475881576538
+second_request_response_time:2.0553040504455566
+first_response_speaking_time:6.583194017410278
+second_sentence_speaking_time:6.4241180419921875
+********************
+timestamp:2024-02-27 23:35:39
+ack_sentence_speaking_time:2.3615829944610596
+first_request_response_time:2.664357900619507
+second_request_response_time:2.109041213989258
+first_response_speaking_time:4.785349130630493
+second_sentence_speaking_time:6.613202333450317
+********************
+timestamp:2024-02-27 23:35:59
+ack_sentence_speaking_time:2.4220550060272217
+first_request_response_time:2.866611957550049
+second_request_response_time:1.7423951625823975
+first_response_speaking_time:7.229818820953369
+second_sentence_speaking_time:6.207551002502441
+********************
+timestamp:2024-02-27 23:36:19
+ack_sentence_speaking_time:2.484720230102539
+first_request_response_time:2.923966884613037
+second_request_response_time:2.316831111907959
+first_response_speaking_time:6.824552774429321
+second_sentence_speaking_time:6.661187171936035
+********************
+timestamp:2024-02-27 23:36:40
+first_request_response_time:1.6652750968933105
+ack_sentence_speaking_time:2.0373387336730957
+second_request_response_time:1.8068180084228516
+first_response_speaking_time:6.892008066177368
+second_sentence_speaking_time:4.925108909606934
+********************
+timestamp:2024-02-27 23:36:58
+first_request_response_time:2.0780909061431885
+ack_sentence_speaking_time:2.4246668815612793
+second_request_response_time:2.22943377494812
+first_response_speaking_time:9.060746192932129
+second_sentence_speaking_time:13.935836791992188
+********************
+timestamp:2024-02-27 23:37:30
+ack_sentence_speaking_time:2.316243886947632
+first_request_response_time:2.698647975921631
+second_request_response_time:2.9707372188568115
+first_response_speaking_time:5.682467699050903
+second_sentence_speaking_time:6.5304436683654785
+********************
+timestamp:2024-02-27 23:56:29
+first_request_response_time:2.6702728271484375
+ack_sentence_speaking_time:2.869581699371338
+second_request_response_time:1.761612892150879
+first_response_speaking_time:8.788244009017944
+second_sentence_speaking_time:10.182327032089233
+********************
+timestamp:2024-02-27 23:56:57
+first_request_response_time:1.942455768585205
+ack_sentence_speaking_time:2.9917337894439697
+second_request_response_time:4.46953010559082
+first_response_speaking_time:6.34185004234314
+second_sentence_speaking_time:12.545662879943848
+********************
+timestamp:2024-02-27 23:57:23
+ack_sentence_speaking_time:1.2890641689300537
+first_request_response_time:1.5482487678527832
+second_request_response_time:2.3601531982421875
+first_response_speaking_time:5.945327043533325
+second_sentence_speaking_time:5.351316928863525
+********************
+timestamp:2024-02-27 23:57:42
+first_request_response_time:2.2253830432891846
+ack_sentence_speaking_time:3.256953239440918
+second_request_response_time:2.667294979095459
+first_response_speaking_time:9.131079912185669
+second_sentence_speaking_time:4.791687726974487
+********************
+timestamp:2024-02-27 23:58:04
+ack_sentence_speaking_time:1.236536979675293
+first_request_response_time:1.451094150543213
+second_request_response_time:2.5522830486297607
+first_response_speaking_time:8.59115982055664
+second_sentence_speaking_time:8.988978147506714
+********************
+timestamp:2024-02-27 23:58:28
+ack_sentence_speaking_time:2.7349371910095215
+first_request_response_time:3.0117738246917725
+second_request_response_time:2.121384859085083
+first_response_speaking_time:9.39048981666565
+second_sentence_speaking_time:6.473905801773071
+********************
+timestamp:2024-02-27 23:58:52
+first_request_response_time:1.8284730911254883
+ack_sentence_speaking_time:2.266561985015869
+second_request_response_time:1.2060678005218506
+first_response_speaking_time:8.33594298362732
+second_sentence_speaking_time:4.815686941146851
+********************
+timestamp:2024-02-27 23:59:12
+first_request_response_time:1.713634729385376
+ack_sentence_speaking_time:2.5220179557800293
+second_request_response_time:1.4475212097167969
+first_response_speaking_time:7.5923731327056885
+second_sentence_speaking_time:6.691543102264404
+********************
+timestamp:2024-02-27 23:59:35
+ack_sentence_speaking_time:2.7464208602905273
+first_request_response_time:9.47342586517334
+second_request_response_time:1.880383014678955
+first_response_speaking_time:26.894150972366333
+second_sentence_speaking_time:3.074525833129883
+********************
+timestamp:2024-02-28 00:00:19
+first_request_response_time:2.065861225128174
+ack_sentence_speaking_time:2.8057808876037598
+second_request_response_time:4.168344020843506
+first_response_speaking_time:13.994812965393066
+second_sentence_speaking_time:10.460127830505371
+********************
+timestamp:2024-02-28 10:11:48
+ack_sentence_speaking_time:2.653334856033325
+first_request_response_time:2.783632278442383
+second_request_response_time:4.014175891876221
+first_response_speaking_time:8.048543930053711
+second_sentence_speaking_time:10.343362092971802
+********************
+timestamp:2024-02-28 10:12:18
+first_request_response_time:2.766793966293335
+ack_sentence_speaking_time:3.4338748455047607
+second_request_response_time:1.6897509098052979
+first_response_speaking_time:14.512403011322021
+second_sentence_speaking_time:6.732838153839111
+********************
+timestamp:2024-02-28 10:12:56
+ack_sentence_speaking_time:2.9686391353607178
+first_request_response_time:4.09962272644043
+second_request_response_time:2.17338490486145
+first_response_speaking_time:8.18553900718689
+second_sentence_speaking_time:9.639723062515259
+********************
+timestamp:2024-02-28 10:13:26
+first_request_response_time:1.9567999839782715
+ack_sentence_speaking_time:3.272184133529663
+second_request_response_time:2.104238986968994
+first_response_speaking_time:7.5017030239105225
+second_sentence_speaking_time:8.551733016967773
+********************
+timestamp:2024-02-28 10:13:55
+ack_sentence_speaking_time:3.149150848388672
+first_request_response_time:7.340291976928711
+second_request_response_time:4.300019979476929
+first_response_speaking_time:23.974339962005615
+second_sentence_speaking_time:15.856215238571167
+********************
+timestamp:2024-02-28 10:14:51
+ack_sentence_speaking_time:2.858931064605713
+first_request_response_time:19.708361864089966
+second_request_response_time:2.7017788887023926
+first_response_speaking_time:19.434293031692505
+second_sentence_speaking_time:4.914161205291748
+********************
+timestamp:2024-02-28 10:15:50
+ack_sentence_speaking_time:1.4293410778045654
+first_request_response_time:2.294498920440674
+second_request_response_time:1.4799540042877197
+first_response_speaking_time:12.808509826660156
+second_sentence_speaking_time:7.329132080078125
+********************
+timestamp:2024-02-28 10:16:33
+ack_sentence_speaking_time:2.520409107208252
+first_request_response_time:4.187940835952759
+second_request_response_time:4.2184648513793945
+first_response_speaking_time:17.04348874092102
+second_sentence_speaking_time:11.095710039138794
+********************
+timestamp:2024-02-28 10:25:35
+ack_sentence_speaking_time:2.966237783432007
+first_request_response_time:5.8539719581604
+second_request_response_time:3.063331127166748
+first_response_speaking_time:17.19600796699524
+second_sentence_speaking_time:8.535681009292603
+********************
+timestamp:2024-02-28 10:26:19
+ack_sentence_speaking_time:2.0323057174682617
+first_request_response_time:3.013908863067627
+second_request_response_time:2.2765309810638428
+first_response_speaking_time:17.53734302520752
+second_sentence_speaking_time:8.562334060668945
+********************
+timestamp:2024-02-28 10:27:05
+ack_sentence_speaking_time:1.7675788402557373
+first_request_response_time:3.0439860820770264
+second_request_response_time:1.6322109699249268
+first_response_speaking_time:9.300550937652588
+second_sentence_speaking_time:5.4689459800720215
+********************
+timestamp:2024-02-28 10:27:43
+ack_sentence_speaking_time:2.8230361938476562
+first_request_response_time:2.8389780521392822
+second_request_response_time:3.878990888595581
+first_response_speaking_time:4.874526023864746
+second_sentence_speaking_time:9.677029848098755
+********************
+timestamp:2024-02-28 10:28:26
+ack_sentence_speaking_time:2.6258411407470703
+first_request_response_time:3.5040767192840576
+second_request_response_time:2.2348179817199707
+first_response_speaking_time:9.570526123046875
+second_sentence_speaking_time:13.000700950622559
+********************
+timestamp:2024-02-28 19:04:14
+ack_sentence_speaking_time:2.26859712600708
+first_request_response_time:9.766170024871826
+second_request_response_time:7.611415863037109
+first_response_speaking_time:9.266300916671753
+second_sentence_speaking_time:7.419098854064941
+********************
+timestamp:2024-02-28 19:04:46
+ack_sentence_speaking_time:3.316260814666748
+first_request_response_time:5.314967155456543
+second_request_response_time:2.9098172187805176
+first_response_speaking_time:9.868199825286865
+second_sentence_speaking_time:5.810891151428223
+********************
+timestamp:2024-02-28 19:05:20
+ack_sentence_speaking_time:3.1674840450286865
+first_request_response_time:12.285356760025024
+second_request_response_time:6.956293106079102
+first_response_speaking_time:17.725972890853882
+second_sentence_speaking_time:4.685244083404541
+********************
+timestamp:2024-02-28 19:06:04
+ack_sentence_speaking_time:1.9444479942321777
+first_request_response_time:6.827272176742554
+second_request_response_time:6.157771110534668
+first_response_speaking_time:11.288923025131226
+second_sentence_speaking_time:15.592100858688354
+********************
+timestamp:2024-02-28 19:06:53
+ack_sentence_speaking_time:2.650031805038452
+first_request_response_time:11.09188199043274
+second_request_response_time:4.656891107559204
+first_response_speaking_time:17.886125802993774
+second_sentence_speaking_time:9.218631029129028
+********************
+timestamp:2024-02-28 19:07:36
+ack_sentence_speaking_time:2.3873019218444824
+first_request_response_time:10.72337293624878
+second_request_response_time:4.076038122177124
+first_response_speaking_time:9.10544729232788
+second_sentence_speaking_time:11.805243015289307
+********************
+timestamp:2024-02-28 19:08:14
+ack_sentence_speaking_time:2.9645798206329346
+first_request_response_time:6.570255756378174
+second_request_response_time:4.65091609954834
+first_response_speaking_time:15.86659288406372
+second_sentence_speaking_time:3.4127581119537354
+********************
+timestamp:2024-02-28 19:08:51
+ack_sentence_speaking_time:2.74967885017395
+first_request_response_time:6.401080131530762
+second_request_response_time:5.710788011550903
+first_response_speaking_time:19.234826803207397
+second_sentence_speaking_time:3.082185983657837
+********************
+timestamp:2024-02-28 19:09:25
+ack_sentence_speaking_time:3.3544740676879883
+first_request_response_time:10.338773012161255
+second_request_response_time:4.0847487449646
+first_response_speaking_time:21.484104871749878
+second_sentence_speaking_time:14.20770788192749
+********************
+timestamp:2024-02-28 19:10:17
+ack_sentence_speaking_time:3.1160900592803955
+first_request_response_time:8.217116832733154
+second_request_response_time:3.0859997272491455
+first_response_speaking_time:15.222052812576294
+second_sentence_speaking_time:5.2558839321136475
+********************
+timestamp:2024-02-28 23:58:44
+ack_sentence_speaking_time:2.2348060607910156
+first_request_response_time:5.234800815582275
+second_request_response_time:3.2582688331604004
+first_response_speaking_time:9.251337051391602
+second_sentence_speaking_time:8.290682077407837
+********************
+timestamp:2024-02-28 23:59:23
+first_request_response_time:2.3659961223602295
+ack_sentence_speaking_time:2.9660918712615967
+second_request_response_time:1.654891014099121
+first_response_speaking_time:9.67241096496582
+second_sentence_speaking_time:2.7459640502929688
+********************
+timestamp:2024-02-28 23:59:43
+ack_sentence_speaking_time:1.8123340606689453
+first_request_response_time:3.050037145614624
+second_request_response_time:2.239638090133667
+first_response_speaking_time:9.20344591140747
+second_sentence_speaking_time:12.826438903808594
+********************
+timestamp:2024-02-29 00:00:13
+ack_sentence_speaking_time:2.886348009109497
+first_request_response_time:3.8123888969421387
+second_request_response_time:1.5580847263336182
+first_response_speaking_time:12.426941871643066
+second_sentence_speaking_time:3.3064796924591064
+********************
+timestamp:2024-02-29 00:00:39
+ack_sentence_speaking_time:2.5816917419433594
+first_request_response_time:4.235541105270386
+second_request_response_time:2.1962859630584717
+first_response_speaking_time:12.52954387664795
+second_sentence_speaking_time:9.399209976196289
+********************
+timestamp:2024-02-29 00:01:14
+first_request_response_time:2.277188777923584
+ack_sentence_speaking_time:2.710369110107422
+second_request_response_time:1.483858346939087
+first_response_speaking_time:10.535821199417114
+second_sentence_speaking_time:5.847463846206665
+********************
+timestamp:2024-02-29 00:01:49
+ack_sentence_speaking_time:2.433807134628296
+first_request_response_time:2.7023181915283203
+second_request_response_time:3.1398096084594727
+first_response_speaking_time:5.009735822677612
+second_sentence_speaking_time:6.079722881317139
+********************
+timestamp:2024-02-29 00:02:17
+ack_sentence_speaking_time:1.853424310684204
+first_request_response_time:2.2222909927368164
+second_request_response_time:2.0498969554901123
+first_response_speaking_time:14.404616832733154
+second_sentence_speaking_time:11.622409105300903
+********************
+timestamp:2024-02-29 00:08:30
+ack_sentence_speaking_time:3.1138851642608643
+first_request_response_time:8.899595022201538
+second_request_response_time:1.4417951107025146
+first_response_speaking_time:17.726776123046875
+second_sentence_speaking_time:4.752095937728882
+********************
+timestamp:2024-02-29 00:09:10
+ack_sentence_speaking_time:1.3446757793426514
+first_request_response_time:2.3379220962524414
+second_request_response_time:2.534188747406006
+first_response_speaking_time:12.335195064544678
+second_sentence_speaking_time:6.487239837646484
+********************
+timestamp:2024-02-29 09:24:32
+first_request_response_time:3.209897994995117
+ack_sentence_speaking_time:3.5816099643707275
+second_request_response_time:1.5435500144958496
+first_response_speaking_time:15.25765609741211
+second_sentence_speaking_time:5.621126890182495
+********************
+timestamp:2024-02-29 09:25:00
+first_request_response_time:2.235063076019287
+ack_sentence_speaking_time:2.6983962059020996
+second_request_response_time:1.3869378566741943
+first_response_speaking_time:8.067185878753662
+second_sentence_speaking_time:7.18542218208313
+********************
+timestamp:2024-02-29 09:31:16
+ack_sentence_speaking_time:2.9694719314575195
+first_request_response_time:5.89894700050354
+second_request_response_time:3.9861562252044678
+first_response_speaking_time:9.930989742279053
+second_sentence_speaking_time:4.9622578620910645
+********************
+timestamp:2024-02-29 09:31:42
+first_request_response_time:2.551131248474121
+ack_sentence_speaking_time:3.1874990463256836
+second_request_response_time:3.6419730186462402
+first_response_speaking_time:9.54210901260376
+second_sentence_speaking_time:8.407037019729614
+********************
+timestamp:2024-02-29 09:32:08
+first_request_response_time:2.4352340698242188
+ack_sentence_speaking_time:3.1689910888671875
+second_request_response_time:2.0842130184173584
+first_response_speaking_time:8.048964023590088
+second_sentence_speaking_time:8.370253801345825
+********************
+timestamp:2024-02-29 09:32:35
+ack_sentence_speaking_time:2.133552074432373
+first_request_response_time:4.347315788269043
+second_request_response_time:1.2247669696807861
+first_response_speaking_time:8.136602878570557
+second_sentence_speaking_time:3.394366979598999
+********************
+timestamp:2024-02-29 09:32:55
+first_request_response_time:2.1226401329040527
+ack_sentence_speaking_time:2.7003209590911865
+second_request_response_time:5.1420838832855225
+first_response_speaking_time:8.685617923736572
+second_sentence_speaking_time:7.739006280899048
+********************
+timestamp:2024-02-29 09:33:30
+first_request_response_time:2.4227089881896973
+ack_sentence_speaking_time:3.0933339595794678
+second_request_response_time:2.887392044067383
+first_response_speaking_time:7.483935832977295
+second_sentence_speaking_time:12.579300880432129
+********************
+timestamp:2024-02-29 09:34:02
+ack_sentence_speaking_time:3.436418056488037
+first_request_response_time:3.6474037170410156
+second_request_response_time:3.576374053955078
+first_response_speaking_time:9.534361839294434
+second_sentence_speaking_time:6.404249906539917
+********************
+timestamp:2024-02-29 09:34:26
+ack_sentence_speaking_time:2.3392629623413086
+first_request_response_time:4.0472571849823
+second_request_response_time:1.746584177017212
+first_response_speaking_time:11.512871980667114
+second_sentence_speaking_time:4.506800889968872
+********************
+timestamp:2024-02-29 09:34:53
+ack_sentence_speaking_time:1.2450098991394043
+first_request_response_time:4.297518014907837
+second_request_response_time:2.823456048965454
+first_response_speaking_time:20.284267902374268
+second_sentence_speaking_time:7.8964009284973145
+********************
+timestamp:2024-02-29 09:35:41
+first_request_response_time:3.8649048805236816
+ack_sentence_speaking_time:4.088653087615967
+second_request_response_time:2.5916130542755127
+first_response_speaking_time:18.501808166503906
+second_sentence_speaking_time:12.116915941238403
+********************
+timestamp:2024-02-29 09:36:22
+ack_sentence_speaking_time:2.394207000732422
+first_request_response_time:6.39652681350708
+second_request_response_time:2.6953861713409424
+first_response_speaking_time:12.88231897354126
+second_sentence_speaking_time:8.86625599861145
+********************
+timestamp:2014-04-04 00:06:03
+first_request_response_time:2.03711509705
+ack_sentence_speaking_time:2.4520740509
+second_request_response_time:2.64405703545
+first_sentence_speaking_time:3.65431904793
+second_sentence_speaking_time:5.68831086159
+********************
+timestamp:2014-04-04 00:06:26
+first_request_response_time:2.73463201523
+ack_sentence_speaking_time:3.25650000572
+second_request_response_time:2.58536815643
+first_sentence_speaking_time:5.67454385757
+second_sentence_speaking_time:7.10543608665
+********************
+timestamp:2014-04-04 00:06:49
+first_request_response_time:2.17857909203
+ack_sentence_speaking_time:2.23590707779
+second_request_response_time:1.87666106224
+first_sentence_speaking_time:3.65426683426
+second_sentence_speaking_time:2.24816918373
+********************
+timestamp:2014-04-04 00:07:04
+ack_sentence_speaking_time:2.44908714294
+first_request_response_time:3.43398499489
+second_request_response_time:1.44977498055
+first_sentence_speaking_time:3.66974115372
+second_sentence_speaking_time:2.64346790314
+********************
+timestamp:2014-04-04 00:07:23
+first_request_response_time:1.6356048584
+ack_sentence_speaking_time:1.82520294189
+second_request_response_time:1.1773788929
+first_sentence_speaking_time:5.07992720604
+second_sentence_speaking_time:4.6928601265
+********************
+timestamp:2014-04-04 00:07:42
+first_request_response_time:2.03411197662
+ack_sentence_speaking_time:2.17646503448
+second_request_response_time:1.26686096191
+first_sentence_speaking_time:6.01371479034
+second_sentence_speaking_time:2.51518583298
+********************
+timestamp:2014-04-04 00:08:00
+first_request_response_time:1.78246712685
+ack_sentence_speaking_time:2.30476498604
+second_request_response_time:0.99045586586
+first_sentence_speaking_time:5.12360906601
+second_sentence_speaking_time:3.4888651371
+********************
+timestamp:2014-04-04 00:08:16
+ack_sentence_speaking_time:2.27608084679
+first_request_response_time:2.76600503922
+second_request_response_time:2.38074803352
+first_sentence_speaking_time:7.03774309158
+second_sentence_speaking_time:4.46615195274
+********************
+timestamp:2014-04-04 00:08:47
+first_request_response_time:1.90259885788
+ack_sentence_speaking_time:2.23144292831
+second_request_response_time:1.92699098587
+first_sentence_speaking_time:7.76375412941
+second_sentence_speaking_time:8.50666809082
+********************
+timestamp:2014-04-04 00:09:17
+ack_sentence_speaking_time:1.75381493568
+first_request_response_time:2.2122490406
+second_request_response_time:2.42387795448
+first_sentence_speaking_time:5.05228805542
+second_sentence_speaking_time:3.2046020031
+********************
+timestamp:2014-04-04 00:09:39
+first_request_response_time:1.68625497818
+ack_sentence_speaking_time:2.29896187782
+second_request_response_time:2.61918401718
+first_sentence_speaking_time:4.71600699425
+second_sentence_speaking_time:5.36367702484
+********************
+timestamp:2024-02-29 22:10:21
+ack_sentence_speaking_time:2.7711222171783447
+first_request_response_time:3.0137779712677
+second_request_response_time:4.112135887145996
+first_response_speaking_time:7.436012029647827
+second_sentence_speaking_time:15.06296992301941
+********************
+timestamp:2024-02-29 22:10:52
+first_request_response_time:2.051177978515625
+ack_sentence_speaking_time:2.5891690254211426
+second_request_response_time:2.555419683456421
+first_response_speaking_time:10.366818189620972
+second_sentence_speaking_time:6.601126194000244
+********************
+timestamp:2024-02-29 22:11:18
+ack_sentence_speaking_time:2.360675096511841
+first_request_response_time:2.7042038440704346
+second_request_response_time:1.7043201923370361
+first_response_speaking_time:7.674636125564575
+second_sentence_speaking_time:11.072278022766113
+********************
+timestamp:2024-02-29 22:11:56
+ack_sentence_speaking_time:2.35491681098938
+first_request_response_time:3.1656270027160645
+second_request_response_time:2.2412469387054443
+first_response_speaking_time:10.616425037384033
+second_sentence_speaking_time:5.485406875610352
+********************
+timestamp:2024-02-29 22:12:22
+ack_sentence_speaking_time:2.740352153778076
+first_request_response_time:5.271423101425171
+second_request_response_time:2.754392147064209
+first_response_speaking_time:15.042076110839844
+second_sentence_speaking_time:14.24860405921936
+********************
+timestamp:2024-02-29 22:13:02
+first_request_response_time:2.0818169116973877
+ack_sentence_speaking_time:3.305126905441284
+second_request_response_time:1.7228388786315918
+first_response_speaking_time:15.161983966827393
+second_sentence_speaking_time:6.255685091018677
+********************
+timestamp:2024-02-29 22:13:33
+ack_sentence_speaking_time:3.375020980834961
+first_request_response_time:4.305088043212891
+second_request_response_time:1.7410728931427002
+first_response_speaking_time:21.047160148620605
+second_sentence_speaking_time:9.837136030197144
+********************
+timestamp:2024-02-29 22:14:19
+first_request_response_time:1.7458651065826416
+ack_sentence_speaking_time:2.9130570888519287
+second_request_response_time:2.517396926879883
+first_response_speaking_time:12.06902813911438
+second_sentence_speaking_time:9.28217601776123
+********************
+timestamp:2024-02-29 22:14:49
+ack_sentence_speaking_time:2.2731688022613525
+first_request_response_time:3.5061099529266357
+second_request_response_time:1.3144800662994385
+first_response_speaking_time:11.860437154769897
+second_sentence_speaking_time:5.821232795715332
+********************
+timestamp:2024-02-29 22:15:15
+ack_sentence_speaking_time:2.63852596282959
+first_request_response_time:4.648029088973999
+second_request_response_time:1.9335291385650635
+first_response_speaking_time:13.854666948318481
+second_sentence_speaking_time:6.429516077041626
+********************
+timestamp:2024-02-29 22:16:11
+ack_sentence_speaking_time:2.5224790573120117
+first_request_response_time:3.9820520877838135
+second_request_response_time:3.080833911895752
+first_response_speaking_time:20.426682710647583
+second_sentence_speaking_time:8.266252994537354
+********************
+timestamp:2024-02-29 22:16:52
+first_request_response_time:2.07029390335083
+ack_sentence_speaking_time:2.306666851043701
+second_request_response_time:2.099188804626465
+first_response_speaking_time:15.4120352268219
+second_sentence_speaking_time:6.611700057983398
+********************
+timestamp:2024-03-01 09:42:28
+ack_sentence_speaking_time:1.4473230838775635
+first_request_response_time:10.684988975524902
+second_request_response_time:1.5350379943847656
+first_response_speaking_time:7.582914113998413
+second_sentence_speaking_time:3.6748502254486084
+********************
+timestamp:2024-03-01 09:42:55
+ack_sentence_speaking_time:3.2989110946655273
+first_request_response_time:3.5168871879577637
+second_request_response_time:3.2040750980377197
+first_response_speaking_time:15.912439107894897
+second_sentence_speaking_time:10.273087978363037
+********************
+timestamp:2024-03-01 09:45:08
+ack_sentence_speaking_time:1.8472137451171875
+first_request_response_time:2.819298028945923
+second_request_response_time:2.7587969303131104
+first_response_speaking_time:5.332003831863403
+second_sentence_speaking_time:5.780958890914917
+********************
+timestamp:2024-03-01 09:51:56
+ack_sentence_speaking_time:1.3725183010101318
+first_request_response_time:3.4027771949768066
+second_request_response_time:3.2779290676116943
+first_response_speaking_time:17.383927822113037
+second_sentence_speaking_time:9.306456089019775
+********************
+timestamp:2024-03-01 09:52:32
+ack_sentence_speaking_time:3.184767007827759
+first_request_response_time:3.9499828815460205
+second_request_response_time:2.3256261348724365
+first_response_speaking_time:7.611877202987671
+second_sentence_speaking_time:4.0288779735565186
+********************
+timestamp:2024-03-01 09:52:54
+ack_sentence_speaking_time:2.9548888206481934
+first_request_response_time:4.884103059768677
+second_request_response_time:6.248296022415161
+first_response_speaking_time:20.0813148021698
+second_sentence_speaking_time:16.612330198287964
+********************
+timestamp:2024-03-01 09:53:50
+first_request_response_time:1.830444097518921
+ack_sentence_speaking_time:3.3878798484802246
+second_request_response_time:2.680682897567749
+first_response_speaking_time:7.960072994232178
+second_sentence_speaking_time:5.813133955001831
+********************
+timestamp:2024-03-01 09:54:12
+ack_sentence_speaking_time:2.929832935333252
+first_request_response_time:10.36934494972229
+second_request_response_time:4.0447070598602295
+first_response_speaking_time:26.02479100227356
+second_sentence_speaking_time:10.78286600112915
+********************
+timestamp:2024-03-01 09:55:07
+ack_sentence_speaking_time:2.6921987533569336
+first_request_response_time:2.780925989151001
+second_request_response_time:5.837647199630737
+first_response_speaking_time:9.22110891342163
+second_sentence_speaking_time:9.223467826843262
+********************
+timestamp:2024-03-01 09:55:41
+first_request_response_time:1.85996413230896
+ack_sentence_speaking_time:3.234421968460083
+second_request_response_time:1.9170169830322266
+first_response_speaking_time:5.11695122718811
+second_sentence_speaking_time:3.9862048625946045
+********************
+timestamp:2024-03-01 13:14:38
+first_request_response_time:1.81539487839
+ack_sentence_speaking_time:2.02374696732
+second_request_response_time:1.29293608665
+first_sentence_speaking_time:5.05886912346
+second_sentence_speaking_time:5.87827396393
+********************
+timestamp:2024-03-01 13:14:55
+first_request_response_time:1.55770015717
+ack_sentence_speaking_time:2.24060511589
+second_request_response_time:2.6512260437
+first_sentence_speaking_time:5.27758717537
+second_sentence_speaking_time:3.03442001343
+********************
+timestamp:2024-03-01 13:15:11
+ack_sentence_speaking_time:2.23001408577
+first_request_response_time:2.55363106728
+second_request_response_time:3.14159202576
+first_sentence_speaking_time:5.27201986313
+second_sentence_speaking_time:6.48734092712
+********************
+timestamp:2024-03-01 13:15:30
+ack_sentence_speaking_time:1.82536196709
+first_request_response_time:1.85777378082
+second_request_response_time:2.87471699715
+first_sentence_speaking_time:7.08033680916
+second_sentence_speaking_time:7.08298110962
+********************
+timestamp:2024-03-01 13:15:51
+first_request_response_time:2.10751795769
+ack_sentence_speaking_time:2.23701000214
+second_request_response_time:1.07547497749
+first_sentence_speaking_time:6.08228302002
+second_sentence_speaking_time:2.44657087326
+********************
+timestamp:2024-03-01 13:16:07
+ack_sentence_speaking_time:1.82353496552
+first_request_response_time:2.07990789413
+second_request_response_time:2.00953316689
+first_sentence_speaking_time:4.86795902252
+second_sentence_speaking_time:6.91135001183
+********************
+timestamp:2024-03-01 13:16:29
+ack_sentence_speaking_time:1.84838986397
+first_request_response_time:2.50268983841
+second_request_response_time:2.64388608932
+first_sentence_speaking_time:5.8669500351
+second_sentence_speaking_time:5.49420809746
+********************
+timestamp:2024-03-01 13:16:53
+first_request_response_time:1.61875796318
+ack_sentence_speaking_time:2.63189888
+second_request_response_time:2.60157489777
+first_sentence_speaking_time:6.69461297989
+second_sentence_speaking_time:4.67389297485
+********************
+timestamp:2024-03-01 13:17:13
+ack_sentence_speaking_time:1.62774586678
+first_request_response_time:6.00728297234
+second_request_response_time:1.46999597549
+first_sentence_speaking_time:7.49993991852
+second_sentence_speaking_time:1.82853007317
+********************
+timestamp:2024-03-01 13:17:37
+first_request_response_time:1.30441188812
+ack_sentence_speaking_time:1.42290687561
+second_request_response_time:1.59170889854
+first_sentence_speaking_time:3.24984002113
+second_sentence_speaking_time:3.67408013344
+********************
+timestamp:2024-03-01 16:23:31
+first_request_response_time:1.76254701614
+ack_sentence_speaking_time:2.18534398079
+second_request_response_time:2.44235897064
+first_sentence_speaking_time:5.72193694115
+second_sentence_speaking_time:4.74237108231
+********************
+timestamp:2024-03-01 16:23:56
+ack_sentence_speaking_time:1.57686090469
+first_request_response_time:3.54837799072
+second_request_response_time:1.86714792252
+first_sentence_speaking_time:5.92586803436
+second_sentence_speaking_time:2.87707710266
+********************
+timestamp:2024-03-01 16:24:13
+ack_sentence_speaking_time:2.14261579514
+first_request_response_time:3.07645010948
+second_request_response_time:1.57289505005
+first_sentence_speaking_time:5.93197488785
+second_sentence_speaking_time:5.1584379673
+********************
+timestamp:2024-03-01 16:24:33
+ack_sentence_speaking_time:1.52230501175
+first_request_response_time:1.93482494354
+second_request_response_time:0.936589002609
+first_sentence_speaking_time:7.39276719093
+second_sentence_speaking_time:3.09410190582
+********************
+timestamp:2024-03-01 16:24:49
+ack_sentence_speaking_time:1.38959908485
+first_request_response_time:2.10774517059
+second_request_response_time:3.45796084404
+first_sentence_speaking_time:6.2918279171
+second_sentence_speaking_time:5.97660779953
+********************
+timestamp:2024-03-01 16:25:09
+first_request_response_time:2.32182717323
+ack_sentence_speaking_time:2.67069602013
+second_request_response_time:2.0991768837
+first_sentence_speaking_time:6.96449804306
+second_sentence_speaking_time:4.26812314987
+********************
+timestamp:2024-03-01 16:25:30
+ack_sentence_speaking_time:1.82268095016
+first_request_response_time:3.04373407364
+second_request_response_time:3.09362792969
+first_sentence_speaking_time:4.69381594658
+second_sentence_speaking_time:7.79247498512
+********************
+timestamp:2024-03-01 16:25:51
+ack_sentence_speaking_time:2.4424200058
+first_request_response_time:2.75066113472
+second_request_response_time:1.48261785507
+first_sentence_speaking_time:6.26953887939
+second_sentence_speaking_time:4.24307107925
+********************
+timestamp:2024-03-01 16:26:13
+ack_sentence_speaking_time:2.32602787018
+first_request_response_time:3.33201694489
+second_request_response_time:2.2605638504
+first_sentence_speaking_time:4.51756715775
+second_sentence_speaking_time:2.22728180885
+********************
+timestamp:2024-03-01 16:26:29
+ack_sentence_speaking_time:2.26338386536
+first_request_response_time:4.20038795471
+first_sentence_speaking_time:3.86169290543
+second_request_response_time:4.06231188774
+second_sentence_speaking_time:4.78002500534
+********************
+timestamp:2024-03-02 19:26:04
+first_request_response_time:1.9659388065338135
+ack_sentence_speaking_time:2.8282299041748047
+second_request_response_time:1.596276044845581
+first_response_speaking_time:5.6583051681518555
+second_sentence_speaking_time:7.6311047077178955
+********************
+timestamp:2024-03-02 19:26:26
+first_request_response_time:2.162393093109131
+ack_sentence_speaking_time:2.741941213607788
+second_request_response_time:1.3810250759124756
+first_response_speaking_time:11.649861097335815
+second_sentence_speaking_time:4.703666925430298
+********************
+timestamp:2024-03-02 19:26:49
+first_request_response_time:1.7195472717285156
+ack_sentence_speaking_time:3.376829147338867
+second_request_response_time:3.1495230197906494
+first_response_speaking_time:7.521488904953003
+second_sentence_speaking_time:8.714756965637207
+********************
+timestamp:2024-03-02 19:27:13
+ack_sentence_speaking_time:1.7924187183380127
+first_request_response_time:5.429872751235962
+second_request_response_time:1.227031946182251
+first_response_speaking_time:12.412857055664062
+second_sentence_speaking_time:4.410799026489258
+********************
+timestamp:2024-03-02 19:27:40
+first_request_response_time:3.1545181274414062
+ack_sentence_speaking_time:3.3802828788757324
+second_request_response_time:1.3467590808868408
+first_response_speaking_time:17.076871871948242
+second_sentence_speaking_time:4.980731725692749
+********************
+timestamp:2024-03-02 19:28:10
+ack_sentence_speaking_time:2.1352782249450684
+first_request_response_time:2.7695398330688477
+second_request_response_time:1.8724019527435303
+first_response_speaking_time:19.049335956573486
+second_sentence_speaking_time:5.1329851150512695
+********************
+timestamp:2024-03-02 19:28:42
+ack_sentence_speaking_time:1.4472999572753906
+first_request_response_time:2.5332469940185547
+second_request_response_time:1.9408771991729736
+first_response_speaking_time:9.197092056274414
+second_sentence_speaking_time:8.70392107963562
+********************
+timestamp:2024-03-02 19:29:06
+ack_sentence_speaking_time:2.4388439655303955
+first_request_response_time:4.042178153991699
+second_request_response_time:1.537200927734375
+first_response_speaking_time:14.206161975860596
+second_sentence_speaking_time:4.069256067276001
+********************
+timestamp:2024-03-02 19:29:33
+first_request_response_time:1.9789659976959229
+ack_sentence_speaking_time:2.899301767349243
+second_request_response_time:2.351473331451416
+first_response_speaking_time:9.214755058288574
+second_sentence_speaking_time:9.639639854431152
+********************
+timestamp:2024-03-02 19:30:01
+ack_sentence_speaking_time:2.533216953277588
+first_request_response_time:4.464003801345825
+second_request_response_time:4.085915803909302
+first_response_speaking_time:14.170794010162354
+second_sentence_speaking_time:5.5887610912323
+********************
+timestamp:2024-03-02 20:41:11
+first_request_response_time:2.3078970909118652
+ack_sentence_speaking_time:3.9353721141815186
+second_request_response_time:2.977958917617798
+first_response_speaking_time:8.15621304512024
+second_sentence_speaking_time:8.876579761505127
+********************
+timestamp:2024-03-02 20:41:37
+ack_sentence_speaking_time:3.404482841491699
+first_request_response_time:4.028820991516113
+second_request_response_time:1.8284549713134766
+first_response_speaking_time:13.60332179069519
+second_sentence_speaking_time:7.100947141647339
+********************
+timestamp:2024-03-02 20:42:09
+ack_sentence_speaking_time:1.9393389225006104
+first_request_response_time:3.9794700145721436
+second_request_response_time:1.82255220413208
+first_response_speaking_time:12.216803073883057
+second_sentence_speaking_time:5.652851104736328
+********************
+timestamp:2024-03-02 20:42:57
+first_request_response_time:2.155668258666992
+ack_sentence_speaking_time:2.7635881900787354
+second_request_response_time:1.4762308597564697
+first_response_speaking_time:13.723014831542969
+second_sentence_speaking_time:7.9670329093933105
+********************
+timestamp:2024-03-02 20:43:48
+ack_sentence_speaking_time:2.716222047805786
+first_request_response_time:5.133944988250732
+second_request_response_time:2.339522123336792
+first_response_speaking_time:20.4858717918396
+second_sentence_speaking_time:12.846889972686768
+********************
+timestamp:2024-03-02 20:44:33
+first_request_response_time:2.2072548866271973
+ack_sentence_speaking_time:2.276367664337158
+second_request_response_time:2.4837448596954346
+first_response_speaking_time:13.613973140716553
+second_sentence_speaking_time:10.946264028549194
+********************
+timestamp:2024-03-02 20:45:04
+ack_sentence_speaking_time:2.2647860050201416
+first_request_response_time:8.669703245162964
+second_request_response_time:2.345183849334717
+first_response_speaking_time:20.919479846954346
+second_sentence_speaking_time:13.695183038711548
+********************
+timestamp:2024-03-02 20:45:56
+ack_sentence_speaking_time:3.073237895965576
+first_request_response_time:3.1741151809692383
+second_request_response_time:1.6229488849639893
+first_response_speaking_time:12.93351697921753
+second_sentence_speaking_time:6.215056896209717
+********************
+timestamp:2024-03-02 20:46:33
+ack_sentence_speaking_time:2.7334578037261963
+first_request_response_time:3.2854232788085938
+second_request_response_time:1.7724900245666504
+first_response_speaking_time:24.405428171157837
+second_sentence_speaking_time:6.839617013931274
+********************
+timestamp:2024-03-02 20:47:13
+ack_sentence_speaking_time:3.0699777603149414
+first_request_response_time:3.3794589042663574
+second_request_response_time:2.67057204246521
+first_response_speaking_time:19.24955129623413
+second_sentence_speaking_time:12.343837022781372
+********************
+timestamp:2024-03-02 20:47:54
+first_request_response_time:2.3793702125549316
+ack_sentence_speaking_time:3.180363893508911
+second_request_response_time:1.9242451190948486
+first_response_speaking_time:10.606260061264038
+second_sentence_speaking_time:9.410681962966919
+********************
+timestamp:2024-03-02 20:48:25
+ack_sentence_speaking_time:2.4119019508361816
+first_request_response_time:7.011396884918213
+second_request_response_time:3.35476016998291
+first_response_speaking_time:25.338254928588867
+second_sentence_speaking_time:10.524874925613403
+********************
+timestamp:2024-03-02 20:49:45
+ack_sentence_speaking_time:2.520895004272461
+first_request_response_time:3.1418488025665283
+second_request_response_time:1.7787647247314453
+first_response_speaking_time:21.27162003517151
+second_sentence_speaking_time:8.810372114181519
+********************
+timestamp:2024-03-02 22:57:16
+ack_sentence_speaking_time:3.0556979179382324
+first_request_response_time:5.444193124771118
+second_request_response_time:2.300072193145752
+first_response_speaking_time:8.600016355514526
+second_sentence_speaking_time:10.034254789352417
+********************
+timestamp:2024-03-02 22:57:45
+first_request_response_time:2.415619134902954
+ack_sentence_speaking_time:2.8322513103485107
+second_request_response_time:3.444927930831909
+first_response_speaking_time:7.035404920578003
+second_sentence_speaking_time:9.927704095840454
+********************
+timestamp:2024-03-02 22:58:11
+ack_sentence_speaking_time:2.3504459857940674
+first_request_response_time:3.8115570545196533
+second_request_response_time:1.7409400939941406
+first_response_speaking_time:15.434434652328491
+second_sentence_speaking_time:9.111318111419678
+********************
+timestamp:2024-03-02 22:58:44
+ack_sentence_speaking_time:2.023542881011963
+first_request_response_time:4.917202949523926
+second_request_response_time:3.0612781047821045
+first_response_speaking_time:26.501221895217896
+second_sentence_speaking_time:8.351525783538818
+********************
+timestamp:2024-03-02 22:59:29
+ack_sentence_speaking_time:2.2848172187805176
+first_request_response_time:4.807754039764404
+second_request_response_time:3.333968162536621
+first_response_speaking_time:18.55776309967041
+second_sentence_speaking_time:8.30375599861145
+********************
+timestamp:2024-03-02 23:00:06
+ack_sentence_speaking_time:1.6835429668426514
+first_request_response_time:2.0451579093933105
+second_request_response_time:1.5087440013885498
+first_response_speaking_time:4.541822910308838
+second_sentence_speaking_time:3.954277753829956
+********************
+timestamp:2024-03-02 23:00:21
+first_request_response_time:2.402531147003174
+ack_sentence_speaking_time:2.849778175354004
+second_request_response_time:2.178863048553467
+first_response_speaking_time:12.326140880584717
+second_sentence_speaking_time:9.799608945846558
+********************
+timestamp:2024-03-02 23:00:52
+ack_sentence_speaking_time:3.252747058868408
+first_request_response_time:3.427297830581665
+second_request_response_time:2.2417311668395996
+first_response_speaking_time:11.689591884613037
+second_sentence_speaking_time:13.714301109313965
+********************
+timestamp:2024-03-02 23:01:28
+first_request_response_time:2.653855085372925
+ack_sentence_speaking_time:2.9251439571380615
+second_request_response_time:2.8820440769195557
+first_response_speaking_time:18.45918321609497
+second_sentence_speaking_time:6.645511865615845
+********************
+timestamp:2024-03-02 23:02:01
+ack_sentence_speaking_time:1.7983009815216064
+first_request_response_time:3.361046075820923
+second_request_response_time:3.043867826461792
+first_response_speaking_time:9.14670181274414
+second_sentence_speaking_time:6.08794903755188
+********************
+timestamp:2024-03-02 23:02:32
+ack_sentence_speaking_time:3.3827881813049316
+first_request_response_time:3.628448009490967
+second_request_response_time:2.017350196838379
+first_response_speaking_time:10.445104122161865
+second_sentence_speaking_time:11.551148653030396
+********************
+timestamp:2024-03-02 23:03:15
+ack_sentence_speaking_time:2.9154508113861084
+first_request_response_time:3.338350296020508
+second_request_response_time:2.8564200401306152
+first_response_speaking_time:19.52725911140442
+second_sentence_speaking_time:6.3037660121917725
+********************
+timestamp:2024-03-02 23:03:48
+ack_sentence_speaking_time:2.2859530448913574
+first_request_response_time:4.4941487312316895
+second_request_response_time:2.938080310821533
+first_response_speaking_time:20.38503670692444
+second_sentence_speaking_time:8.924955129623413
+********************
+timestamp:2024-03-02 23:04:27
+first_request_response_time:2.4110000133514404
+ack_sentence_speaking_time:2.896116256713867
+second_request_response_time:2.7779150009155273
+first_response_speaking_time:15.662944078445435
+second_sentence_speaking_time:19.346299171447754
+********************
+timestamp:2024-03-03 08:24:05
+ack_sentence_speaking_time:2.7167458534240723
+first_request_response_time:4.360412120819092
+second_request_response_time:5.04359769821167
+first_response_speaking_time:17.44974374771118
+second_sentence_speaking_time:17.087317943572998
+********************
+timestamp:2024-03-03 08:24:48
+ack_sentence_speaking_time:1.7588469982147217
+first_request_response_time:2.8715462684631348
+second_request_response_time:1.983247995376587
+first_response_speaking_time:7.667853116989136
+second_sentence_speaking_time:8.095512866973877
+********************
+timestamp:2024-03-03 08:25:13
+ack_sentence_speaking_time:1.9191079139709473
+first_request_response_time:2.9140639305114746
+second_request_response_time:1.6280009746551514
+first_response_speaking_time:12.51912784576416
+second_sentence_speaking_time:5.559798955917358
+********************
+timestamp:2024-03-03 08:25:45
+ack_sentence_speaking_time:2.4099299907684326
+first_request_response_time:4.1692070960998535
+second_request_response_time:4.566744089126587
+first_response_speaking_time:19.92081618309021
+second_sentence_speaking_time:16.796968936920166
+********************
+timestamp:2024-03-03 08:26:34
+ack_sentence_speaking_time:2.965301036834717
+first_request_response_time:3.817998170852661
+second_request_response_time:3.034766912460327
+first_response_speaking_time:29.385617971420288
+second_sentence_speaking_time:11.37007188796997
+********************
+timestamp:2024-03-03 08:27:23
+ack_sentence_speaking_time:2.686768054962158
+first_request_response_time:5.0177459716796875
+second_request_response_time:2.1522929668426514
+first_response_speaking_time:28.690786838531494
+second_sentence_speaking_time:8.911699295043945
+********************
+timestamp:2024-03-03 08:28:12
+first_request_response_time:2.924315929412842
+ack_sentence_speaking_time:3.3669331073760986
+second_request_response_time:1.9891619682312012
+first_response_speaking_time:7.6373610496521
+second_sentence_speaking_time:4.572927951812744
+********************
+timestamp:2024-03-03 08:28:32
+ack_sentence_speaking_time:2.7700679302215576
+first_request_response_time:3.8312158584594727
+second_request_response_time:2.840728998184204
+first_response_speaking_time:14.550658226013184
+second_sentence_speaking_time:8.039395809173584
+********************
+timestamp:2024-03-03 08:29:04
+ack_sentence_speaking_time:2.4504828453063965
+first_request_response_time:4.668519020080566
+second_request_response_time:2.2754650115966797
+first_response_speaking_time:18.169564247131348
+second_sentence_speaking_time:5.063862085342407
+********************
+timestamp:2024-03-03 08:29:44
+ack_sentence_speaking_time:3.121150255203247
+first_request_response_time:3.6541359424591064
+second_request_response_time:2.7538580894470215
+first_response_speaking_time:30.24478006362915
+second_sentence_speaking_time:13.279537916183472
+********************
+timestamp:2024-03-03 08:30:39
+ack_sentence_speaking_time:2.013232946395874
+first_request_response_time:3.979111909866333
+second_request_response_time:2.3530449867248535
+first_response_speaking_time:17.978855848312378
+second_sentence_speaking_time:14.05561900138855
+********************
+timestamp:2024-03-03 08:31:22
+first_request_response_time:1.9006919860839844
+ack_sentence_speaking_time:2.3136050701141357
+second_request_response_time:1.5271530151367188
+first_response_speaking_time:11.256219148635864
+second_sentence_speaking_time:4.3700010776519775
+********************
+timestamp:2024-03-03 08:31:50
+first_request_response_time:2.1405081748962402
+ack_sentence_speaking_time:2.5778892040252686
+second_request_response_time:1.3084170818328857
+first_response_speaking_time:13.185940980911255
+second_sentence_speaking_time:3.7595598697662354
+********************
+timestamp:2024-03-03 08:32:32
+ack_sentence_speaking_time:2.640048027038574
+first_request_response_time:6.5562827587127686
+second_request_response_time:2.006532669067383
+first_response_speaking_time:32.3666787147522
+second_sentence_speaking_time:9.272608041763306
+********************
+timestamp:2024-03-03 08:33:25
+ack_sentence_speaking_time:3.343585968017578
+first_request_response_time:4.445921897888184
+second_request_response_time:1.9325580596923828
+first_response_speaking_time:16.066202878952026
+second_sentence_speaking_time:7.626240015029907
+********************
+timestamp:2024-03-03 08:34:11
+ack_sentence_speaking_time:3.2422118186950684
+first_request_response_time:3.4249682426452637
+second_request_response_time:2.3478448390960693
+first_response_speaking_time:26.202789068222046
+second_sentence_speaking_time:7.00510835647583
+********************
+timestamp:2024-03-03 08:34:56
+ack_sentence_speaking_time:1.4384419918060303
+first_request_response_time:4.408101797103882
+second_request_response_time:3.060154914855957
+first_response_speaking_time:26.967924118041992
+second_sentence_speaking_time:9.184459209442139
+********************
+timestamp:2024-03-03 08:35:42
+ack_sentence_speaking_time:2.2681028842926025
+first_request_response_time:3.5604891777038574
+second_request_response_time:1.4348969459533691
+first_response_speaking_time:28.698359727859497
+second_sentence_speaking_time:7.655956268310547
+********************
+timestamp:2024-03-03 08:36:29
+ack_sentence_speaking_time:2.637821912765503
+first_request_response_time:6.9290173053741455
+second_request_response_time:2.9385898113250732
+first_response_speaking_time:13.428530931472778
+second_sentence_speaking_time:22.774435997009277
+********************
+timestamp:2024-03-03 08:37:17
+ack_sentence_speaking_time:2.8971078395843506
+first_request_response_time:3.949320077896118
+second_request_response_time:4.0834057331085205
+first_response_speaking_time:29.16087794303894
+second_sentence_speaking_time:22.884516716003418
+********************
+timestamp:2024-03-03 08:38:22
+ack_sentence_speaking_time:3.0130441188812256
+first_request_response_time:6.574021100997925
+second_request_response_time:1.4737169742584229
+first_response_speaking_time:22.532582998275757
+second_sentence_speaking_time:6.022211074829102
+********************
+timestamp:2024-03-03 08:39:06
+ack_sentence_speaking_time:3.1401398181915283
+first_request_response_time:3.3540899753570557
+second_request_response_time:5.122546911239624
+first_response_speaking_time:30.22507405281067
+second_sentence_speaking_time:10.061836957931519
+********************
+timestamp:2024-03-03 11:44:05
+ack_sentence_speaking_time:3.1868789196014404
+first_request_response_time:3.7674829959869385
+second_request_response_time:2.143475294113159
+first_response_speaking_time:9.021062135696411
+second_sentence_speaking_time:10.124603986740112
+********************
+timestamp:2024-03-03 11:44:38
+ack_sentence_speaking_time:2.745224952697754
+first_request_response_time:3.5126819610595703
+second_request_response_time:2.7421557903289795
+first_response_speaking_time:11.29950475692749
+second_sentence_speaking_time:14.22070598602295
+********************
+timestamp:2024-03-03 11:45:15
+ack_sentence_speaking_time:2.274080991744995
+first_request_response_time:3.2617921829223633
+second_request_response_time:1.7108218669891357
+first_response_speaking_time:11.493185997009277
+second_sentence_speaking_time:6.94398832321167
+********************
+timestamp:2024-03-03 11:45:41
+ack_sentence_speaking_time:2.67932391166687
+first_request_response_time:5.1507720947265625
+second_request_response_time:2.655195951461792
+first_response_speaking_time:16.47534203529358
+second_sentence_speaking_time:6.439732789993286
+********************
+timestamp:2024-03-03 11:46:14
+ack_sentence_speaking_time:1.7628910541534424
+first_request_response_time:2.335777759552002
+second_request_response_time:1.5266618728637695
+first_response_speaking_time:14.843859195709229
+second_sentence_speaking_time:7.07730770111084
+********************
+timestamp:2024-03-03 11:46:44
+ack_sentence_speaking_time:2.5059680938720703
+first_request_response_time:3.237531900405884
+second_request_response_time:4.231894016265869
+first_response_speaking_time:18.64090085029602
+second_sentence_speaking_time:17.87423586845398
+********************
+timestamp:2024-03-03 11:47:41
+first_request_response_time:2.031506061553955
+ack_sentence_speaking_time:2.2282350063323975
+second_request_response_time:6.718936204910278
+first_response_speaking_time:11.18219804763794
+second_sentence_speaking_time:11.178387880325317
+********************
+timestamp:2024-03-03 11:48:32
+ack_sentence_speaking_time:3.1407270431518555
+first_request_response_time:4.171861886978149
+second_request_response_time:2.8546648025512695
+first_response_speaking_time:11.953945875167847
+second_sentence_speaking_time:7.988894939422607
+********************
+timestamp:2024-03-03 11:49:30
+first_request_response_time:3.0370559692382812
+ack_sentence_speaking_time:3.774200201034546
+second_request_response_time:2.9871649742126465
+first_response_speaking_time:15.051477670669556
+second_sentence_speaking_time:7.861539125442505
+********************
+timestamp:2024-03-03 11:50:04
+first_request_response_time:2.4878430366516113
+ack_sentence_speaking_time:2.5225441455841064
+second_request_response_time:2.1920101642608643
+first_response_speaking_time:11.276108026504517
+second_sentence_speaking_time:11.527042150497437
+********************
+timestamp:2024-03-03 11:50:37
+ack_sentence_speaking_time:2.6958248615264893
+first_request_response_time:4.274893760681152
+second_request_response_time:1.6599409580230713
+first_response_speaking_time:9.941004037857056
+second_sentence_speaking_time:7.242624998092651
+********************
+timestamp:2024-03-03 11:52:20
+ack_sentence_speaking_time:3.1925668716430664
+first_request_response_time:3.796074151992798
+second_request_response_time:1.6794052124023438
+first_response_speaking_time:15.603387832641602
+second_sentence_speaking_time:7.927545785903931
+********************
+timestamp:2024-03-03 11:53:02
+first_request_response_time:2.944751262664795
+ack_sentence_speaking_time:3.376880168914795
+second_request_response_time:2.7431018352508545
+first_response_speaking_time:11.76420521736145
+second_sentence_speaking_time:5.095702648162842
+********************
+timestamp:2024-03-03 23:00:42
+first_request_response_time:1.9150240421295166
+ack_sentence_speaking_time:3.350208044052124
+second_request_response_time:1.5594711303710938
+first_response_speaking_time:7.7560131549835205
+second_sentence_speaking_time:6.64005184173584
+********************
+timestamp:2024-03-03 23:01:05
+ack_sentence_speaking_time:1.251370906829834
+first_request_response_time:1.6356940269470215
+second_request_response_time:1.6999168395996094
+first_response_speaking_time:7.037459850311279
+second_sentence_speaking_time:1.904944896697998
+********************
+timestamp:2024-03-03 23:01:21
+first_request_response_time:2.0884957313537598
+ack_sentence_speaking_time:2.2232391834259033
+second_request_response_time:2.9108738899230957
+first_response_speaking_time:11.489344835281372
+second_sentence_speaking_time:12.402359962463379
+********************
+timestamp:2024-03-03 23:01:52
+ack_sentence_speaking_time:1.8043408393859863
+first_request_response_time:2.0679640769958496
+second_request_response_time:1.896878957748413
+first_response_speaking_time:8.222901105880737
+second_sentence_speaking_time:9.87157678604126
+********************
+timestamp:2024-03-03 23:02:24
+ack_sentence_speaking_time:2.6999900341033936
+first_request_response_time:3.04697585105896
+second_request_response_time:1.846743106842041
+first_response_speaking_time:10.599370002746582
+second_sentence_speaking_time:9.37889814376831
+********************
+timestamp:2024-03-03 23:02:53
+first_request_response_time:2.9438610076904297
+ack_sentence_speaking_time:3.99383282661438
+second_request_response_time:1.8130812644958496
+first_response_speaking_time:7.29801869392395
+second_sentence_speaking_time:5.118566989898682
+********************
+timestamp:2024-03-03 23:03:16
+first_request_response_time:2.7378041744232178
+ack_sentence_speaking_time:3.0194711685180664
+second_request_response_time:3.304387092590332
+first_response_speaking_time:15.785176992416382
+second_sentence_speaking_time:3.6023759841918945
+********************
+timestamp:2024-03-03 23:03:43
+first_request_response_time:2.1415390968322754
+ack_sentence_speaking_time:3.3243350982666016
+second_request_response_time:1.3168587684631348
+first_response_speaking_time:16.253012895584106
+second_sentence_speaking_time:4.69619607925415
+********************
+timestamp:2024-03-03 23:04:13
+ack_sentence_speaking_time:2.288353204727173
+first_request_response_time:4.710017204284668
+second_request_response_time:1.763922929763794
+first_response_speaking_time:21.72059202194214
+second_sentence_speaking_time:10.824066877365112
+********************
+timestamp:2024-03-03 23:05:00
+first_request_response_time:2.423049211502075
+ack_sentence_speaking_time:2.7335147857666016
+second_request_response_time:3.88398814201355
+first_response_speaking_time:15.409237146377563
+second_sentence_speaking_time:10.655734062194824
+********************
+timestamp:2024-03-03 23:05:35
+ack_sentence_speaking_time:2.3912601470947266
+first_request_response_time:2.909040689468384
+second_request_response_time:2.6452128887176514
+first_response_speaking_time:19.9463849067688
+second_sentence_speaking_time:3.956382989883423
+********************
+timestamp:2024-03-03 23:06:09
+first_request_response_time:2.1061129570007324
+ack_sentence_speaking_time:2.6567800045013428
+second_request_response_time:2.309069871902466
+first_response_speaking_time:11.513186931610107
+second_sentence_speaking_time:5.698602914810181
+********************
+timestamp:2024-03-03 23:06:35
+ack_sentence_speaking_time:2.837325096130371
+first_request_response_time:2.974961042404175
+second_request_response_time:3.3693199157714844
+first_response_speaking_time:22.671956062316895
+second_sentence_speaking_time:4.506393194198608
+********************
+timestamp:2024-03-03 23:07:09
+first_request_response_time:2.9042508602142334
+ack_sentence_speaking_time:3.244662046432495
+second_request_response_time:3.209963083267212
+first_response_speaking_time:23.82913303375244
+second_sentence_speaking_time:9.388922929763794
+********************
+timestamp:2024-03-03 23:07:51
+first_request_response_time:2.2787208557128906
+ack_sentence_speaking_time:3.1531147956848145
+second_request_response_time:1.7765281200408936
+first_response_speaking_time:10.15351390838623
+second_sentence_speaking_time:8.151188135147095
+********************
+timestamp:2024-03-03 23:08:18
+ack_sentence_speaking_time:3.025102138519287
+first_request_response_time:3.3687851428985596
+second_request_response_time:2.1391708850860596
+first_response_speaking_time:11.590585947036743
+second_sentence_speaking_time:10.83697509765625
+********************
+timestamp:2024-03-03 23:08:52
+ack_sentence_speaking_time:2.9942409992218018
+first_request_response_time:3.120742082595825
+second_request_response_time:2.746968984603882
+first_response_speaking_time:21.812031984329224
+second_sentence_speaking_time:3.7305331230163574
+********************

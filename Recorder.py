@@ -11,7 +11,7 @@ Once a t second silence has elapsed or a passphrase is recognized the whole text
 tagged and sent to the client.
 The class also gives the possibility of performing just a single recognition and returns the result.
 """
-from cairlib.DialogueTurn import DialogueTurn, TurnPiece
+from cair_libraries.DialogueTurn import DialogueTurn, TurnPiece
 from speaker_recognition_util import identify_speaker
 from datetime import datetime
 import azure.cognitiveservices.speech as speechsdk
