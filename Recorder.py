@@ -122,18 +122,38 @@ class Recorder:
                 prof_dict = json.load(f)
         else:
             prof_dict = {}
+        # Specify where the audio should be taken
+        audio_config = speechsdk.AudioConfig(filename=wav_filename)
+
         ident_speaker_id = ["00000000-0000-0000-0000-000000000000"]
         t2 = threading.Thread(target=self.speaker_recognition, args=(format(wav_filename), prof_dict, ident_speaker_id))
         if prof_dict:
             t2.start()
-        print("T1: Performing speech to text...")
-        audio_input = speechsdk.AudioConfig(filename=wav_filename)
-        speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_input)
+
+        # If there are no speaker registered and no one has talked, auto-detect the language to add tag to xml
+        if self.dialogue_turn.is_empty():
+            print("T1: Performing speech to text with auto-detection of language...")
+            # Specify list of languages among which it can choose for auto-detecting the source
+            auto_detect_source_language_config = speechsdk.languageconfig.AutoDetectSourceLanguageConfig(
+                languages=["en-US", "it-IT", "fr-FR", "es-ES"])
+            # Create speech recognizer object with the correct parameters
+            speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_config, auto_detect_source_language_config=auto_detect_source_language_config)
+        # If there are registered speakers
+        else:
+            speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_config)
         start_time = time.time()
-        result = speech_recognizer.recognize_once_async().get()
+        # Wait for the speech to text result
+        result = speech_recognizer.recognize_once()
         end_time = time.time()
         # If something has been recognized by Microsoft
-        if result.text:
+        if result.reason == speechsdk.ResultReason.RecognizedSpeech:
+            if self.dialogue_turn.is_empty():
+                # Extract the recognized language and redefine the speech config object for future recognitions.
+                language = result.properties[speechsdk.PropertyId.SpeechServiceConnection_AutoDetectSourceLanguageResult]
+                self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"],
+                                                            region="westeurope", speech_recognition_language=language)
+            else:
+                language = ""
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
@@ -153,10 +173,15 @@ class Recorder:
             ident_speaker_id = ident_speaker_id[0]
             # Add a turn piece only if the user said something more than the phrase to end the turn
             if sentence:
-                turn_piece = TurnPiece(ident_speaker_id, sentence, wav_duration)
+                turn_piece = TurnPiece(ident_speaker_id, sentence, language, wav_duration)
                 self.dialogue_turn.add_turn_piece(turn_piece)
-        else:
-            print("T1: Not able to perform speech to text!")
+        elif result.reason == speechsdk.ResultReason.NoMatch:
+            print("T1: No speech recognized.")
+        elif result.reason == speechsdk.ResultReason.Canceled:
+            cancellation_details = result.cancellation_details
+            print(f"T1: Recognition canceled: {cancellation_details.reason}")
+            if cancellation_details.reason == speechsdk.CancellationReason.Error:
+                print(f"T1: Error details: {cancellation_details.error_details}")
         del speech_recognizer
         gc.collect()
         # Delete the original wav file without final silence

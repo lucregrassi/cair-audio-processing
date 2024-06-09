@@ -76,7 +76,7 @@ def acquire_user_gender(socket_connection):
 
 # This method acquires the name of the user by getting the transcription of the audio stream using Microsoft APIs and
 # sends the name to the client
-def acquire_user_age(socket_connection, r):
+def acquire_user_age(socket_connection):
     socket_connection.recv(256).decode('utf-8')
     user_age = ""
     # result = r.listen_once()
@@ -94,10 +94,10 @@ def perform_enrollment(socket_connection, prof_id):
     socket_connection.recv(256).decode('utf-8')
     date_time = time.strftime("%Y%m%d-%H%M%S")
     filename = os.path.join(os.getcwd() + "/" + prof_id, '{}.wav'.format(date_time))
-    # TODO: UNCOMMENT TO REALLY REGISTER SOMEONE NEW - avoid for testing
+    # Wait 5 seconds so that the person starts talking
     time.sleep(5)
     from_speech_to_wav(filename)
-    # TODO: comment the following line (or delete - only for testing)
+    # TODO: comment the previous line and uncomment the following line for testing
     # shutil.copyfile("test_registration.wav", filename)
     # ------------------------------------------------
     create_enrollment(prof_id, filename)
