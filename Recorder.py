@@ -7,8 +7,9 @@ Affiliation: RICE, DIBRIS, University of Genoa, Italy
 
 This file contains the Recorder class that acquires data from the microphone everytime the noise exceeds a rms threshold.
 The audio is split each t seconds, and it is transcribed using microsoft APIs.
-Once a t second silence has elapsed or a passphrase is recognized the whole text is transcribed,
-tagged and sent to the client.
+Once a T second silence has elapsed or a passphrase is recognized, first the client is informed that the user has finished
+speaking, then the result of the whole transcription is returned. If nobody talks for more than n seconds, the Recorder
+sends a message to the client so that it can decide whether to do something or to return to listening.
 The class also gives the possibility of performing just a single recognition and returns the result.
 """
 from cair_libraries.DialogueTurn import DialogueTurn, TurnPiece
@@ -40,6 +41,8 @@ exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
 log_filename = "logs/microphone_log.txt"
 file_lock = threading.Lock()
+# Seconds of silence after which the audio recorder writes "timeout" on the socket
+TIMEOUT = 10
 
 
 class Recorder:
@@ -244,51 +247,66 @@ class Recorder:
             self.t1 = threading.Thread(target=self.speech_recognition, args=(filename,))
             self.t1.start()
 
-    def listen_continuous(self, server_recorder_socket):
+    def listen_continuous(self, microphone_socket):
         while True:
             print("*** Waiting for the client to connect ***")
-            connection, address = server_recorder_socket.accept()
+            connection, address = microphone_socket.accept()
             print("*** Waiting for client to be ready ***")
             connection.recv(256).decode('utf-8')
             self.stream.start_stream()
+            # Initialize start time for timeout
+            timeout_start_time = time.time()
             print("*** Listening ***")
             while True:
                 self.dialogue_turn = DialogueTurn()
+                # Update times for final silence
                 current = time.time()
                 end = time.time() + final_silence_time
+                timeout = False
                 while current <= end:
                     audio_input = self.stream.read(chunk, exception_on_overflow=False)
                     rms_val = self.rms(audio_input)
                     if rms_val > rms_threshold:
                         self.record()
+                        print("Reset end time and start of silence")
                         end = time.time() + final_silence_time
+                        timeout_start_time = time.time()
                     else:
+                        timeout_end_time = time.time()
+                        print(timeout_end_time - timeout_start_time)
+                        if timeout_end_time - timeout_start_time > TIMEOUT:
+                            timeout = True
+                            print("SILENCE TIMEOUT")
+                            connection.send("timeout".encode('utf-8'))
+                            break
                         self.prev_input.append(audio_input)
                         if len(self.prev_input) > self.max_chunks:
                             self.prev_input = self.prev_input[1:]
                         current = time.time()
-                if self.dialogue_turn.get_text() not in ["", " "]:
+                if self.dialogue_turn.get_text() not in ["", " "] or timeout:
+                    print("** Something has been recognized or timeout")
                     self.stream.stop_stream()
-                    time_after_final_silence = time.time()
-                    # as soon as the user has finished talking, send an ack to the server
-                    connection.send("user finished talking".encode('utf-8'))
-                    # To check if client is still connected and has received the message
-                    client_msg = connection.recv(256).decode('utf-8')
-                    if client_msg == "":
-                        print("*** Client disconnected from socket! ***")
-                        break
-                    print("*** Waiting for last thread to finish transcription ***")
-                    self.t1.join()
-                    time_after_final_chunk_transcription = time.time()
-                    with file_lock:
-                        final_delay = time_after_final_chunk_transcription - time_after_final_silence
-                        self.log.write("final_delay_time:" + str(final_delay) + "\n")
-                        self.log.write("********************\n")
-                    print("Recognized string:", self.dialogue_turn.get_text())
-                    xml_string = self.dialogue_turn.to_xml_string()
-                    print("*** Sending to client:", xml_string)
-                    # Useless to surround with a try - except because send does not care
-                    connection.send(xml_string.encode('utf-8'))
+                    if not timeout:
+                        time_after_final_silence = time.time()
+                        # as soon as the user has finished talking, send an ack to the server
+                        connection.send("user finished talking".encode('utf-8'))
+                        # To check if client is still connected and has received the message
+                        client_msg = connection.recv(256).decode('utf-8')
+                        if client_msg == "":
+                            print("*** Client disconnected from socket! ***")
+                            break
+                        print("*** Waiting for last thread to finish transcription ***")
+                        self.t1.join()
+                        time_after_final_chunk_transcription = time.time()
+                        with file_lock:
+                            final_delay = time_after_final_chunk_transcription - time_after_final_silence
+                            self.log.write("final_delay_time:" + str(final_delay) + "\n" \
+                                           "********************\n")
+                        print("Recognized string:", self.dialogue_turn.get_text())
+                        xml_string = self.dialogue_turn.to_xml_string()
+                        print("*** Sending to client:", xml_string)
+                        # Useless to surround with a try - except because send does not care
+                        connection.send(xml_string.encode('utf-8'))
                     print("*** Waiting for client to be ready ***")
                     client_msg = connection.recv(256).decode('utf-8')
                     if client_msg == "":
@@ -297,6 +315,8 @@ class Recorder:
                     # Empty the dialogue turn in case in the meanwhile a thread has written something
                     self.dialogue_turn = DialogueTurn()
                     self.stream.start_stream()
+                    # Reset timeout start time
+                    timeout_start_time = time.time()
                     print("*** Listening ***")
 
     def listen_wait(self, server_recorder_socket):

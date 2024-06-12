@@ -115,12 +115,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if not args.language:
         print("No language provided. The default English language will be used.")
-        language = "en-GB"
+        language = "en-US"
     else:
-        if args.language == "it":
+        if args.language == "it-IT":
             language = "it-IT"
         else:
-            language = "en-GB"
+            language = "en-US"
         print("The language has been set to", language)
 
     speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"], region="westeurope",
