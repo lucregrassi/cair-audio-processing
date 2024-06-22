@@ -6,4 +6,4 @@ google-cloud-speech
 gTTS
 playsound
 python-dotenv
-git+https://github.com/lucregrassi/cair_libraries.git#egg=cair_libraries
+git+https://github.com/lucregrassi/cair_libraries.git@v4.0#egg=cair_libraries
