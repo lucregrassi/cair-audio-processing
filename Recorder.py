@@ -45,6 +45,16 @@ file_lock = threading.Lock()
 TIMEOUT = 10
 
 
+def print_colored(message, color):
+    """Prints an error message in red."""
+    if color == "red":
+        print(f"\033[91m{message}\033[0m")
+    elif color == "blue":
+        print(f"\033[94m{message}\033[0m")
+    elif color == "green":
+        print(f"\033[92m{message}\033[0m")
+
+
 class Recorder:
     def __init__(self, lang):
         self.p = pyaudio.PyAudio()
@@ -205,7 +215,7 @@ class Recorder:
         return rms * 1000
 
     def record(self):
-        print('*** Noise detected: start recording ***')
+        print_colored("Noise detected: start recording", "blue")
         rec = []
         if self.prev_input:
             for c in self.prev_input:
@@ -238,7 +248,7 @@ class Recorder:
         wf.setframerate(rate)
         wf.writeframes(recording)
         wf.close()
-        print('*** Recording saved. Return to listening ***')
+        print_colored("Recording saved. Return to listening", "green")
         # print('Written to file: {}'.format(filename))
         if self.mode == "continuous":
             self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=(filename, wav_duration,))
@@ -249,14 +259,14 @@ class Recorder:
 
     def listen_continuous(self, microphone_socket):
         while True:
-            print("*** Waiting for the client to connect ***")
+            print_colored("Waiting for the client to connect", "blue")
             connection, address = microphone_socket.accept()
-            print("*** Waiting for client to be ready ***")
+            print_colored("Waiting for client to be ready", "blue")
             connection.recv(256).decode('utf-8')
             self.stream.start_stream()
             # Initialize start time for timeout
             timeout_start_time = time.time()
-            print("*** Listening ***")
+            print_colored("Listening", "green")
             while True:
                 self.dialogue_turn = DialogueTurn()
                 # Update times for final silence
@@ -273,18 +283,17 @@ class Recorder:
                         timeout_start_time = time.time()
                     else:
                         timeout_end_time = time.time()
-                        print(timeout_end_time - timeout_start_time)
                         if timeout_end_time - timeout_start_time > TIMEOUT:
                             timeout = True
-                            print("SILENCE TIMEOUT")
+                            print_colored("SILENCE TIMEOUT", "red")
                             connection.send("timeout".encode('utf-8'))
                             break
                         self.prev_input.append(audio_input)
                         if len(self.prev_input) > self.max_chunks:
                             self.prev_input = self.prev_input[1:]
                         current = time.time()
-                if self.dialogue_turn.get_text() not in ["", " "] or timeout:
-                    print("** Something has been recognized or timeout")
+                if self.dialogue_turn.get_text() not in ["", ""] or timeout:
+                    print("Something recognized or timeout")
                     self.stream.stop_stream()
                     if not timeout:
                         time_after_final_silence = time.time()
@@ -293,9 +302,9 @@ class Recorder:
                         # To check if client is still connected and has received the message
                         client_msg = connection.recv(256).decode('utf-8')
                         if client_msg == "":
-                            print("*** Client disconnected from socket! ***")
+                            print("Client disconnected from socket!")
                             break
-                        print("*** Waiting for last thread to finish transcription ***")
+                        print("Waiting for last thread to finish transcription")
                         self.t1.join()
                         time_after_final_chunk_transcription = time.time()
                         with file_lock:
@@ -304,29 +313,29 @@ class Recorder:
                                            "********************\n")
                         print("Recognized string:", self.dialogue_turn.get_text())
                         xml_string = self.dialogue_turn.to_xml_string()
-                        print("*** Sending to client:", xml_string)
+                        print("Sending to client:", xml_string)
                         # Useless to surround with a try - except because send does not care
                         connection.send(xml_string.encode('utf-8'))
-                    print("*** Waiting for client to be ready ***")
+                    print_colored("Waiting for client to be ready", "blue")
                     client_msg = connection.recv(256).decode('utf-8')
                     if client_msg == "":
-                        print("*** Client disconnected from socket! ***")
+                        print_colored("Client disconnected from socket!", "red")
                         break
                     # Empty the dialogue turn in case in the meanwhile a thread has written something
                     self.dialogue_turn = DialogueTurn()
                     self.stream.start_stream()
                     # Reset timeout start time
                     timeout_start_time = time.time()
-                    print("*** Listening ***")
+                    print_colored("Listening", "green")
 
     def listen_wait(self, server_recorder_socket):
         while True:
-            print("*** Waiting for the client to connect ***")
+            print_colored("Waiting for the client to connect", "blue")
             connection, address = server_recorder_socket.accept()
-            print("*** Waiting for client to be ready ***")
+            print_colored("Waiting for client to be ready",  "blue")
             connection.recv(256).decode('utf-8')
             self.stream.start_stream()
-            print("*** Listening ***")
+            print_colored("Listening", "green")
             sentence_type = ""
 
             while True:
@@ -361,22 +370,22 @@ class Recorder:
                     self.stream.stop_stream()
                     print("Recognized string:", self.dialogue_turn.get_text())
                     xml_string = self.dialogue_turn.to_xml_string()
-                    print("*** Sending to client:", xml_string)
+                    print("Sending to client:", xml_string)
                     # Useless to surround with a try - except because send does not care
                     connection.send(xml_string.encode('utf-8'))
-                    print("*** Waiting for client to be ready ***")
+                    print_colored("Waiting for client to be ready", "blue")
                     sentence_type = connection.recv(256).decode('utf-8')
                     if sentence_type == "":
-                        print("*** Client disconnected from socket! ***")
+                        print_colored("Client disconnected from socket!", "red")
                         break
                     # Empty the dialogue turn in case in the meanwhile a thread has written something
                     self.dialogue_turn = DialogueTurn()
                     self.stream.start_stream()
-                    print("*** Listening ***")
+                    print_colored("Listening", "green")
 
     def listen_once(self):
         self.mode = "once"
-        print("*** Listening ***")
+        print_colored("Listening", "green")
         self.recognized_text = ""
         self.stream.start_stream()
         while True:
