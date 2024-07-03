@@ -12,7 +12,7 @@ speaking, then the result of the whole transcription is returned. If nobody talk
 sends a message to the client so that it can decide whether to do something or to return to listening.
 The class also gives the possibility of performing just a single recognition and returns the result.
 """
-from cair_libraries.DialogueTurn import DialogueTurn, TurnPiece
+from cair_libraries.dialogue_turn import DialogueTurn, TurnPiece
 from speaker_recognition_util import identify_speaker
 from datetime import datetime
 import azure.cognitiveservices.speech as speechsdk
@@ -146,9 +146,9 @@ class Recorder:
         # If there are no speaker registered and no one has talked, auto-detect the language to add tag to xml
         if self.dialogue_turn.is_empty():
             print("T1: Performing speech to text with auto-detection of language...")
-            # Specify list of languages among which it can choose for auto-detecting the source
+            # Specify list of languages among which it can choose for auto-detecting the source (fr-FR, es-ES)
             auto_detect_source_language_config = speechsdk.languageconfig.AutoDetectSourceLanguageConfig(
-                languages=["en-US", "it-IT", "fr-FR", "es-ES"])
+                languages=["en-US", "it-IT"])
             # Create speech recognizer object with the correct parameters
             speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_config, auto_detect_source_language_config=auto_detect_source_language_config)
         # If there are registered speakers
