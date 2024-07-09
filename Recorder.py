@@ -66,7 +66,6 @@ class Recorder:
         for i in range(0, num_devices):
             device_info = self.p.get_device_info_by_host_api_device_index(0, i)
             device_name = device_info.get('name')
-            print(device_name)
             if (device_info.get('maxInputChannels')) > 0:
                 # print(self.p.get_device_info_by_host_api_device_index(0, i).get('name'))
                 if any(keyword in device_name for keyword in usb_keywords):
