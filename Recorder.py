@@ -62,7 +62,7 @@ class Recorder:
         self.p = pyaudio.PyAudio()
         info = self.p.get_host_api_info_by_index(0)
         num_devices = info.get('deviceCount')
-        usb_keywords = ["USBMIC", "USB PnP Audio Device"]
+        usb_keywords = ["USB-MIC", "USB PnP Audio Device"]
         chosen_device = "default microphone"
         input_device = -1
         for i in range(0, num_devices):
