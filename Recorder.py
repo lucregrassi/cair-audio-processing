@@ -61,20 +61,21 @@ class Recorder:
         info = self.p.get_host_api_info_by_index(0)
         num_devices = info.get('deviceCount')
         usb_keywords = ["USB Audio", "USB PnP Audio Device"]
+        device_name = "default microphone"
         input_device = -1
         for i in range(0, num_devices):
             device_info = self.p.get_device_info_by_host_api_device_index(0, i)
+            device_name = device_info.get('name')
             if (device_info.get('maxInputChannels')) > 0:
-                device_name = device_info.get('name')
                 # print(self.p.get_device_info_by_host_api_device_index(0, i).get('name'))
                 if any(keyword in device_name for keyword in usb_keywords):
                     input_device = i
         if input_device == -1:
-            print("Using default microphone")
+            print("Using", device_name)
             self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=True,
                                       frames_per_buffer=chunk, start=False)
         else:
-            print("Using USB PnP Audio Device")
+            print("Using", device_name)
             self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=True,
                                       frames_per_buffer=chunk, start=False, input_device_index=input_device)
 
