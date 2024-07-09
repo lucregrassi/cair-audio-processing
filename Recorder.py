@@ -34,6 +34,8 @@ chunk = 1024
 audio_format = pyaudio.paInt16
 channels = 1
 rate = 44100
+# USB-MIC
+# rate 192000
 s_width = 2
 split_silence_time = 0.5
 final_silence_time = 2
