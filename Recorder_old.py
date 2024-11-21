@@ -57,8 +57,7 @@ def print_colored(message, color):
 
 
 class Recorder:
-    def __init__(self, lang, auto_detect_language=True):
-        self.auto_detect_language = auto_detect_language
+    def __init__(self, lang):
         self.p = pyaudio.PyAudio()
         info = self.p.get_host_api_info_by_index(0)
         num_devices = info.get('deviceCount')
@@ -149,47 +148,30 @@ class Recorder:
         if prof_dict:
             t2.start()
 
-        # Configure the speech_recognizer based on the auto_detect_language parameter
-        if self.auto_detect_language:
-            # If there are no speaker registered and no one has talked, auto-detect the language to add tag to xml
-            if self.dialogue_turn.is_empty():
-                print("Performing speech to text with auto-detection of language...")
-                auto_detect_source_language_config = speechsdk.languageconfig.AutoDetectSourceLanguageConfig(
-                    languages=["en-US", "it-IT"]
-                )
-                speech_recognizer = speechsdk.SpeechRecognizer(
-                    speech_config=self.speech_config,
-                    audio_config=audio_config,
-                    auto_detect_source_language_config=auto_detect_source_language_config
-                )
-            else:
-                speech_recognizer = speechsdk.SpeechRecognizer(
-                    speech_config=self.speech_config,
-                    audio_config=audio_config
-                )
+        # If there are no speaker registered and no one has talked, auto-detect the language to add tag to xml
+        if self.dialogue_turn.is_empty():
+            print("T1: Performing speech to text with auto-detection of language...")
+            # Specify list of languages among which it can choose for auto-detecting the source (fr-FR, es-ES)
+            auto_detect_source_language_config = speechsdk.languageconfig.AutoDetectSourceLanguageConfig(
+                languages=["en-US", "it-IT"])
+            # Create speech recognizer object with the correct parameters
+            speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_config, auto_detect_source_language_config=auto_detect_source_language_config)
+        # If there are registered speakers
         else:
-            speech_recognizer = speechsdk.SpeechRecognizer(
-                speech_config=self.speech_config,
-                audio_config=audio_config
-            )
+            speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_config)
         start_time = time.time()
-        # Attendi il risultato del riconoscimento vocale
+        # Wait for the speech to text result
         result = speech_recognizer.recognize_once()
         end_time = time.time()
-        # Se qualcosa è stato riconosciuto
+        # If something has been recognized by Microsoft
         if result.reason == speechsdk.ResultReason.RecognizedSpeech:
-            if self.auto_detect_language:
-                if self.dialogue_turn.is_empty():
-                    # Extract the recognized language and redefine the speech config object for future recognitions.
-                    language = result.properties[
-                        speechsdk.PropertyId.SpeechServiceConnection_AutoDetectSourceLanguageResult]
-                    self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"],
-                                                                region="westeurope",
-                                                                speech_recognition_language=language)
-                else:
-                    language = ""
+            if self.dialogue_turn.is_empty():
+                # Extract the recognized language and redefine the speech config object for future recognitions.
+                language = result.properties[speechsdk.PropertyId.SpeechServiceConnection_AutoDetectSourceLanguageResult]
+                self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"],
+                                                            region="westeurope", speech_recognition_language=language)
             else:
-                language = self.speech_config.speech_recognition_language
+                language = ""
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
