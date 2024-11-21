@@ -9,8 +9,8 @@ This script logs data related to the dialogue and vision from the client
 """
 import socket
 
-log_dialogue_filename = "logs/client_dialogue_log.txt"
-log_vision_filename = "logs/client_vision_log.txt"
+log_dialogue_filename = "logs/client_dialogue_log_paraplegia.txt"
+log_vision_filename = "logs/client_vision_log_paraplegia.txt"
 
 dialogue_logfile = open(log_dialogue_filename, 'a+')
 vision_logfile = open(log_vision_filename, 'a+')
