@@ -34,7 +34,9 @@ short_normalize = (1.0 / 32768.0)
 chunk = 1024
 audio_format = pyaudio.paInt16
 channels = 1
-rate = 44100
+# rate = 44100
+# Alterego mic rate
+rate = 192000
 s_width = 2
 split_silence_time = 0.5
 final_silence_time = 2
