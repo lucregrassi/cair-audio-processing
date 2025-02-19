@@ -34,14 +34,14 @@ short_normalize = (1.0 / 32768.0)
 chunk = 1024
 audio_format = pyaudio.paInt16
 channels = 1
-rate = 44100
-#rate = 192000
+# rate = 44100
+rate = 192000
 s_width = 2
 split_silence_time = 0.5
 final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
-log_filename = "logs/microphone_log_paraplegia.txt"
+log_filename = "logs/microphone_log.txt"
 file_lock = threading.Lock()
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
 TIMEOUT = 30
