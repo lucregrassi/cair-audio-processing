@@ -35,6 +35,7 @@ chunk = 1024
 audio_format = pyaudio.paInt16
 channels = 1
 rate = 44100
+#rate = 192000
 s_width = 2
 split_silence_time = 0.5
 final_silence_time = 2
@@ -43,7 +44,7 @@ exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 log_filename = "logs/microphone_log_paraplegia.txt"
 file_lock = threading.Lock()
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
-TIMEOUT = 10
+TIMEOUT = 30
 
 
 def print_colored(message, color):
@@ -68,12 +69,13 @@ class Recorder:
         for i in range(0, num_devices):
             device_info = self.p.get_device_info_by_host_api_device_index(0, i)
             device_name = device_info.get('name')
+            print("Device found: ", device_name, " info: ", device_info)
             if (device_info.get('maxInputChannels')) > 0:
                 if any(keyword in device_name for keyword in usb_keywords):
                     input_device = i
                     chosen_device = device_name
         if input_device == -1:
-            print("Using", chosen_device)
+            print("Using default", chosen_device)
             self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=True,
                                       frames_per_buffer=chunk, start=False)
         else:

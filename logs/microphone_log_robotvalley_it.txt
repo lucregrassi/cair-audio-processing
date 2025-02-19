@@ -1,0 +1,3247 @@
+timestamp:2024-04-19 10:06:46
+chunk_duration:1.2392423152923584
+chunk_speech_to_text_time:1.335829257965088
+final_delay_time:0.009386777877807617
+********************
+timestamp:2024-04-19 10:08:02
+chunk_duration:1.410085678100586
+chunk_speech_to_text_time:0.7471158504486084
+final_delay_time:0.10274529457092285
+********************
+timestamp:2024-04-19 10:08:25
+chunk_duration:1.4885878562927246
+chunk_speech_to_text_time:0.754119873046875
+final_delay_time:0.013917922973632812
+********************
+timestamp:2024-04-19 10:09:02
+chunk_duration:1.1153323650360107
+chunk_speech_to_text_time:0.7499654293060303
+final_delay_time:0.19768953323364258
+********************
+timestamp:2024-04-19 10:19:29
+chunk_duration:0.9139406681060791
+chunk_speech_to_text_time:0.6679337024688721
+final_delay_time:0.05100369453430176
+********************
+timestamp:2024-04-19 10:20:20
+chunk_duration:0.8680121898651123
+chunk_speech_to_text_time:2.6065969467163086
+final_delay_time:0.0744783878326416
+********************
+timestamp:2024-04-19 10:24:30
+chunk_duration:1.1940507888793945
+chunk_speech_to_text_time:0.7625513076782227
+final_delay_time:0.012707948684692383
+********************
+timestamp:2024-04-19 10:24:51
+chunk_duration:1.441906213760376
+chunk_speech_to_text_time:1.1285090446472168
+final_delay_time:0.022207260131835938
+********************
+timestamp:2024-04-19 10:25:23
+chunk_duration:2.3558945655822754
+chunk_speech_to_text_time:1.3030016422271729
+final_delay_time:0.017199993133544922
+********************
+timestamp:2024-04-19 10:25:47
+chunk_duration:2.153111696243286
+chunk_speech_to_text_time:0.7249224185943604
+final_delay_time:0.06787919998168945
+********************
+timestamp:2024-04-19 10:26:08
+chunk_duration:1.4089303016662598
+chunk_speech_to_text_time:0.7798898220062256
+final_delay_time:0.11415314674377441
+********************
+timestamp:2024-04-19 10:26:49
+chunk_duration:1.4880402088165283
+chunk_speech_to_text_time:0.85019850730896
+final_delay_time:0.012482643127441406
+********************
+timestamp:2024-04-19 10:37:16
+chunk_duration:1.6570651531219482
+chunk_speech_to_text_time:0.865248441696167
+final_delay_time:0.01820969581604004
+********************
+timestamp:2024-04-19 10:38:26
+chunk_duration:1.1160285472869873
+chunk_speech_to_text_time:0.6894128322601318
+final_delay_time:0.0468297004699707
+********************
+timestamp:2024-04-19 10:38:54
+chunk_duration:1.5340938568115234
+chunk_speech_to_text_time:0.840095043182373
+final_delay_time:0.014370441436767578
+********************
+timestamp:2024-04-19 10:48:26
+chunk_duration:0.6979796886444092
+chunk_speech_to_text_time:0.7651569843292236
+final_delay_time:0.0076100826263427734
+********************
+timestamp:2024-04-19 10:48:52
+chunk_duration:0.5740385055541992
+chunk_speech_to_text_time:1.1304543018341064
+final_delay_time:0.011633634567260742
+********************
+timestamp:2024-04-19 10:49:11
+chunk_duration:0.5415143966674805
+chunk_speech_to_text_time:1.473214864730835
+timestamp:2024-04-19 10:49:12
+chunk_duration:0.6199932098388672
+chunk_speech_to_text_time:1.455956220626831
+timestamp:2024-04-19 10:49:15
+chunk_duration:0.8216063976287842
+chunk_speech_to_text_time:0.9863147735595703
+timestamp:2024-04-19 10:49:16
+chunk_duration:0.5733973979949951
+chunk_speech_to_text_time:1.2045421600341797
+final_delay_time:0.025884389877319336
+********************
+timestamp:2024-04-19 10:49:37
+chunk_duration:0.7900052070617676
+chunk_speech_to_text_time:2.0728511810302734
+final_delay_time:0.023184776306152344
+********************
+timestamp:2024-04-19 10:49:55
+chunk_duration:0.5726678371429443
+chunk_speech_to_text_time:1.6153895854949951
+final_delay_time:0.010346174240112305
+********************
+timestamp:2024-04-19 10:50:21
+chunk_duration:2.0301475524902344
+chunk_speech_to_text_time:2.271799325942993
+final_delay_time:0.06427216529846191
+********************
+timestamp:2024-04-19 10:50:59
+chunk_duration:0.6193342208862305
+chunk_speech_to_text_time:2.4073283672332764
+final_delay_time:4.981724977493286
+********************
+timestamp:2024-04-19 10:51:41
+chunk_duration:3.3943188190460205
+chunk_speech_to_text_time:2.7320849895477295
+final_delay_time:0.009058237075805664
+********************
+timestamp:2024-04-19 10:53:28
+chunk_duration:1.038013219833374
+chunk_speech_to_text_time:1.567084550857544
+final_delay_time:0.011844635009765625
+********************
+timestamp:2024-04-19 10:54:02
+chunk_duration:0.6196243762969971
+chunk_speech_to_text_time:1.4923033714294434
+timestamp:2024-04-19 10:54:04
+chunk_duration:1.8145873546600342
+chunk_speech_to_text_time:1.0864653587341309
+final_delay_time:0.016184568405151367
+********************
+timestamp:2024-04-19 10:56:13
+chunk_duration:0.9139876365661621
+chunk_speech_to_text_time:0.6990768909454346
+final_delay_time:0.012158393859863281
+********************
+timestamp:2024-04-19 10:56:44
+chunk_duration:0.6659212112426758
+chunk_speech_to_text_time:0.6171169281005859
+final_delay_time:0.007286787033081055
+********************
+timestamp:2024-04-19 11:09:09
+chunk_duration:1.2859439849853516
+chunk_speech_to_text_time:0.6916854381561279
+final_delay_time:0.03447580337524414
+********************
+timestamp:2024-04-19 11:09:29
+chunk_duration:1.4881255626678467
+chunk_speech_to_text_time:0.8530056476593018
+final_delay_time:0.009524106979370117
+********************
+timestamp:2024-04-19 11:10:17
+chunk_duration:1.7808945178985596
+chunk_speech_to_text_time:0.8678736686706543
+final_delay_time:0.010624408721923828
+********************
+timestamp:2024-04-19 11:23:37
+chunk_duration:0.5732536315917969
+chunk_speech_to_text_time:0.8271281719207764
+final_delay_time:0.011575937271118164
+********************
+timestamp:2024-04-19 11:29:41
+chunk_duration:1.0700488090515137
+chunk_speech_to_text_time:0.8743247985839844
+final_delay_time:0.05252480506896973
+********************
+timestamp:2024-04-19 11:30:06
+chunk_duration:1.0379698276519775
+chunk_speech_to_text_time:0.8446323871612549
+final_delay_time:0.008517742156982422
+********************
+timestamp:2024-04-19 11:31:12
+chunk_duration:3.269317150115967
+chunk_speech_to_text_time:1.3638060092926025
+final_delay_time:0.009585857391357422
+********************
+timestamp:2024-04-19 11:32:18
+chunk_duration:2.9760329723358154
+chunk_speech_to_text_time:2.885650634765625
+final_delay_time:0.010847091674804688
+********************
+timestamp:2024-04-19 11:32:53
+chunk_duration:1.4100666046142578
+chunk_speech_to_text_time:1.58475661277771
+final_delay_time:0.006711244583129883
+********************
+timestamp:2024-04-19 11:33:42
+chunk_duration:2.154175281524658
+chunk_speech_to_text_time:3.978827714920044
+final_delay_time:0.03718924522399902
+********************
+timestamp:2024-04-19 11:35:49
+chunk_duration:2.1082229614257812
+chunk_speech_to_text_time:3.4681403636932373
+final_delay_time:0.01734781265258789
+********************
+timestamp:2024-04-19 11:36:37
+chunk_duration:1.8601272106170654
+chunk_speech_to_text_time:4.9734132289886475
+final_delay_time:0.04211592674255371
+********************
+timestamp:2024-04-19 11:37:05
+chunk_duration:3.1773836612701416
+chunk_speech_to_text_time:5.896324396133423
+final_delay_time:0.010869264602661133
+********************
+timestamp:2024-04-19 11:37:34
+chunk_duration:2.845611810684204
+chunk_speech_to_text_time:3.1284244060516357
+final_delay_time:0.03470921516418457
+********************
+timestamp:2024-04-19 11:38:03
+chunk_duration:0.5739233493804932
+chunk_speech_to_text_time:1.9806182384490967
+final_delay_time:0.18598270416259766
+********************
+timestamp:2024-04-19 11:39:17
+chunk_duration:0.541862964630127
+chunk_speech_to_text_time:1.5100340843200684
+final_delay_time:0.03525567054748535
+********************
+timestamp:2024-04-19 11:39:50
+chunk_duration:1.1617622375488281
+chunk_speech_to_text_time:1.8283360004425049
+final_delay_time:0.0605623722076416
+********************
+timestamp:2024-04-19 11:40:10
+chunk_duration:1.6901581287384033
+chunk_speech_to_text_time:2.1953141689300537
+final_delay_time:0.018907785415649414
+********************
+timestamp:2024-04-19 11:40:40
+chunk_duration:1.162095546722412
+chunk_speech_to_text_time:1.6758921146392822
+final_delay_time:0.05241727828979492
+********************
+timestamp:2024-04-19 11:41:33
+chunk_duration:2.231182813644409
+chunk_speech_to_text_time:2.5321877002716064
+final_delay_time:0.028582096099853516
+********************
+timestamp:2024-04-19 11:42:02
+chunk_duration:1.2400634288787842
+chunk_speech_to_text_time:1.6440598964691162
+final_delay_time:0.02369976043701172
+********************
+timestamp:2024-04-19 11:43:06
+chunk_duration:1.1160757541656494
+chunk_speech_to_text_time:1.4696054458618164
+final_delay_time:0.05854153633117676
+********************
+timestamp:2024-04-19 11:43:54
+chunk_duration:1.1150133609771729
+chunk_speech_to_text_time:1.427924394607544
+final_delay_time:0.016182899475097656
+********************
+timestamp:2024-04-19 11:44:32
+chunk_duration:0.9919915199279785
+chunk_speech_to_text_time:2.2358174324035645
+final_delay_time:0.009437322616577148
+********************
+timestamp:2024-04-19 11:45:00
+chunk_duration:0.7897255420684814
+chunk_speech_to_text_time:2.1385366916656494
+timestamp:2024-04-19 11:45:09
+chunk_duration:0.8214061260223389
+chunk_speech_to_text_time:2.2356505393981934
+timestamp:2024-04-19 11:45:14
+chunk_duration:1.487093210220337
+chunk_speech_to_text_time:2.883364677429199
+final_delay_time:0.9949212074279785
+********************
+timestamp:2024-04-19 11:45:41
+chunk_duration:1.316725492477417
+chunk_speech_to_text_time:1.6925184726715088
+final_delay_time:0.037371158599853516
+********************
+timestamp:2024-04-19 11:46:25
+chunk_duration:0.6199960708618164
+chunk_speech_to_text_time:2.134629011154175
+final_delay_time:0.04920244216918945
+********************
+timestamp:2024-04-19 11:47:03
+chunk_duration:1.4422297477722168
+chunk_speech_to_text_time:1.9962875843048096
+final_delay_time:0.12162542343139648
+********************
+timestamp:2024-04-19 11:47:21
+chunk_duration:2.1851463317871094
+chunk_speech_to_text_time:2.6145100593566895
+final_delay_time:0.053003549575805664
+********************
+timestamp:2024-04-19 11:47:46
+chunk_duration:1.239880084991455
+chunk_speech_to_text_time:1.8065524101257324
+final_delay_time:0.10269951820373535
+********************
+timestamp:2024-04-19 11:48:11
+chunk_duration:1.7361094951629639
+chunk_speech_to_text_time:1.9336349964141846
+final_delay_time:0.06967473030090332
+********************
+timestamp:2024-04-19 11:48:41
+chunk_duration:0.6198868751525879
+chunk_speech_to_text_time:1.2280964851379395
+final_delay_time:0.012008905410766602
+********************
+timestamp:2024-04-19 11:49:08
+chunk_duration:1.9381897449493408
+chunk_speech_to_text_time:2.6528918743133545
+final_delay_time:0.10491204261779785
+********************
+timestamp:2024-04-19 11:50:33
+chunk_duration:0.61885666847229
+chunk_speech_to_text_time:1.6689739227294922
+final_delay_time:0.006220579147338867
+********************
+timestamp:2024-04-19 11:56:42
+chunk_duration:1.7320961952209473
+chunk_speech_to_text_time:1.255681037902832
+final_delay_time:0.05836606025695801
+********************
+timestamp:2024-04-19 12:24:52
+chunk_duration:0.9919734001159668
+chunk_speech_to_text_time:0.8641331195831299
+timestamp:2024-04-19 12:24:53
+chunk_duration:0.9139020442962646
+chunk_speech_to_text_time:0.8183929920196533
+final_delay_time:0.02413177490234375
+********************
+timestamp:2024-04-19 12:28:18
+chunk_duration:1.8601253032684326
+chunk_speech_to_text_time:1.2994105815887451
+timestamp:2024-04-19 12:28:21
+chunk_duration:1.1160790920257568
+chunk_speech_to_text_time:1.031510591506958
+final_delay_time:4.061460018157959
+********************
+timestamp:2024-04-19 12:28:39
+chunk_duration:1.1932764053344727
+chunk_speech_to_text_time:1.014343023300171
+final_delay_time:0.015452146530151367
+********************
+timestamp:2024-04-19 12:28:55
+chunk_duration:0.8680791854858398
+chunk_speech_to_text_time:1.256265640258789
+final_delay_time:0.007697105407714844
+********************
+timestamp:2024-04-19 12:30:37
+chunk_duration:0.5419645309448242
+chunk_speech_to_text_time:0.9588096141815186
+final_delay_time:0.014400005340576172
+********************
+timestamp:2024-04-19 12:43:38
+chunk_duration:1.1157877445220947
+chunk_speech_to_text_time:1.0751283168792725
+final_delay_time:0.012241363525390625
+********************
+timestamp:2024-04-19 12:44:13
+chunk_duration:2.107161045074463
+chunk_speech_to_text_time:1.0278887748718262
+final_delay_time:0.01329660415649414
+********************
+timestamp:2024-04-19 12:45:20
+chunk_duration:1.4413549900054932
+chunk_speech_to_text_time:0.9799997806549072
+final_delay_time:0.00794363021850586
+********************
+timestamp:2024-04-19 12:53:23
+chunk_duration:0.866621732711792
+chunk_speech_to_text_time:0.7497231960296631
+final_delay_time:0.039955854415893555
+********************
+timestamp:2024-04-19 12:53:39
+chunk_duration:2.3561501502990723
+chunk_speech_to_text_time:1.3815104961395264
+final_delay_time:0.05970358848571777
+********************
+timestamp:2024-04-19 12:54:05
+chunk_duration:1.4783072471618652
+chunk_speech_to_text_time:0.7880141735076904
+final_delay_time:0.03950214385986328
+********************
+timestamp:2024-04-19 12:54:25
+chunk_duration:2.277597427368164
+chunk_speech_to_text_time:1.0183074474334717
+final_delay_time:0.08441400527954102
+********************
+timestamp:2024-04-19 12:54:41
+chunk_duration:1.5652430057525635
+chunk_speech_to_text_time:0.865084171295166
+final_delay_time:0.023410797119140625
+********************
+timestamp:2024-04-19 13:37:07
+chunk_duration:0.8673462867736816
+chunk_speech_to_text_time:0.7584414482116699
+final_delay_time:0.005662441253662109
+********************
+timestamp:2024-04-19 14:20:42
+chunk_duration:1.3170547485351562
+chunk_speech_to_text_time:1.0572428703308105
+final_delay_time:0.05977678298950195
+********************
+timestamp:2024-04-19 14:21:11
+chunk_duration:0.619950532913208
+chunk_speech_to_text_time:0.6683058738708496
+final_delay_time:0.01572728157043457
+********************
+timestamp:2024-04-19 14:21:37
+chunk_duration:1.2400577068328857
+chunk_speech_to_text_time:0.8162500858306885
+final_delay_time:0.04960012435913086
+********************
+timestamp:2024-04-19 14:22:02
+chunk_duration:0.6198816299438477
+chunk_speech_to_text_time:0.8586316108703613
+final_delay_time:0.0167388916015625
+********************
+timestamp:2024-04-19 14:22:23
+chunk_duration:1.4871704578399658
+chunk_speech_to_text_time:1.0188050270080566
+final_delay_time:0.01239323616027832
+********************
+timestamp:2024-04-19 14:22:44
+chunk_duration:1.1940770149230957
+chunk_speech_to_text_time:0.7950186729431152
+final_delay_time:0.01126861572265625
+********************
+timestamp:2024-04-19 14:23:05
+chunk_duration:0.5739831924438477
+chunk_speech_to_text_time:0.9229440689086914
+final_delay_time:0.01557159423828125
+********************
+timestamp:2024-04-19 14:34:22
+chunk_duration:0.5736563205718994
+chunk_speech_to_text_time:0.7117688655853271
+final_delay_time:0.015450239181518555
+********************
+timestamp:2024-04-19 15:13:46
+chunk_duration:1.1933269500732422
+chunk_speech_to_text_time:1.406754970550537
+final_delay_time:0.007188558578491211
+********************
+timestamp:2024-04-19 15:14:18
+chunk_duration:0.6200578212738037
+chunk_speech_to_text_time:0.7140939235687256
+final_delay_time:0.00809478759765625
+********************
+timestamp:2024-04-19 15:14:50
+chunk_duration:0.5731320381164551
+chunk_speech_to_text_time:0.8943173885345459
+final_delay_time:0.0842287540435791
+********************
+timestamp:2024-04-19 15:43:38
+chunk_duration:0.8662562370300293
+chunk_speech_to_text_time:1.1189279556274414
+final_delay_time:0.014842748641967773
+********************
+timestamp:2024-04-19 16:06:58
+chunk_duration:2.479581117630005
+chunk_speech_to_text_time:1.310476541519165
+final_delay_time:0.008536577224731445
+********************
+timestamp:2024-04-19 16:12:48
+chunk_duration:0.5739538669586182
+chunk_speech_to_text_time:0.6449699401855469
+timestamp:2024-04-19 16:12:52
+chunk_duration:1.565375566482544
+chunk_speech_to_text_time:0.6693353652954102
+final_delay_time:0.007814884185791016
+********************
+timestamp:2024-04-19 16:13:25
+chunk_duration:1.6121015548706055
+chunk_speech_to_text_time:0.8679091930389404
+final_delay_time:0.014183759689331055
+********************
+timestamp:2024-04-19 16:13:49
+chunk_duration:0.6977646350860596
+chunk_speech_to_text_time:0.6166155338287354
+timestamp:2024-04-19 16:13:50
+chunk_duration:1.1942815780639648
+chunk_speech_to_text_time:0.6250746250152588
+final_delay_time:0.060205936431884766
+********************
+timestamp:2024-04-19 16:16:37
+chunk_duration:1.781970739364624
+chunk_speech_to_text_time:2.0739076137542725
+final_delay_time:0.009181737899780273
+********************
+timestamp:2024-04-19 16:21:58
+chunk_duration:1.2400012016296387
+chunk_speech_to_text_time:0.8447158336639404
+timestamp:2024-04-19 16:31:33
+chunk_duration:0.9919383525848389
+chunk_speech_to_text_time:3.3669545650482178
+final_delay_time:0.08025479316711426
+********************
+timestamp:2024-04-19 16:32:03
+chunk_duration:0.7439031600952148
+chunk_speech_to_text_time:1.0468151569366455
+final_delay_time:0.014294624328613281
+********************
+timestamp:2024-04-19 16:32:37
+chunk_duration:2.231480598449707
+chunk_speech_to_text_time:2.3273210525512695
+final_delay_time:0.010517358779907227
+********************
+timestamp:2024-04-19 16:32:52
+chunk_duration:0.6190237998962402
+chunk_speech_to_text_time:2.193868398666382
+timestamp:2024-04-19 16:32:52
+chunk_duration:0.6153302192687988
+chunk_speech_to_text_time:1.9834482669830322
+final_delay_time:1.2965424060821533
+********************
+timestamp:2024-04-19 16:33:18
+chunk_duration:0.6192662715911865
+chunk_speech_to_text_time:2.4087159633636475
+timestamp:2024-04-19 16:33:21
+chunk_duration:0.5739753246307373
+chunk_speech_to_text_time:1.1243329048156738
+final_delay_time:0.020819902420043945
+********************
+timestamp:2024-04-19 16:33:53
+chunk_duration:2.7282772064208984
+chunk_speech_to_text_time:1.7232162952423096
+final_delay_time:0.018342256546020508
+********************
+timestamp:2024-04-19 16:34:33
+chunk_duration:6.819729566574097
+chunk_speech_to_text_time:2.490920066833496
+final_delay_time:0.01907801628112793
+********************
+timestamp:2024-04-19 16:34:52
+chunk_duration:1.0700483322143555
+chunk_speech_to_text_time:1.1093802452087402
+final_delay_time:0.02517986297607422
+********************
+timestamp:2024-04-19 16:35:15
+chunk_duration:4.2619309425354
+chunk_speech_to_text_time:1.607774019241333
+final_delay_time:0.014419078826904297
+********************
+timestamp:2024-04-19 16:35:34
+chunk_duration:0.7439358234405518
+chunk_speech_to_text_time:0.9481410980224609
+final_delay_time:0.013937234878540039
+********************
+timestamp:2024-04-19 16:36:03
+chunk_duration:3.3022968769073486
+chunk_speech_to_text_time:1.3759448528289795
+final_delay_time:0.02478337287902832
+********************
+timestamp:2024-04-19 16:36:24
+chunk_duration:3.4717912673950195
+chunk_speech_to_text_time:2.225977659225464
+timestamp:2024-04-19 16:36:26
+chunk_duration:2.929979085922241
+chunk_speech_to_text_time:1.2893612384796143
+final_delay_time:0.049462318420410156
+********************
+timestamp:2024-04-19 16:36:46
+chunk_duration:0.8218119144439697
+chunk_speech_to_text_time:0.6425418853759766
+final_delay_time:0.013831377029418945
+********************
+timestamp:2024-04-19 16:37:09
+chunk_duration:2.9300644397735596
+chunk_speech_to_text_time:2.7830677032470703
+timestamp:2024-04-19 16:37:13
+chunk_duration:4.404520034790039
+chunk_speech_to_text_time:1.4121882915496826
+final_delay_time:0.009392976760864258
+********************
+timestamp:2024-04-19 16:37:30
+chunk_duration:0.8219685554504395
+chunk_speech_to_text_time:0.7170915603637695
+final_delay_time:0.1891646385192871
+********************
+timestamp:2024-04-19 16:38:04
+chunk_duration:1.7819035053253174
+chunk_speech_to_text_time:0.8193085193634033
+final_delay_time:0.009279251098632812
+********************
+timestamp:2024-04-19 16:38:43
+chunk_duration:1.736119031906128
+chunk_speech_to_text_time:0.7967009544372559
+final_delay_time:0.04697132110595703
+********************
+timestamp:2024-04-19 16:39:04
+chunk_duration:2.029613733291626
+chunk_speech_to_text_time:0.841435432434082
+final_delay_time:0.0920877456665039
+********************
+timestamp:2024-04-19 16:39:29
+chunk_duration:1.736398696899414
+chunk_speech_to_text_time:0.8285326957702637
+final_delay_time:0.11507105827331543
+********************
+timestamp:2024-04-19 16:39:44
+chunk_duration:0.6973698139190674
+chunk_speech_to_text_time:0.7093691825866699
+final_delay_time:0.1867692470550537
+********************
+timestamp:2024-04-19 16:40:03
+chunk_duration:0.6199913024902344
+chunk_speech_to_text_time:0.8292036056518555
+final_delay_time:0.01859569549560547
+********************
+timestamp:2024-04-19 16:40:19
+chunk_duration:1.7823479175567627
+chunk_speech_to_text_time:1.058394193649292
+final_delay_time:0.012068986892700195
+********************
+timestamp:2024-04-19 16:40:36
+chunk_duration:1.6110310554504395
+chunk_speech_to_text_time:0.7227272987365723
+final_delay_time:0.03296494483947754
+********************
+timestamp:2024-04-19 16:40:52
+chunk_duration:0.6980345249176025
+chunk_speech_to_text_time:0.6518111228942871
+final_delay_time:0.014949560165405273
+********************
+timestamp:2024-04-19 16:41:10
+chunk_duration:1.0696666240692139
+chunk_speech_to_text_time:0.6189272403717041
+final_delay_time:0.0251767635345459
+********************
+timestamp:2024-04-19 16:41:28
+chunk_duration:1.8591103553771973
+chunk_speech_to_text_time:0.8162190914154053
+final_delay_time:0.008950233459472656
+********************
+timestamp:2024-04-19 16:41:49
+chunk_duration:1.2393343448638916
+chunk_speech_to_text_time:0.862299919128418
+timestamp:2024-04-19 16:41:50
+chunk_duration:0.7437357902526855
+chunk_speech_to_text_time:0.5915737152099609
+timestamp:2024-04-19 16:41:51
+chunk_duration:0.9450473785400391
+chunk_speech_to_text_time:0.6292276382446289
+final_delay_time:0.007285594940185547
+********************
+timestamp:2024-04-19 16:42:17
+chunk_duration:2.3561389446258545
+chunk_speech_to_text_time:1.0092062950134277
+final_delay_time:0.013873100280761719
+********************
+timestamp:2024-04-19 16:42:40
+chunk_duration:1.9840905666351318
+chunk_speech_to_text_time:0.9362926483154297
+final_delay_time:0.01396942138671875
+********************
+timestamp:2024-04-19 16:42:53
+chunk_duration:0.6200118064880371
+chunk_speech_to_text_time:0.7310299873352051
+final_delay_time:0.06868529319763184
+********************
+timestamp:2024-04-19 16:43:22
+chunk_duration:3.7191734313964844
+chunk_speech_to_text_time:1.0161869525909424
+timestamp:2024-04-19 16:43:26
+chunk_duration:1.814178228378296
+chunk_speech_to_text_time:0.7630836963653564
+timestamp:2024-04-19 16:43:29
+chunk_duration:1.1940665245056152
+chunk_speech_to_text_time:0.6687343120574951
+final_delay_time:0.0067768096923828125
+********************
+timestamp:2024-04-19 16:44:43
+chunk_duration:0.5738627910614014
+chunk_speech_to_text_time:0.7261650562286377
+final_delay_time:0.24606060981750488
+********************
+timestamp:2024-04-19 16:52:25
+chunk_duration:1.0698034763336182
+chunk_speech_to_text_time:0.6964988708496094
+final_delay_time:0.008074045181274414
+********************
+timestamp:2024-04-19 16:53:06
+chunk_duration:1.4870617389678955
+chunk_speech_to_text_time:0.8336138725280762
+final_delay_time:0.01938462257385254
+********************
+timestamp:2024-04-19 16:54:15
+chunk_duration:1.983917474746704
+chunk_speech_to_text_time:5.91915225982666
+final_delay_time:0.01349186897277832
+********************
+timestamp:2024-04-19 16:58:42
+chunk_duration:1.1153838634490967
+chunk_speech_to_text_time:0.7446911334991455
+final_delay_time:0.06823539733886719
+********************
+timestamp:2024-04-19 16:59:00
+chunk_duration:0.868544340133667
+chunk_speech_to_text_time:0.8139834403991699
+timestamp:2024-04-19 16:59:01
+chunk_duration:0.6200783252716064
+chunk_speech_to_text_time:5.674687385559082
+timestamp:2024-04-19 16:59:03
+chunk_duration:1.1193761825561523
+chunk_speech_to_text_time:2.1111538410186768
+final_delay_time:0.2178959846496582
+********************
+timestamp:2024-04-19 17:00:08
+chunk_duration:1.1160540580749512
+chunk_speech_to_text_time:0.7227208614349365
+final_delay_time:0.008379936218261719
+********************
+timestamp:2024-04-19 17:00:22
+chunk_duration:3.1003735065460205
+chunk_speech_to_text_time:1.238245964050293
+final_delay_time:0.008020401000976562
+********************
+timestamp:2024-04-19 17:03:27
+chunk_duration:1.3181793689727783
+chunk_speech_to_text_time:0.9620349407196045
+final_delay_time:0.013228416442871094
+********************
+timestamp:2024-04-19 17:04:16
+chunk_duration:0.6979665756225586
+chunk_speech_to_text_time:0.704035758972168
+final_delay_time:0.1437389850616455
+********************
+timestamp:2024-04-19 17:04:37
+chunk_duration:0.8670449256896973
+chunk_speech_to_text_time:1.7415423393249512
+final_delay_time:0.021271944046020508
+********************
+timestamp:2024-04-19 17:04:54
+chunk_duration:1.690096378326416
+chunk_speech_to_text_time:1.0367214679718018
+final_delay_time:0.011255025863647461
+********************
+timestamp:2024-04-19 17:10:29
+chunk_duration:0.7439446449279785
+chunk_speech_to_text_time:1.0053904056549072
+final_delay_time:0.015115022659301758
+********************
+timestamp:2024-04-19 17:11:08
+chunk_duration:1.3633756637573242
+chunk_speech_to_text_time:1.53080415725708
+final_delay_time:0.009958982467651367
+********************
+timestamp:2024-04-19 17:11:50
+chunk_duration:1.658123254776001
+chunk_speech_to_text_time:0.8732755184173584
+final_delay_time:0.01110219955444336
+********************
+timestamp:2024-04-19 17:12:12
+chunk_duration:0.5740165710449219
+chunk_speech_to_text_time:0.7950379848480225
+final_delay_time:0.021055221557617188
+********************
+timestamp:2024-04-19 17:12:33
+chunk_duration:1.3181183338165283
+chunk_speech_to_text_time:1.0093371868133545
+final_delay_time:0.008689641952514648
+********************
+timestamp:2024-04-19 17:12:51
+chunk_duration:1.4882760047912598
+chunk_speech_to_text_time:1.052469253540039
+final_delay_time:0.01968669891357422
+********************
+timestamp:2024-04-19 17:15:51
+chunk_duration:0.9920103549957275
+chunk_speech_to_text_time:0.8861711025238037
+final_delay_time:0.009058713912963867
+********************
+timestamp:2024-04-19 17:16:18
+chunk_duration:1.859433650970459
+chunk_speech_to_text_time:1.2715327739715576
+final_delay_time:0.012888908386230469
+********************
+timestamp:2024-04-19 17:16:41
+chunk_duration:1.240518569946289
+chunk_speech_to_text_time:0.6911900043487549
+final_delay_time:0.03131294250488281
+********************
+timestamp:2024-04-19 17:17:05
+chunk_duration:2.1081926822662354
+chunk_speech_to_text_time:1.0289764404296875
+final_delay_time:0.009704351425170898
+********************
+timestamp:2024-04-19 17:17:29
+chunk_duration:1.4871275424957275
+chunk_speech_to_text_time:0.8841323852539062
+final_delay_time:0.018052339553833008
+********************
+timestamp:2024-04-19 17:31:37
+chunk_duration:0.8220040798187256
+chunk_speech_to_text_time:1.0670640468597412
+final_delay_time:0.06706523895263672
+********************
+timestamp:2024-04-19 18:00:56
+chunk_duration:0.6199691295623779
+chunk_speech_to_text_time:0.6393394470214844
+final_delay_time:0.010962724685668945
+********************
+timestamp:2024-04-19 18:01:21
+chunk_duration:0.8212785720825195
+chunk_speech_to_text_time:0.7902853488922119
+timestamp:2024-04-19 18:01:22
+chunk_duration:0.6265382766723633
+chunk_speech_to_text_time:0.696622371673584
+final_delay_time:0.012226104736328125
+********************
+timestamp:2024-04-19 18:01:45
+chunk_duration:0.5737953186035156
+chunk_speech_to_text_time:0.7575476169586182
+timestamp:2024-04-19 18:01:46
+chunk_duration:0.6200027465820312
+chunk_speech_to_text_time:0.7410023212432861
+final_delay_time:0.010460615158081055
+********************
+timestamp:2024-04-19 18:02:09
+chunk_duration:2.309034585952759
+chunk_speech_to_text_time:1.1496949195861816
+final_delay_time:0.014111518859863281
+********************
+timestamp:2024-04-19 18:02:34
+chunk_duration:0.5740225315093994
+chunk_speech_to_text_time:0.754718542098999
+timestamp:2024-04-19 18:02:36
+chunk_duration:1.486973524093628
+chunk_speech_to_text_time:0.9646413326263428
+timestamp:2024-04-19 18:02:37
+chunk_duration:0.6976721286773682
+chunk_speech_to_text_time:0.6364233493804932
+timestamp:2024-04-19 18:02:39
+chunk_duration:0.6198527812957764
+chunk_speech_to_text_time:0.6705617904663086
+final_delay_time:0.009187459945678711
+********************
+timestamp:2024-04-19 18:03:33
+chunk_duration:0.6978821754455566
+chunk_speech_to_text_time:0.8191647529602051
+final_delay_time:0.012965679168701172
+********************
+timestamp:2024-04-19 18:04:38
+chunk_duration:0.619171142578125
+chunk_speech_to_text_time:0.7619092464447021
+timestamp:2024-04-19 18:04:38
+chunk_duration:0.5419785976409912
+chunk_speech_to_text_time:0.6063778400421143
+final_delay_time:0.008074760437011719
+********************
+timestamp:2024-04-19 18:05:06
+chunk_duration:0.6198935508728027
+chunk_speech_to_text_time:0.6596863269805908
+final_delay_time:0.006981849670410156
+********************
+timestamp:2024-04-19 18:05:21
+chunk_duration:0.6189353466033936
+chunk_speech_to_text_time:0.5633647441864014
+final_delay_time:0.0072591304779052734
+********************
+timestamp:2024-04-19 18:06:05
+chunk_duration:2.773064613342285
+chunk_speech_to_text_time:1.0168068408966064
+final_delay_time:0.01070547103881836
+********************
+timestamp:2024-04-19 18:06:52
+chunk_duration:2.1081042289733887
+chunk_speech_to_text_time:0.9482557773590088
+final_delay_time:0.012157201766967773
+********************
+timestamp:2024-04-19 18:07:33
+chunk_duration:0.9140019416809082
+chunk_speech_to_text_time:0.8808426856994629
+final_delay_time:0.01183772087097168
+********************
+timestamp:2024-04-19 18:20:37
+chunk_duration:0.7422680854797363
+chunk_speech_to_text_time:0.6655406951904297
+timestamp:2024-04-19 18:20:38
+chunk_duration:0.5737810134887695
+chunk_speech_to_text_time:0.6964991092681885
+final_delay_time:0.012001276016235352
+********************
+timestamp:2024-04-19 18:20:56
+chunk_duration:0.8220553398132324
+chunk_speech_to_text_time:0.780360221862793
+final_delay_time:0.008089303970336914
+********************
+timestamp:2024-04-19 18:21:17
+chunk_duration:2.098745107650757
+chunk_speech_to_text_time:1.6962711811065674
+timestamp:2024-04-19 18:21:21
+chunk_duration:1.488248586654663
+chunk_speech_to_text_time:1.7383677959442139
+final_delay_time:0.012848138809204102
+********************
+timestamp:2024-04-19 18:21:39
+chunk_duration:1.6931452751159668
+chunk_speech_to_text_time:1.3000209331512451
+timestamp:2024-04-19 18:21:40
+chunk_duration:1.438093662261963
+chunk_speech_to_text_time:0.9423501491546631
+timestamp:2024-04-19 18:21:41
+chunk_duration:0.9922904968261719
+chunk_speech_to_text_time:0.7830662727355957
+final_delay_time:0.14123129844665527
+********************
+timestamp:2024-04-19 18:21:57
+chunk_duration:1.2400012016296387
+chunk_speech_to_text_time:1.2694313526153564
+timestamp:2024-04-19 18:21:57
+chunk_duration:0.573946475982666
+chunk_speech_to_text_time:0.7679195404052734
+final_delay_time:0.008761882781982422
+********************
+timestamp:2024-04-19 18:22:19
+chunk_duration:2.557039976119995
+chunk_speech_to_text_time:1.4221079349517822
+timestamp:2024-04-19 18:22:22
+chunk_duration:1.2860069274902344
+chunk_speech_to_text_time:2.0031304359436035
+final_delay_time:0.009361743927001953
+********************
+timestamp:2024-04-19 18:22:57
+chunk_duration:1.6110985279083252
+chunk_speech_to_text_time:1.8344511985778809
+timestamp:2024-04-19 18:22:57
+chunk_duration:0.7439968585968018
+chunk_speech_to_text_time:1.0517702102661133
+final_delay_time:0.008803129196166992
+********************
+timestamp:2024-04-19 18:23:12
+chunk_duration:1.3630964756011963
+chunk_speech_to_text_time:1.010301113128662
+final_delay_time:0.008793115615844727
+********************
+timestamp:2024-04-19 18:23:30
+chunk_duration:0.5420701503753662
+chunk_speech_to_text_time:0.6100211143493652
+timestamp:2024-04-19 18:23:34
+chunk_duration:0.8219642639160156
+chunk_speech_to_text_time:0.5624887943267822
+final_delay_time:0.007673501968383789
+********************
+timestamp:2024-04-19 18:24:01
+chunk_duration:4.711722135543823
+chunk_speech_to_text_time:2.533315658569336
+timestamp:2024-04-19 18:24:04
+chunk_duration:2.852221965789795
+chunk_speech_to_text_time:1.4507827758789062
+final_delay_time:0.06162095069885254
+********************
+timestamp:2024-04-19 18:24:41
+chunk_duration:0.8219959735870361
+chunk_speech_to_text_time:0.9510409832000732
+final_delay_time:0.007911205291748047
+********************
+timestamp:2024-04-19 18:25:11
+chunk_duration:2.356231212615967
+chunk_speech_to_text_time:1.0286550521850586
+timestamp:2024-04-19 18:25:13
+chunk_duration:1.28981351852417
+chunk_speech_to_text_time:0.9249968528747559
+timestamp:2024-04-19 18:25:13
+chunk_duration:0.9666116237640381
+chunk_speech_to_text_time:0.7759897708892822
+final_delay_time:0.01867842674255371
+********************
+timestamp:2024-04-19 18:30:59
+chunk_duration:1.162107229232788
+chunk_speech_to_text_time:1.8547439575195312
+final_delay_time:0.005646467208862305
+********************
+timestamp:2024-04-19 18:31:25
+timestamp:2024-04-20 10:14:23
+chunk_duration:0.8680257797241211
+chunk_speech_to_text_time:1.2544116973876953
+final_delay_time:0.013329505920410156
+********************
+timestamp:2024-04-20 10:14:44
+chunk_duration:1.487962007522583
+chunk_speech_to_text_time:0.8721733093261719
+final_delay_time:0.008959293365478516
+********************
+timestamp:2024-04-20 10:15:17
+chunk_duration:0.7899417877197266
+chunk_speech_to_text_time:0.8932511806488037
+final_delay_time:0.10202932357788086
+********************
+timestamp:2024-04-20 10:15:35
+chunk_duration:1.116025686264038
+chunk_speech_to_text_time:1.2479321956634521
+final_delay_time:0.07364892959594727
+********************
+timestamp:2024-04-20 10:15:55
+chunk_duration:1.194087266921997
+chunk_speech_to_text_time:0.6975226402282715
+final_delay_time:0.011927127838134766
+********************
+timestamp:2024-04-20 10:16:14
+chunk_duration:0.6980361938476562
+chunk_speech_to_text_time:1.0966897010803223
+final_delay_time:0.0087432861328125
+********************
+timestamp:2024-04-20 10:16:29
+chunk_duration:0.6979966163635254
+chunk_speech_to_text_time:0.903252124786377
+final_delay_time:0.007161140441894531
+********************
+timestamp:2024-04-20 10:16:48
+chunk_duration:0.9448568820953369
+chunk_speech_to_text_time:1.0984795093536377
+final_delay_time:0.010160207748413086
+********************
+timestamp:2024-04-20 10:17:08
+chunk_duration:1.3641281127929688
+chunk_speech_to_text_time:1.1364245414733887
+final_delay_time:0.006476640701293945
+********************
+timestamp:2024-04-20 10:29:09
+chunk_duration:1.1159675121307373
+chunk_speech_to_text_time:0.8654484748840332
+final_delay_time:0.02577042579650879
+********************
+timestamp:2024-04-20 10:30:46
+chunk_duration:1.3173449039459229
+chunk_speech_to_text_time:1.0325837135314941
+final_delay_time:0.030191898345947266
+********************
+timestamp:2024-04-20 10:39:24
+chunk_duration:1.782088279724121
+chunk_speech_to_text_time:0.6992154121398926
+final_delay_time:0.05843043327331543
+********************
+timestamp:2024-04-20 10:39:44
+chunk_duration:4.587404251098633
+chunk_speech_to_text_time:1.150186538696289
+final_delay_time:0.05169987678527832
+********************
+timestamp:2024-04-20 10:40:02
+chunk_duration:0.8680400848388672
+chunk_speech_to_text_time:0.7279698848724365
+final_delay_time:0.07330632209777832
+********************
+timestamp:2024-04-20 10:40:39
+chunk_duration:0.5419595241546631
+chunk_speech_to_text_time:0.5680007934570312
+timestamp:2024-04-20 10:40:41
+chunk_duration:0.6198198795318604
+chunk_speech_to_text_time:0.7106368541717529
+final_delay_time:0.019881486892700195
+********************
+timestamp:2024-04-20 10:41:20
+chunk_duration:1.1159436702728271
+chunk_speech_to_text_time:0.8530488014221191
+timestamp:2024-04-20 10:41:26
+chunk_duration:4.138376951217651
+chunk_speech_to_text_time:2.0038695335388184
+timestamp:2024-04-20 10:41:30
+chunk_duration:0.5408909320831299
+chunk_speech_to_text_time:5.544161558151245
+final_delay_time:3.622239351272583
+********************
+timestamp:2024-04-20 10:41:52
+chunk_duration:1.441537618637085
+chunk_speech_to_text_time:0.7892506122589111
+timestamp:2024-04-20 10:41:57
+chunk_duration:1.0369300842285156
+chunk_speech_to_text_time:0.5977489948272705
+timestamp:2024-04-20 10:41:59
+chunk_duration:2.0666894912719727
+chunk_speech_to_text_time:0.9157330989837646
+timestamp:2024-04-20 10:42:01
+chunk_duration:0.8677527904510498
+chunk_speech_to_text_time:0.7302157878875732
+final_delay_time:0.01908278465270996
+********************
+timestamp:2024-04-20 10:42:35
+chunk_duration:0.6199519634246826
+chunk_speech_to_text_time:0.7971510887145996
+final_delay_time:0.04423975944519043
+********************
+timestamp:2024-04-20 10:42:50
+chunk_duration:1.3638911247253418
+chunk_speech_to_text_time:2.2343339920043945
+timestamp:2024-04-20 10:42:51
+chunk_duration:0.9880056381225586
+chunk_speech_to_text_time:1.9775865077972412
+final_delay_time:0.08997893333435059
+********************
+timestamp:2024-04-20 10:43:16
+chunk_duration:1.2399036884307861
+chunk_speech_to_text_time:0.8576321601867676
+final_delay_time:0.017719507217407227
+********************
+timestamp:2024-04-20 10:43:53
+chunk_duration:2.0614404678344727
+chunk_speech_to_text_time:0.8330321311950684
+final_delay_time:0.008823871612548828
+********************
+timestamp:2024-04-20 10:44:18
+chunk_duration:2.0624051094055176
+chunk_speech_to_text_time:2.2251527309417725
+final_delay_time:0.014858484268188477
+********************
+timestamp:2024-04-20 10:48:27
+chunk_duration:1.0378673076629639
+chunk_speech_to_text_time:0.6690354347229004
+final_delay_time:0.011701345443725586
+********************
+timestamp:2024-04-20 10:48:44
+chunk_duration:0.7440309524536133
+chunk_speech_to_text_time:0.6794719696044922
+final_delay_time:0.009479761123657227
+********************
+timestamp:2024-04-20 10:49:25
+chunk_duration:0.7439620494842529
+chunk_speech_to_text_time:0.9686825275421143
+timestamp:2024-04-20 10:49:28
+chunk_duration:2.10784912109375
+chunk_speech_to_text_time:1.214219570159912
+final_delay_time:0.019654035568237305
+********************
+timestamp:2024-04-20 10:49:47
+chunk_duration:1.5340971946716309
+chunk_speech_to_text_time:1.4957892894744873
+final_delay_time:0.009227991104125977
+********************
+timestamp:2024-04-20 10:50:27
+chunk_duration:1.8455314636230469
+chunk_speech_to_text_time:1.3469672203063965
+final_delay_time:0.012233495712280273
+********************
+timestamp:2024-04-20 10:50:49
+chunk_duration:1.2400379180908203
+chunk_speech_to_text_time:1.4340870380401611
+final_delay_time:0.00849604606628418
+********************
+timestamp:2024-04-20 10:51:13
+chunk_duration:0.7432317733764648
+chunk_speech_to_text_time:0.8652119636535645
+final_delay_time:0.008468866348266602
+********************
+timestamp:2024-04-20 10:51:38
+chunk_duration:1.8600351810455322
+chunk_speech_to_text_time:1.8768856525421143
+final_delay_time:0.014641761779785156
+********************
+timestamp:2024-04-20 10:51:54
+chunk_duration:0.8219826221466064
+chunk_speech_to_text_time:1.2223165035247803
+final_delay_time:0.008976459503173828
+********************
+timestamp:2024-04-20 10:52:14
+chunk_duration:1.2321007251739502
+chunk_speech_to_text_time:1.289116382598877
+final_delay_time:0.012827873229980469
+********************
+timestamp:2024-04-20 10:52:33
+chunk_duration:0.7438862323760986
+chunk_speech_to_text_time:1.8410048484802246
+final_delay_time:0.00831294059753418
+********************
+timestamp:2024-04-20 10:52:48
+chunk_duration:0.6658346652984619
+chunk_speech_to_text_time:0.8107588291168213
+final_delay_time:0.009306192398071289
+********************
+timestamp:2024-04-20 10:53:16
+chunk_duration:0.7439577579498291
+chunk_speech_to_text_time:1.1971931457519531
+final_delay_time:0.019347667694091797
+********************
+timestamp:2024-04-20 10:53:38
+chunk_duration:0.7899341583251953
+chunk_speech_to_text_time:0.7463133335113525
+final_delay_time:0.011940479278564453
+********************
+timestamp:2024-04-20 10:54:10
+chunk_duration:1.487168788909912
+chunk_speech_to_text_time:1.593693733215332
+final_delay_time:0.02263474464416504
+********************
+timestamp:2024-04-20 10:54:29
+chunk_duration:0.8678786754608154
+chunk_speech_to_text_time:1.4107227325439453
+final_delay_time:0.009388446807861328
+********************
+timestamp:2024-04-20 10:54:53
+chunk_duration:1.3641605377197266
+chunk_speech_to_text_time:1.4594931602478027
+final_delay_time:0.0076062679290771484
+********************
+timestamp:2024-04-20 10:55:12
+chunk_duration:0.7440409660339355
+chunk_speech_to_text_time:0.5601372718811035
+final_delay_time:0.014367103576660156
+********************
+timestamp:2024-04-20 10:55:28
+chunk_duration:0.9112973213195801
+chunk_speech_to_text_time:1.847912073135376
+final_delay_time:0.009434700012207031
+********************
+timestamp:2024-04-20 10:55:44
+chunk_duration:1.7357442378997803
+chunk_speech_to_text_time:1.445781946182251
+final_delay_time:0.007186174392700195
+********************
+timestamp:2024-04-20 10:56:36
+chunk_duration:1.611445665359497
+chunk_speech_to_text_time:1.3088335990905762
+final_delay_time:0.007475852966308594
+********************
+timestamp:2024-04-20 10:57:14
+chunk_duration:1.3641037940979004
+chunk_speech_to_text_time:1.3298022747039795
+final_delay_time:0.006774187088012695
+********************
+timestamp:2024-04-20 10:58:12
+chunk_duration:0.945976734161377
+chunk_speech_to_text_time:1.3445212841033936
+final_delay_time:0.008734464645385742
+********************
+timestamp:2024-04-20 10:58:47
+chunk_duration:2.107943296432495
+chunk_speech_to_text_time:1.318091869354248
+final_delay_time:0.00915217399597168
+********************
+timestamp:2024-04-20 10:59:33
+chunk_duration:1.984598159790039
+chunk_speech_to_text_time:2.1733758449554443
+final_delay_time:0.10620808601379395
+********************
+timestamp:2024-04-20 10:59:58
+chunk_duration:1.4871366024017334
+chunk_speech_to_text_time:1.4215538501739502
+final_delay_time:0.008291959762573242
+********************
+timestamp:2024-04-20 11:00:13
+chunk_duration:1.0690743923187256
+chunk_speech_to_text_time:0.8003883361816406
+final_delay_time:0.007525920867919922
+********************
+timestamp:2024-04-20 11:00:26
+chunk_duration:1.3178162574768066
+chunk_speech_to_text_time:1.0245940685272217
+final_delay_time:0.0364229679107666
+********************
+timestamp:2024-04-20 11:00:46
+chunk_duration:1.3633067607879639
+chunk_speech_to_text_time:1.542553424835205
+final_delay_time:0.013893365859985352
+********************
+timestamp:2024-04-20 11:00:59
+chunk_duration:0.8219659328460693
+chunk_speech_to_text_time:1.3069186210632324
+final_delay_time:0.008360147476196289
+********************
+timestamp:2024-04-20 11:01:17
+chunk_duration:0.6972386837005615
+chunk_speech_to_text_time:1.1027216911315918
+final_delay_time:0.005967617034912109
+********************
+timestamp:2024-04-20 11:01:32
+chunk_duration:0.8682088851928711
+chunk_speech_to_text_time:1.1286475658416748
+final_delay_time:0.009163856506347656
+********************
+timestamp:2024-04-20 11:01:48
+chunk_duration:0.8680226802825928
+chunk_speech_to_text_time:1.9275362491607666
+final_delay_time:0.05356597900390625
+********************
+timestamp:2024-04-20 11:02:05
+chunk_duration:0.7438583374023438
+chunk_speech_to_text_time:0.7293777465820312
+final_delay_time:0.00737452507019043
+********************
+timestamp:2024-04-20 11:02:45
+chunk_duration:3.2242255210876465
+chunk_speech_to_text_time:1.3034231662750244
+final_delay_time:0.01672840118408203
+********************
+timestamp:2024-04-20 11:03:26
+chunk_duration:0.6198039054870605
+chunk_speech_to_text_time:0.7833681106567383
+timestamp:2024-04-20 11:03:27
+chunk_duration:0.6893365383148193
+chunk_speech_to_text_time:0.6846873760223389
+final_delay_time:0.008949995040893555
+********************
+timestamp:2024-04-20 11:03:46
+chunk_duration:1.7355127334594727
+chunk_speech_to_text_time:0.8230392932891846
+final_delay_time:0.008569002151489258
+********************
+timestamp:2024-04-20 11:04:00
+chunk_duration:0.743966817855835
+chunk_speech_to_text_time:0.8824021816253662
+final_delay_time:0.0075490474700927734
+********************
+timestamp:2024-04-20 11:04:44
+chunk_duration:1.240044116973877
+chunk_speech_to_text_time:3.443458318710327
+final_delay_time:0.013014078140258789
+********************
+timestamp:2024-04-20 11:04:59
+chunk_duration:1.115922451019287
+chunk_speech_to_text_time:1.3698313236236572
+final_delay_time:0.02029561996459961
+********************
+timestamp:2024-04-20 11:05:19
+chunk_duration:1.4878840446472168
+chunk_speech_to_text_time:0.8471484184265137
+final_delay_time:0.01218104362487793
+********************
+timestamp:2024-04-20 11:05:54
+chunk_duration:0.5741956233978271
+chunk_speech_to_text_time:0.7429239749908447
+timestamp:2024-04-20 11:05:56
+chunk_duration:0.6200079917907715
+chunk_speech_to_text_time:0.6633820533752441
+final_delay_time:0.01035165786743164
+********************
+timestamp:2024-04-20 11:06:17
+chunk_duration:1.1159579753875732
+chunk_speech_to_text_time:2.032813549041748
+final_delay_time:0.12045407295227051
+********************
+timestamp:2024-04-20 11:06:41
+chunk_duration:1.4879703521728516
+chunk_speech_to_text_time:1.4087305068969727
+final_delay_time:0.013054132461547852
+********************
+timestamp:2024-04-20 11:07:09
+chunk_duration:0.7439923286437988
+chunk_speech_to_text_time:1.1789333820343018
+final_delay_time:0.009529829025268555
+********************
+timestamp:2024-04-20 11:07:24
+chunk_duration:2.1082026958465576
+chunk_speech_to_text_time:1.836277723312378
+final_delay_time:0.009319543838500977
+********************
+timestamp:2024-04-20 11:08:11
+chunk_duration:2.6040306091308594
+chunk_speech_to_text_time:1.5717008113861084
+final_delay_time:0.008350372314453125
+********************
+timestamp:2024-04-20 11:08:57
+chunk_duration:1.7360858917236328
+chunk_speech_to_text_time:1.16219162940979
+final_delay_time:0.007736921310424805
+********************
+timestamp:2024-04-20 11:09:15
+chunk_duration:0.7899043560028076
+chunk_speech_to_text_time:1.2361290454864502
+timestamp:2024-04-20 11:09:16
+chunk_duration:0.6970710754394531
+chunk_speech_to_text_time:0.7870597839355469
+timestamp:2024-04-20 11:09:17
+chunk_duration:1.240081787109375
+chunk_speech_to_text_time:0.9728996753692627
+final_delay_time:0.006928205490112305
+********************
+timestamp:2024-04-20 11:09:45
+chunk_duration:3.766338348388672
+chunk_speech_to_text_time:1.066922903060913
+timestamp:2024-04-20 11:09:49
+chunk_duration:4.261460542678833
+chunk_speech_to_text_time:1.2548625469207764
+final_delay_time:0.008039712905883789
+********************
+timestamp:2024-04-20 11:10:35
+chunk_duration:0.7439768314361572
+chunk_speech_to_text_time:0.6910274028778076
+timestamp:2024-04-20 11:10:39
+chunk_duration:1.2861123085021973
+chunk_speech_to_text_time:1.011009693145752
+final_delay_time:0.009331703186035156
+********************
+timestamp:2024-04-20 11:11:12
+chunk_duration:2.154142141342163
+chunk_speech_to_text_time:2.155241012573242
+final_delay_time:0.007822513580322266
+********************
+timestamp:2024-04-20 11:11:33
+chunk_duration:2.02907133102417
+chunk_speech_to_text_time:1.5024399757385254
+final_delay_time:0.005113363265991211
+********************
+timestamp:2024-04-20 11:11:55
+chunk_duration:1.3640382289886475
+chunk_speech_to_text_time:1.5632297992706299
+final_delay_time:0.11695551872253418
+********************
+timestamp:2024-04-20 11:12:11
+chunk_duration:0.6199526786804199
+chunk_speech_to_text_time:1.334662675857544
+timestamp:2024-04-20 11:12:13
+chunk_duration:1.120054006576538
+chunk_speech_to_text_time:1.0902900695800781
+timestamp:2024-04-20 11:12:13
+chunk_duration:0.5739586353302002
+chunk_speech_to_text_time:0.879969596862793
+timestamp:2024-04-20 11:12:18
+chunk_duration:2.930366277694702
+chunk_speech_to_text_time:1.881577968597412
+timestamp:2024-04-20 11:12:20
+chunk_duration:0.9913234710693359
+chunk_speech_to_text_time:1.3678174018859863
+final_delay_time:0.008288145065307617
+********************
+timestamp:2024-04-20 11:12:33
+chunk_duration:0.6977853775024414
+chunk_speech_to_text_time:1.2606775760650635
+timestamp:2024-04-20 11:12:35
+chunk_duration:0.7440268993377686
+chunk_speech_to_text_time:1.187387228012085
+final_delay_time:0.010653495788574219
+********************
+timestamp:2024-04-20 11:12:48
+chunk_duration:0.5419871807098389
+chunk_speech_to_text_time:0.9118256568908691
+timestamp:2024-04-20 11:12:49
+chunk_duration:0.574005126953125
+chunk_speech_to_text_time:0.7554469108581543
+final_delay_time:0.013662576675415039
+********************
+timestamp:2024-04-20 11:13:33
+chunk_duration:3.8443822860717773
+chunk_speech_to_text_time:2.5840649604797363
+final_delay_time:0.007936954498291016
+********************
+timestamp:2024-04-20 11:13:53
+chunk_duration:0.666445255279541
+chunk_speech_to_text_time:0.884204626083374
+timestamp:2024-04-20 11:13:55
+chunk_duration:0.8209543228149414
+chunk_speech_to_text_time:0.7985143661499023
+final_delay_time:0.11775541305541992
+********************
+timestamp:2024-04-20 11:14:11
+chunk_duration:1.3178575038909912
+chunk_speech_to_text_time:1.0556247234344482
+timestamp:2024-04-20 11:14:13
+chunk_duration:0.914024829864502
+chunk_speech_to_text_time:0.7803547382354736
+timestamp:2024-04-20 11:14:14
+chunk_duration:0.6239790916442871
+chunk_speech_to_text_time:0.6759676933288574
+final_delay_time:0.00848698616027832
+********************
+timestamp:2024-04-20 11:14:34
+chunk_duration:2.3092353343963623
+chunk_speech_to_text_time:1.2343966960906982
+final_delay_time:0.007135152816772461
+********************
+timestamp:2024-04-20 11:14:55
+chunk_duration:0.6184005737304688
+chunk_speech_to_text_time:0.7637906074523926
+timestamp:2024-04-20 11:14:57
+chunk_duration:1.2391815185546875
+chunk_speech_to_text_time:0.9292244911193848
+final_delay_time:0.007217884063720703
+********************
+timestamp:2024-04-20 11:15:12
+chunk_duration:1.6894323825836182
+chunk_speech_to_text_time:0.9955251216888428
+timestamp:2024-04-20 11:15:13
+chunk_duration:1.2400004863739014
+chunk_speech_to_text_time:0.7526850700378418
+final_delay_time:0.017509937286376953
+********************
+timestamp:2024-04-20 11:15:30
+chunk_duration:2.8512911796569824
+chunk_speech_to_text_time:1.4535362720489502
+final_delay_time:0.006928205490112305
+********************
+timestamp:2024-04-20 11:16:06
+chunk_duration:1.658067226409912
+chunk_speech_to_text_time:0.8394412994384766
+final_delay_time:0.0067713260650634766
+********************
+timestamp:2024-04-20 11:16:32
+chunk_duration:1.2400224208831787
+chunk_speech_to_text_time:1.0077736377716064
+final_delay_time:0.009825944900512695
+********************
+timestamp:2024-04-20 11:16:47
+chunk_duration:0.6660640239715576
+chunk_speech_to_text_time:0.8980491161346436
+final_delay_time:0.007934093475341797
+********************
+timestamp:2024-04-20 11:17:07
+chunk_duration:0.6600027084350586
+chunk_speech_to_text_time:0.8729832172393799
+final_delay_time:0.009389162063598633
+********************
+timestamp:2024-04-20 11:18:07
+chunk_duration:1.8595223426818848
+chunk_speech_to_text_time:1.061098575592041
+final_delay_time:0.010950088500976562
+********************
+timestamp:2024-04-20 11:18:35
+chunk_duration:0.6972925662994385
+chunk_speech_to_text_time:0.7904970645904541
+final_delay_time:0.01672220230102539
+********************
+timestamp:2024-04-20 11:19:06
+chunk_duration:1.5653328895568848
+chunk_speech_to_text_time:1.4503140449523926
+final_delay_time:0.020157814025878906
+********************
+timestamp:2024-04-20 11:19:19
+chunk_duration:0.7440154552459717
+chunk_speech_to_text_time:0.8363685607910156
+final_delay_time:0.007334709167480469
+********************
+timestamp:2024-04-20 11:19:59
+chunk_duration:0.9140458106994629
+chunk_speech_to_text_time:0.8438799381256104
+final_delay_time:0.009565353393554688
+********************
+timestamp:2024-04-20 11:20:28
+chunk_duration:1.4882216453552246
+chunk_speech_to_text_time:1.3853626251220703
+final_delay_time:0.010223865509033203
+********************
+timestamp:2024-04-20 11:20:54
+chunk_duration:2.107487440109253
+chunk_speech_to_text_time:1.2822959423065186
+timestamp:2024-04-20 11:20:55
+chunk_duration:0.8680644035339355
+chunk_speech_to_text_time:0.8825263977050781
+final_delay_time:0.007871389389038086
+********************
+timestamp:2024-04-20 11:21:22
+chunk_duration:1.8124229907989502
+chunk_speech_to_text_time:0.9676499366760254
+final_delay_time:0.05058741569519043
+********************
+timestamp:2024-04-20 11:21:55
+chunk_duration:4.091902256011963
+chunk_speech_to_text_time:1.2169814109802246
+final_delay_time:0.052464962005615234
+********************
+timestamp:2024-04-20 11:22:16
+chunk_duration:0.8679771423339844
+chunk_speech_to_text_time:1.5338480472564697
+timestamp:2024-04-20 11:22:19
+chunk_duration:1.4099361896514893
+chunk_speech_to_text_time:1.6308672428131104
+final_delay_time:0.00946354866027832
+********************
+timestamp:2024-04-20 11:22:35
+chunk_duration:1.48653244972229
+chunk_speech_to_text_time:1.8614952564239502
+final_delay_time:0.008191585540771484
+********************
+timestamp:2024-04-20 11:22:53
+chunk_duration:0.6111781597137451
+chunk_speech_to_text_time:0.8120336532592773
+final_delay_time:0.008373022079467773
+********************
+timestamp:2024-04-20 11:23:08
+chunk_duration:2.231261968612671
+chunk_speech_to_text_time:1.1875414848327637
+final_delay_time:0.019792556762695312
+********************
+timestamp:2024-04-20 11:23:21
+chunk_duration:0.9920122623443604
+chunk_speech_to_text_time:0.793281078338623
+final_delay_time:0.016069889068603516
+********************
+timestamp:2024-04-20 11:23:37
+chunk_duration:1.4421460628509521
+chunk_speech_to_text_time:1.2155985832214355
+final_delay_time:0.010933399200439453
+********************
+timestamp:2024-04-20 11:23:50
+chunk_duration:1.566171646118164
+chunk_speech_to_text_time:1.581078290939331
+final_delay_time:0.009903430938720703
+********************
+timestamp:2024-04-20 11:24:08
+chunk_duration:2.232297420501709
+chunk_speech_to_text_time:1.6431307792663574
+final_delay_time:0.014265298843383789
+********************
+timestamp:2024-04-20 11:24:33
+chunk_duration:0.6200311183929443
+chunk_speech_to_text_time:1.3393583297729492
+final_delay_time:0.011402606964111328
+********************
+timestamp:2024-04-20 11:24:55
+chunk_duration:1.6894161701202393
+chunk_speech_to_text_time:1.7941319942474365
+final_delay_time:0.007555961608886719
+********************
+timestamp:2024-04-20 11:25:06
+chunk_duration:0.6980788707733154
+chunk_speech_to_text_time:0.7432284355163574
+timestamp:2024-04-20 11:25:08
+chunk_duration:1.2396016120910645
+chunk_speech_to_text_time:0.8487074375152588
+final_delay_time:0.006840944290161133
+********************
+timestamp:2024-04-20 11:25:26
+chunk_duration:3.091320514678955
+chunk_speech_to_text_time:1.1273829936981201
+timestamp:2024-04-20 11:25:30
+chunk_duration:2.52695894241333
+chunk_speech_to_text_time:1.0951650142669678
+final_delay_time:0.008777618408203125
+********************
+timestamp:2024-04-20 11:25:46
+chunk_duration:1.4100306034088135
+chunk_speech_to_text_time:0.7804439067840576
+timestamp:2024-04-20 11:25:51
+chunk_duration:4.09150505065918
+chunk_speech_to_text_time:1.0924944877624512
+final_delay_time:0.007516622543334961
+********************
+timestamp:2024-04-20 11:26:12
+chunk_duration:4.3400187492370605
+chunk_speech_to_text_time:1.4535996913909912
+final_delay_time:0.009702205657958984
+********************
+timestamp:2024-04-20 11:26:26
+chunk_duration:0.9452426433563232
+chunk_speech_to_text_time:0.7310302257537842
+timestamp:2024-04-20 11:26:27
+chunk_duration:1.5616838932037354
+chunk_speech_to_text_time:0.8107175827026367
+final_delay_time:0.03167009353637695
+********************
+timestamp:2024-04-20 11:26:46
+chunk_duration:1.8140428066253662
+chunk_speech_to_text_time:0.8891012668609619
+timestamp:2024-04-20 11:26:50
+chunk_duration:2.7276041507720947
+chunk_speech_to_text_time:1.2665536403656006
+timestamp:2024-04-20 11:26:53
+chunk_duration:3.09978985786438
+chunk_speech_to_text_time:1.3617713451385498
+final_delay_time:0.012586355209350586
+********************
+timestamp:2024-04-20 11:27:14
+chunk_duration:2.3089916706085205
+chunk_speech_to_text_time:0.9770932197570801
+final_delay_time:0.008647680282592773
+********************
+timestamp:2024-04-20 11:27:30
+chunk_duration:0.666163444519043
+chunk_speech_to_text_time:0.8294024467468262
+final_delay_time:0.010851621627807617
+********************
+timestamp:2024-04-20 11:27:51
+chunk_duration:1.8602139949798584
+chunk_speech_to_text_time:0.8776588439941406
+timestamp:2024-04-20 11:27:53
+chunk_duration:1.771416425704956
+chunk_speech_to_text_time:0.7077591419219971
+final_delay_time:0.031233787536621094
+********************
+timestamp:2024-04-20 11:28:11
+chunk_duration:2.8523268699645996
+chunk_speech_to_text_time:0.8464643955230713
+final_delay_time:0.008610725402832031
+********************
+timestamp:2024-04-20 11:28:29
+chunk_duration:1.9842281341552734
+chunk_speech_to_text_time:0.8571398258209229
+final_delay_time:0.012518167495727539
+********************
+timestamp:2024-04-20 11:28:53
+chunk_duration:3.7653753757476807
+chunk_speech_to_text_time:1.1597936153411865
+timestamp:2024-04-20 11:28:55
+chunk_duration:1.4418632984161377
+chunk_speech_to_text_time:0.7658026218414307
+final_delay_time:0.014486551284790039
+********************
+timestamp:2024-04-20 11:29:17
+chunk_duration:1.7821836471557617
+chunk_speech_to_text_time:0.8294286727905273
+timestamp:2024-04-20 11:29:19
+chunk_duration:1.363358974456787
+chunk_speech_to_text_time:0.8196923732757568
+timestamp:2024-04-20 11:29:23
+chunk_duration:3.270399570465088
+chunk_speech_to_text_time:1.3175501823425293
+timestamp:2024-04-20 11:29:27
+chunk_duration:4.091935873031616
+chunk_speech_to_text_time:0.9923853874206543
+timestamp:2024-04-20 11:29:29
+chunk_duration:1.8599205017089844
+chunk_speech_to_text_time:0.7802495956420898
+final_delay_time:0.007116794586181641
+********************
+timestamp:2024-04-20 11:29:45
+chunk_duration:1.115097999572754
+chunk_speech_to_text_time:0.6665194034576416
+final_delay_time:0.00966024398803711
+********************
+timestamp:2024-04-20 11:29:59
+chunk_duration:0.6199033260345459
+chunk_speech_to_text_time:0.6734719276428223
+final_delay_time:0.010011672973632812
+********************
+timestamp:2024-04-20 11:30:36
+chunk_duration:3.8904497623443604
+chunk_speech_to_text_time:1.1053612232208252
+final_delay_time:0.012304544448852539
+********************
+timestamp:2024-04-20 11:30:52
+chunk_duration:1.7811551094055176
+chunk_speech_to_text_time:0.8084323406219482
+final_delay_time:0.00875544548034668
+********************
+timestamp:2024-04-20 11:31:17
+chunk_duration:1.3173937797546387
+chunk_speech_to_text_time:0.8205544948577881
+final_delay_time:0.02843952178955078
+********************
+timestamp:2024-04-20 11:38:45
+chunk_duration:0.6199748516082764
+chunk_speech_to_text_time:0.6949405670166016
+final_delay_time:0.03911137580871582
+********************
+timestamp:2024-04-20 11:39:11
+chunk_duration:0.6198022365570068
+chunk_speech_to_text_time:0.7807121276855469
+final_delay_time:0.009830951690673828
+********************
+timestamp:2024-04-20 11:39:27
+chunk_duration:0.6199300289154053
+chunk_speech_to_text_time:0.7202892303466797
+final_delay_time:0.008641242980957031
+********************
+timestamp:2024-04-20 11:39:46
+chunk_duration:0.6200211048126221
+chunk_speech_to_text_time:0.8074700832366943
+timestamp:2024-04-20 11:39:46
+chunk_duration:0.7018325328826904
+chunk_speech_to_text_time:0.5765469074249268
+final_delay_time:0.00734710693359375
+********************
+timestamp:2024-04-20 11:40:08
+chunk_duration:1.5654385089874268
+chunk_speech_to_text_time:0.7683732509613037
+final_delay_time:0.04360055923461914
+********************
+timestamp:2024-04-20 11:40:34
+chunk_duration:2.0610127449035645
+chunk_speech_to_text_time:0.9104089736938477
+final_delay_time:0.009267568588256836
+********************
+timestamp:2024-04-20 11:40:57
+chunk_duration:2.806239128112793
+chunk_speech_to_text_time:1.0482652187347412
+final_delay_time:0.07035660743713379
+********************
+timestamp:2024-04-20 11:41:16
+chunk_duration:1.7356188297271729
+chunk_speech_to_text_time:0.8293313980102539
+timestamp:2024-04-20 11:41:16
+chunk_duration:0.7902469635009766
+chunk_speech_to_text_time:0.5244684219360352
+final_delay_time:0.012504100799560547
+********************
+timestamp:2024-04-20 11:41:31
+chunk_duration:0.619990348815918
+chunk_speech_to_text_time:0.6756980419158936
+final_delay_time:0.033783912658691406
+********************
+timestamp:2024-04-20 11:41:59
+chunk_duration:0.5734233856201172
+chunk_speech_to_text_time:0.6218676567077637
+final_delay_time:0.01384115219116211
+********************
+timestamp:2024-04-20 11:42:19
+chunk_duration:0.6968169212341309
+chunk_speech_to_text_time:0.7589564323425293
+final_delay_time:0.017274141311645508
+********************
+timestamp:2024-04-20 11:47:56
+chunk_duration:0.8680949211120605
+chunk_speech_to_text_time:0.5775086879730225
+timestamp:2024-04-20 11:47:59
+chunk_duration:0.9453105926513672
+chunk_speech_to_text_time:0.718449592590332
+timestamp:2024-04-20 11:48:00
+chunk_duration:0.6190788745880127
+chunk_speech_to_text_time:0.5455055236816406
+final_delay_time:0.009880304336547852
+********************
+timestamp:2024-04-20 11:48:32
+chunk_duration:0.5418651103973389
+chunk_speech_to_text_time:0.6579062938690186
+final_delay_time:0.009434223175048828
+********************
+timestamp:2024-04-20 11:49:58
+chunk_duration:0.5739672183990479
+chunk_speech_to_text_time:0.7136006355285645
+final_delay_time:0.018160343170166016
+********************
+timestamp:2024-04-20 11:50:27
+chunk_duration:0.6199004650115967
+chunk_speech_to_text_time:0.6772880554199219
+final_delay_time:0.13203024864196777
+********************
+timestamp:2024-04-20 11:51:01
+chunk_duration:0.5722751617431641
+chunk_speech_to_text_time:0.6806247234344482
+final_delay_time:0.05915474891662598
+********************
+timestamp:2024-04-20 11:55:39
+chunk_duration:0.573875904083252
+chunk_speech_to_text_time:0.7307603359222412
+final_delay_time:0.010904073715209961
+********************
+timestamp:2024-04-20 11:56:13
+chunk_duration:0.573976993560791
+chunk_speech_to_text_time:0.9466021060943604
+final_delay_time:0.00866079330444336
+********************
+timestamp:2024-04-20 11:58:22
+chunk_duration:0.5739331245422363
+chunk_speech_to_text_time:0.6619601249694824
+final_delay_time:0.01077580451965332
+********************
+timestamp:2024-04-20 12:03:22
+chunk_duration:0.5417699813842773
+chunk_speech_to_text_time:0.8185734748840332
+final_delay_time:0.01719188690185547
+********************
+timestamp:2024-04-20 12:03:53
+chunk_duration:0.6659252643585205
+chunk_speech_to_text_time:0.6898679733276367
+final_delay_time:0.013206005096435547
+********************
+timestamp:2024-04-20 12:08:24
+chunk_duration:0.8219020366668701
+chunk_speech_to_text_time:0.6820254325866699
+final_delay_time:0.038516998291015625
+********************
+timestamp:2024-04-20 12:08:52
+chunk_duration:1.8593378067016602
+chunk_speech_to_text_time:0.9020826816558838
+final_delay_time:0.04324150085449219
+********************
+timestamp:2024-04-20 12:09:22
+chunk_duration:2.4027016162872314
+chunk_speech_to_text_time:0.9203877449035645
+final_delay_time:0.010048389434814453
+********************
+timestamp:2024-04-20 12:13:04
+chunk_duration:0.573296070098877
+chunk_speech_to_text_time:1.0628504753112793
+final_delay_time:0.011876821517944336
+********************
+timestamp:2024-04-20 12:13:47
+chunk_duration:2.9762887954711914
+chunk_speech_to_text_time:1.2898755073547363
+final_delay_time:0.06748628616333008
+********************
+timestamp:2024-04-20 12:14:06
+chunk_duration:3.1775341033935547
+chunk_speech_to_text_time:1.3204541206359863
+final_delay_time:0.027877330780029297
+********************
+timestamp:2024-04-20 12:14:22
+chunk_duration:0.7440986633300781
+chunk_speech_to_text_time:0.9092202186584473
+final_delay_time:0.019044160842895508
+********************
+timestamp:2024-04-20 12:14:35
+chunk_duration:1.3179035186767578
+chunk_speech_to_text_time:1.0687761306762695
+final_delay_time:0.03180670738220215
+********************
+timestamp:2024-04-20 12:14:56
+chunk_duration:6.1996705532073975
+chunk_speech_to_text_time:1.6262071132659912
+final_delay_time:0.08694243431091309
+********************
+timestamp:2024-04-20 12:15:31
+chunk_duration:1.0691275596618652
+chunk_speech_to_text_time:0.6571953296661377
+final_delay_time:0.08617973327636719
+********************
+timestamp:2024-04-20 12:15:52
+chunk_duration:3.3484537601470947
+chunk_speech_to_text_time:1.0344595909118652
+timestamp:2024-04-20 12:15:53
+chunk_duration:1.8133764266967773
+chunk_speech_to_text_time:0.728696346282959
+timestamp:2024-04-20 12:15:56
+chunk_duration:2.8984947204589844
+chunk_speech_to_text_time:0.7868835926055908
+timestamp:2024-04-20 12:15:59
+chunk_duration:1.2400784492492676
+chunk_speech_to_text_time:0.6786556243896484
+timestamp:2024-04-20 12:16:01
+chunk_duration:1.436324119567871
+chunk_speech_to_text_time:0.6876730918884277
+final_delay_time:0.06524133682250977
+********************
+timestamp:2024-04-20 12:34:34
+chunk_duration:1.0369844436645508
+chunk_speech_to_text_time:0.9629197120666504
+final_delay_time:0.09763216972351074
+********************
+timestamp:2024-04-20 12:34:52
+chunk_duration:0.9920511245727539
+chunk_speech_to_text_time:0.6549172401428223
+final_delay_time:0.009286880493164062
+********************
+timestamp:2024-04-20 12:37:56
+chunk_duration:1.3170597553253174
+chunk_speech_to_text_time:0.7577774524688721
+final_delay_time:0.012833356857299805
+********************
+timestamp:2024-04-20 12:38:15
+chunk_duration:1.4880414009094238
+chunk_speech_to_text_time:0.8168573379516602
+final_delay_time:0.007543087005615234
+********************
+timestamp:2024-04-20 12:39:37
+chunk_duration:0.9451444149017334
+chunk_speech_to_text_time:0.8246285915374756
+final_delay_time:0.016207218170166016
+********************
+timestamp:2024-04-20 12:40:00
+chunk_duration:0.8680593967437744
+chunk_speech_to_text_time:5.657788515090942
+final_delay_time:0.018809795379638672
+********************
+timestamp:2024-04-20 12:40:22
+chunk_duration:3.302747964859009
+chunk_speech_to_text_time:0.9039630889892578
+final_delay_time:0.00881052017211914
+********************
+timestamp:2024-04-20 12:41:05
+chunk_duration:0.867971658706665
+chunk_speech_to_text_time:0.7750105857849121
+final_delay_time:0.00882267951965332
+********************
+timestamp:2024-04-20 12:41:36
+chunk_duration:3.054115056991577
+chunk_speech_to_text_time:0.9088931083679199
+final_delay_time:0.019695281982421875
+********************
+timestamp:2024-04-20 12:59:37
+chunk_duration:1.4874112606048584
+chunk_speech_to_text_time:0.7523665428161621
+final_delay_time:0.010359048843383789
+********************
+timestamp:2024-04-20 13:00:02
+chunk_duration:0.5419466495513916
+chunk_speech_to_text_time:0.657724142074585
+timestamp:2024-04-20 13:00:03
+chunk_duration:0.5410218238830566
+chunk_speech_to_text_time:0.6456172466278076
+final_delay_time:0.018817424774169922
+********************
+timestamp:2024-04-20 13:00:16
+chunk_duration:0.573833703994751
+chunk_speech_to_text_time:0.7847983837127686
+final_delay_time:0.009033441543579102
+********************
+timestamp:2024-04-20 13:01:32
+chunk_duration:0.5741286277770996
+chunk_speech_to_text_time:0.7017076015472412
+final_delay_time:0.009153366088867188
+********************
+timestamp:2024-04-20 13:09:07
+chunk_duration:1.9052062034606934
+chunk_speech_to_text_time:0.7243797779083252
+final_delay_time:0.019917964935302734
+********************
+timestamp:2024-04-20 13:09:34
+chunk_duration:1.3180012702941895
+chunk_speech_to_text_time:0.6657955646514893
+final_delay_time:0.008831024169921875
+********************
+timestamp:2024-04-20 13:33:05
+chunk_duration:1.0379700660705566
+chunk_speech_to_text_time:0.7756099700927734
+final_delay_time:0.11177444458007812
+********************
+timestamp:2024-04-20 13:33:25
+chunk_duration:1.488487958908081
+chunk_speech_to_text_time:0.9725959300994873
+final_delay_time:0.0071315765380859375
+********************
+timestamp:2024-04-20 13:33:39
+chunk_duration:0.69801926612854
+chunk_speech_to_text_time:0.7085421085357666
+final_delay_time:0.007655620574951172
+********************
+timestamp:2024-04-20 13:34:06
+chunk_duration:1.3640832901000977
+chunk_speech_to_text_time:0.7038838863372803
+final_delay_time:0.006492137908935547
+********************
+timestamp:2024-04-20 13:34:30
+chunk_duration:0.8220522403717041
+chunk_speech_to_text_time:0.6683719158172607
+final_delay_time:0.008050680160522461
+********************
+timestamp:2024-04-20 13:34:50
+chunk_duration:0.7438220977783203
+chunk_speech_to_text_time:0.8022522926330566
+final_delay_time:0.012989282608032227
+********************
+timestamp:2024-04-20 13:35:05
+chunk_duration:0.7437670230865479
+chunk_speech_to_text_time:0.6397914886474609
+final_delay_time:0.0070149898529052734
+********************
+timestamp:2024-04-20 13:35:26
+chunk_duration:1.3181638717651367
+chunk_speech_to_text_time:0.8354074954986572
+final_delay_time:0.008692264556884766
+********************
+timestamp:2024-04-20 13:35:44
+chunk_duration:0.665980339050293
+chunk_speech_to_text_time:0.6124100685119629
+final_delay_time:0.00756382942199707
+********************
+timestamp:2024-04-20 13:36:02
+chunk_duration:1.6581392288208008
+chunk_speech_to_text_time:0.7123079299926758
+final_delay_time:0.008360147476196289
+********************
+timestamp:2024-04-20 13:36:31
+chunk_duration:0.8680586814880371
+chunk_speech_to_text_time:0.6178991794586182
+timestamp:2024-04-20 13:36:32
+chunk_duration:0.5740232467651367
+chunk_speech_to_text_time:0.5764424800872803
+final_delay_time:0.00919651985168457
+********************
+timestamp:2024-04-20 13:36:46
+chunk_duration:0.6997239589691162
+chunk_speech_to_text_time:0.7348325252532959
+timestamp:2024-04-20 13:36:47
+chunk_duration:1.2389881610870361
+chunk_speech_to_text_time:0.6485083103179932
+final_delay_time:0.012361764907836914
+********************
+timestamp:2024-04-20 13:37:01
+chunk_duration:0.8219420909881592
+chunk_speech_to_text_time:0.694211483001709
+final_delay_time:0.008304357528686523
+********************
+timestamp:2024-04-20 13:37:20
+chunk_duration:0.7899272441864014
+chunk_speech_to_text_time:0.8542835712432861
+timestamp:2024-04-20 13:37:20
+chunk_duration:0.7453949451446533
+chunk_speech_to_text_time:0.6938271522521973
+final_delay_time:0.006456851959228516
+********************
+timestamp:2024-04-20 13:37:36
+chunk_duration:1.860138177871704
+chunk_speech_to_text_time:0.7854657173156738
+final_delay_time:0.014216423034667969
+********************
+timestamp:2024-04-20 13:37:56
+chunk_duration:1.0700271129608154
+chunk_speech_to_text_time:0.7700340747833252
+final_delay_time:0.016696929931640625
+********************
+timestamp:2024-04-20 13:40:25
+chunk_duration:1.7820303440093994
+chunk_speech_to_text_time:0.89479660987854
+final_delay_time:0.007672786712646484
+********************
+timestamp:2024-04-20 13:40:44
+chunk_duration:0.5739529132843018
+chunk_speech_to_text_time:0.7367289066314697
+final_delay_time:0.0064165592193603516
+********************
+timestamp:2024-04-20 13:41:16
+chunk_duration:1.9060900211334229
+chunk_speech_to_text_time:0.9972772598266602
+timestamp:2024-04-20 13:41:17
+chunk_duration:0.6264021396636963
+chunk_speech_to_text_time:0.6772606372833252
+final_delay_time:0.0069239139556884766
+********************
+timestamp:2024-04-20 13:41:47
+chunk_duration:1.038048505783081
+chunk_speech_to_text_time:0.7582740783691406
+final_delay_time:0.006986379623413086
+********************
+timestamp:2024-04-20 13:42:10
+chunk_duration:0.5737366676330566
+chunk_speech_to_text_time:0.5423762798309326
+timestamp:2024-04-20 13:42:11
+chunk_duration:0.5615191459655762
+chunk_speech_to_text_time:0.6138370037078857
+final_delay_time:0.008826017379760742
+********************
+timestamp:2024-04-20 13:42:47
+chunk_duration:0.5734782218933105
+chunk_speech_to_text_time:0.6084446907043457
+final_delay_time:0.014854669570922852
+********************
+timestamp:2024-04-20 13:43:05
+chunk_duration:0.9457635879516602
+chunk_speech_to_text_time:0.8020107746124268
+final_delay_time:0.008487462997436523
+********************
+timestamp:2024-04-20 13:43:27
+chunk_duration:0.6978061199188232
+chunk_speech_to_text_time:0.6420729160308838
+final_delay_time:0.006453275680541992
+********************
+timestamp:2024-04-20 13:43:53
+chunk_duration:0.5739867687225342
+chunk_speech_to_text_time:0.7189490795135498
+final_delay_time:0.0071563720703125
+********************
+timestamp:2024-04-20 13:44:20
+chunk_duration:1.1610023975372314
+chunk_speech_to_text_time:0.7390408515930176
+final_delay_time:0.011534452438354492
+********************
+timestamp:2024-04-20 13:44:46
+chunk_duration:1.3632395267486572
+chunk_speech_to_text_time:0.7252800464630127
+final_delay_time:0.010660409927368164
+********************
+timestamp:2024-04-20 13:45:08
+chunk_duration:1.1938931941986084
+chunk_speech_to_text_time:0.7373623847961426
+final_delay_time:0.006613731384277344
+********************
+timestamp:2024-04-20 13:45:23
+chunk_duration:0.8680472373962402
+chunk_speech_to_text_time:0.6641852855682373
+timestamp:2024-04-20 13:45:25
+chunk_duration:1.658085584640503
+chunk_speech_to_text_time:0.6001224517822266
+final_delay_time:0.008870124816894531
+********************
+timestamp:2024-04-20 13:45:39
+chunk_duration:0.6659722328186035
+chunk_speech_to_text_time:0.5841591358184814
+final_delay_time:0.006499052047729492
+********************
+timestamp:2024-04-20 13:46:49
+chunk_duration:0.6979701519012451
+chunk_speech_to_text_time:0.7890024185180664
+final_delay_time:0.009688138961791992
+********************
+timestamp:2024-04-20 13:47:21
+chunk_duration:0.6198787689208984
+chunk_speech_to_text_time:0.7102835178375244
+final_delay_time:0.01084589958190918
+********************
+timestamp:2024-04-20 13:47:56
+chunk_duration:0.5738632678985596
+chunk_speech_to_text_time:0.6916615962982178
+final_delay_time:0.011711359024047852
+********************
+timestamp:2024-04-20 13:48:45
+chunk_duration:1.7359449863433838
+chunk_speech_to_text_time:0.7649664878845215
+final_delay_time:0.00883626937866211
+********************
+timestamp:2024-04-20 13:49:08
+chunk_duration:1.488039255142212
+chunk_speech_to_text_time:1.7826688289642334
+final_delay_time:0.00729680061340332
+********************
+timestamp:2024-04-20 13:49:34
+chunk_duration:1.2397990226745605
+chunk_speech_to_text_time:0.8378555774688721
+final_delay_time:0.013155460357666016
+********************
+timestamp:2024-04-20 13:49:53
+chunk_duration:1.4881012439727783
+chunk_speech_to_text_time:0.7101614475250244
+final_delay_time:0.012071609497070312
+********************
+timestamp:2024-04-20 13:50:08
+chunk_duration:2.9753403663635254
+chunk_speech_to_text_time:0.8732442855834961
+final_delay_time:0.009665250778198242
+********************
+timestamp:2024-04-20 13:50:26
+chunk_duration:1.90608549118042
+chunk_speech_to_text_time:0.7097210884094238
+final_delay_time:0.010731697082519531
+********************
+timestamp:2024-04-20 13:51:46
+chunk_duration:1.9051556587219238
+chunk_speech_to_text_time:0.8934378623962402
+final_delay_time:0.02228236198425293
+********************
+timestamp:2024-04-20 13:52:09
+chunk_duration:1.4424550533294678
+chunk_speech_to_text_time:0.7713677883148193
+final_delay_time:0.013820886611938477
+********************
+timestamp:2024-04-20 13:52:41
+chunk_duration:2.558212995529175
+chunk_speech_to_text_time:1.0312714576721191
+final_delay_time:0.007353782653808594
+********************
+timestamp:2024-04-20 13:53:02
+chunk_duration:0.6197667121887207
+chunk_speech_to_text_time:0.628262996673584
+final_delay_time:0.3478386402130127
+********************
+timestamp:2024-04-20 13:53:19
+chunk_duration:0.6972675323486328
+chunk_speech_to_text_time:0.7130856513977051
+final_delay_time:0.04927802085876465
+********************
+timestamp:2024-04-20 13:53:39
+chunk_duration:1.4101200103759766
+chunk_speech_to_text_time:0.7254688739776611
+final_delay_time:0.013576030731201172
+********************
+timestamp:2024-04-20 13:53:53
+chunk_duration:0.7440133094787598
+chunk_speech_to_text_time:0.6182620525360107
+final_delay_time:0.009596586227416992
+********************
+timestamp:2024-04-20 13:54:11
+chunk_duration:0.5739641189575195
+chunk_speech_to_text_time:0.7421340942382812
+final_delay_time:0.011451005935668945
+********************
+timestamp:2024-04-20 13:54:27
+chunk_duration:0.6200098991394043
+chunk_speech_to_text_time:0.6336960792541504
+final_delay_time:0.01112675666809082
+********************
+timestamp:2024-04-20 13:54:38
+chunk_duration:0.8670151233673096
+chunk_speech_to_text_time:0.5921471118927002
+final_delay_time:0.014506340026855469
+********************
+timestamp:2024-04-20 13:54:57
+chunk_duration:0.6197984218597412
+chunk_speech_to_text_time:1.7715959548950195
+final_delay_time:0.010335206985473633
+********************
+timestamp:2024-04-20 13:55:12
+chunk_duration:1.983940601348877
+chunk_speech_to_text_time:0.8269839286804199
+final_delay_time:0.010908365249633789
+********************
+timestamp:2024-04-20 13:55:56
+chunk_duration:0.6659600734710693
+chunk_speech_to_text_time:0.662834644317627
+final_delay_time:0.0063169002532958984
+********************
+timestamp:2024-04-20 13:56:17
+chunk_duration:1.983907699584961
+chunk_speech_to_text_time:0.771681547164917
+final_delay_time:0.008777856826782227
+********************
+timestamp:2024-04-20 14:02:00
+chunk_duration:1.192270040512085
+chunk_speech_to_text_time:1.301928997039795
+final_delay_time:0.057489633560180664
+********************
+timestamp:2024-04-20 14:02:17
+chunk_duration:1.7821638584136963
+chunk_speech_to_text_time:0.7315981388092041
+final_delay_time:0.020282983779907227
+********************
+timestamp:2024-04-20 14:02:33
+chunk_duration:0.6199135780334473
+chunk_speech_to_text_time:0.9324398040771484
+final_delay_time:0.02402329444885254
+********************
+timestamp:2024-04-20 14:02:55
+chunk_duration:0.7438521385192871
+chunk_speech_to_text_time:0.9904587268829346
+final_delay_time:0.008768320083618164
+********************
+timestamp:2024-04-20 14:03:36
+chunk_duration:1.9830906391143799
+chunk_speech_to_text_time:0.8960552215576172
+final_delay_time:0.044553518295288086
+********************
+timestamp:2024-04-20 14:03:55
+chunk_duration:3.2233176231384277
+chunk_speech_to_text_time:1.261251449584961
+final_delay_time:0.008906126022338867
+********************
+timestamp:2024-04-20 14:04:14
+chunk_duration:1.5335335731506348
+chunk_speech_to_text_time:0.8329758644104004
+final_delay_time:0.07861542701721191
+********************
+timestamp:2024-04-20 14:04:43
+chunk_duration:1.4100396633148193
+chunk_speech_to_text_time:0.6831212043762207
+timestamp:2024-04-20 14:04:46
+chunk_duration:0.7440273761749268
+chunk_speech_to_text_time:0.7212111949920654
+final_delay_time:0.010761260986328125
+********************
+timestamp:2024-04-20 14:05:09
+chunk_duration:0.6200790405273438
+chunk_speech_to_text_time:0.589775562286377
+final_delay_time:0.026726722717285156
+********************
+timestamp:2024-04-20 14:05:38
+chunk_duration:1.5580508708953857
+chunk_speech_to_text_time:0.7479267120361328
+final_delay_time:0.008956193923950195
+********************
+timestamp:2024-04-20 14:05:59
+chunk_duration:0.6187779903411865
+chunk_speech_to_text_time:0.49304699897766113
+final_delay_time:0.022870540618896484
+********************
+timestamp:2024-04-20 14:06:35
+chunk_duration:0.5726492404937744
+chunk_speech_to_text_time:0.6977901458740234
+timestamp:2024-04-20 14:06:36
+chunk_duration:0.6194696426391602
+chunk_speech_to_text_time:0.6622974872589111
+final_delay_time:0.006918907165527344
+********************
+timestamp:2024-04-20 14:07:17
+chunk_duration:1.488065242767334
+chunk_speech_to_text_time:0.7819094657897949
+final_delay_time:0.09971904754638672
+********************
+timestamp:2024-04-20 14:07:57
+chunk_duration:1.6113653182983398
+chunk_speech_to_text_time:0.7531092166900635
+final_delay_time:0.009885787963867188
+********************
+timestamp:2024-04-20 14:08:13
+chunk_duration:1.116079568862915
+chunk_speech_to_text_time:0.7614235877990723
+final_delay_time:0.020199298858642578
+********************
+timestamp:2024-04-20 14:08:40
+chunk_duration:1.6893606185913086
+chunk_speech_to_text_time:0.7604999542236328
+final_delay_time:0.010069847106933594
+********************
+timestamp:2024-04-20 14:09:09
+chunk_duration:2.595935821533203
+chunk_speech_to_text_time:1.0101125240325928
+final_delay_time:0.010034322738647461
+********************
+timestamp:2024-04-20 14:09:44
+chunk_duration:2.432410955429077
+chunk_speech_to_text_time:1.0870263576507568
+final_delay_time:0.006196498870849609
+********************
+timestamp:2024-04-20 14:10:03
+chunk_duration:1.6899714469909668
+chunk_speech_to_text_time:0.8342986106872559
+final_delay_time:0.00673222541809082
+********************
+timestamp:2024-04-20 14:10:29
+chunk_duration:2.2786271572113037
+chunk_speech_to_text_time:0.8759453296661377
+final_delay_time:0.0067899227142333984
+********************
+timestamp:2024-04-20 14:10:59
+chunk_duration:1.3173768520355225
+chunk_speech_to_text_time:0.7565197944641113
+final_delay_time:0.019036054611206055
+********************
+timestamp:2024-04-20 14:11:34
+chunk_duration:2.2308783531188965
+chunk_speech_to_text_time:1.067474365234375
+final_delay_time:0.07382392883300781
+********************
+timestamp:2024-04-20 14:11:49
+chunk_duration:0.6201143264770508
+chunk_speech_to_text_time:0.6449084281921387
+final_delay_time:0.00523066520690918
+********************
+timestamp:2024-04-20 14:12:11
+chunk_duration:1.194152593612671
+chunk_speech_to_text_time:0.7585477828979492
+timestamp:2024-04-20 14:12:13
+chunk_duration:1.593637228012085
+chunk_speech_to_text_time:0.8172838687896729
+final_delay_time:0.04761099815368652
+********************
+timestamp:2024-04-20 14:12:31
+chunk_duration:1.2860691547393799
+chunk_speech_to_text_time:0.7467458248138428
+final_delay_time:0.03805851936340332
+********************
+timestamp:2024-04-20 14:13:20
+chunk_duration:1.193471908569336
+chunk_speech_to_text_time:1.39955472946167
+timestamp:2024-04-20 14:13:20
+chunk_duration:0.8219428062438965
+chunk_speech_to_text_time:0.9994757175445557
+final_delay_time:0.03405189514160156
+********************
+timestamp:2024-04-20 14:21:07
+chunk_duration:0.8202850818634033
+chunk_speech_to_text_time:0.7307627201080322
+timestamp:2024-04-20 14:21:08
+chunk_duration:0.5803053379058838
+chunk_speech_to_text_time:0.6130881309509277
+final_delay_time:0.12919998168945312
+********************
+timestamp:2024-04-20 14:21:51
+chunk_duration:1.1940598487854004
+chunk_speech_to_text_time:0.7347617149353027
+final_delay_time:0.01077890396118164
+********************
+timestamp:2024-04-20 14:22:36
+chunk_duration:2.5456457138061523
+chunk_speech_to_text_time:0.8791241645812988
+final_delay_time:0.031110048294067383
+********************
+timestamp:2024-04-20 14:23:00
+chunk_duration:2.060351610183716
+chunk_speech_to_text_time:0.7850179672241211
+final_delay_time:0.009240388870239258
+********************
+timestamp:2024-04-20 14:23:13
+chunk_duration:1.3169939517974854
+chunk_speech_to_text_time:0.6627216339111328
+final_delay_time:0.008528709411621094
+********************
+timestamp:2024-04-20 14:23:27
+chunk_duration:2.4802536964416504
+chunk_speech_to_text_time:0.8977477550506592
+timestamp:2024-04-20 14:23:28
+chunk_duration:0.6685423851013184
+chunk_speech_to_text_time:0.5793824195861816
+final_delay_time:0.010659217834472656
+********************
+timestamp:2024-04-20 14:23:48
+chunk_duration:1.7821590900421143
+chunk_speech_to_text_time:0.812788724899292
+timestamp:2024-04-20 14:23:48
+chunk_duration:0.9923765659332275
+chunk_speech_to_text_time:0.5697379112243652
+final_delay_time:0.013902902603149414
+********************
+timestamp:2024-04-20 14:24:08
+chunk_duration:1.7361679077148438
+chunk_speech_to_text_time:0.733248233795166
+final_delay_time:0.07790970802307129
+********************
+timestamp:2024-04-20 14:24:31
+chunk_duration:1.4878621101379395
+chunk_speech_to_text_time:0.7476789951324463
+final_delay_time:0.008102655410766602
+********************
+timestamp:2024-04-20 14:24:55
+chunk_duration:0.6199085712432861
+chunk_speech_to_text_time:0.6726641654968262
+timestamp:2024-04-20 14:24:56
+chunk_duration:0.6979598999023438
+chunk_speech_to_text_time:0.6482422351837158
+final_delay_time:0.010815143585205078
+********************
+timestamp:2024-04-20 14:25:10
+chunk_duration:1.317519187927246
+chunk_speech_to_text_time:0.6581740379333496
+final_delay_time:0.018982887268066406
+********************
+timestamp:2024-04-20 14:25:28
+chunk_duration:1.6889050006866455
+chunk_speech_to_text_time:0.7349624633789062
+final_delay_time:0.007838249206542969
+********************
+timestamp:2024-04-20 14:25:48
+chunk_duration:1.7353994846343994
+chunk_speech_to_text_time:0.7848796844482422
+final_delay_time:0.015308141708374023
+********************
+timestamp:2024-04-20 14:26:01
+chunk_duration:1.4878098964691162
+chunk_speech_to_text_time:0.7988293170928955
+timestamp:2024-04-20 14:26:02
+chunk_duration:1.612152338027954
+chunk_speech_to_text_time:0.6671080589294434
+final_delay_time:0.006925821304321289
+********************
+timestamp:2024-04-20 14:26:35
+chunk_duration:1.1160924434661865
+chunk_speech_to_text_time:0.579880952835083
+final_delay_time:0.008023262023925781
+********************
+timestamp:2024-04-20 14:27:02
+chunk_duration:5.699641466140747
+chunk_speech_to_text_time:1.6380481719970703
+final_delay_time:0.007882833480834961
+********************
+timestamp:2024-04-20 14:27:20
+chunk_duration:2.231231927871704
+chunk_speech_to_text_time:0.9875943660736084
+final_delay_time:0.010599136352539062
+********************
+timestamp:2024-04-20 14:27:35
+chunk_duration:3.177253246307373
+chunk_speech_to_text_time:1.052677869796753
+final_delay_time:0.007813215255737305
+********************
+timestamp:2024-04-20 14:27:49
+chunk_duration:0.6198656558990479
+chunk_speech_to_text_time:0.5893011093139648
+final_delay_time:0.016603708267211914
+********************
+timestamp:2024-04-20 14:28:39
+chunk_duration:2.356167793273926
+chunk_speech_to_text_time:0.9373924732208252
+final_delay_time:0.05740666389465332
+********************
+timestamp:2024-04-20 14:49:36
+chunk_duration:1.6113719940185547
+chunk_speech_to_text_time:0.8898031711578369
+final_delay_time:0.03002762794494629
+********************
+timestamp:2024-04-20 14:50:01
+chunk_duration:0.744448184967041
+chunk_speech_to_text_time:0.6503009796142578
+final_delay_time:0.055032968521118164
+********************
+timestamp:2024-04-20 14:50:47
+chunk_duration:1.1158812046051025
+chunk_speech_to_text_time:0.9064736366271973
+final_delay_time:0.11342096328735352
+********************
+timestamp:2024-04-20 14:51:05
+chunk_duration:1.038487434387207
+chunk_speech_to_text_time:0.7471346855163574
+final_delay_time:0.012571573257446289
+********************
+timestamp:2024-04-20 14:51:40
+chunk_duration:0.6189191341400146
+chunk_speech_to_text_time:0.8092560768127441
+final_delay_time:0.01185750961303711
+********************
+timestamp:2024-04-20 14:51:58
+chunk_duration:1.1153676509857178
+chunk_speech_to_text_time:0.782667875289917
+final_delay_time:0.09702515602111816
+********************
+timestamp:2024-04-20 14:52:21
+chunk_duration:0.9139792919158936
+chunk_speech_to_text_time:0.7795138359069824
+final_delay_time:0.030815839767456055
+********************
+timestamp:2024-04-20 14:53:05
+chunk_duration:2.4335086345672607
+chunk_speech_to_text_time:0.8100433349609375
+final_delay_time:0.01898336410522461
+********************
+timestamp:2024-04-20 14:53:31
+chunk_duration:1.1619575023651123
+chunk_speech_to_text_time:0.7512152194976807
+final_delay_time:0.022839069366455078
+********************
+timestamp:2024-04-20 14:53:45
+chunk_duration:0.5419986248016357
+chunk_speech_to_text_time:0.5682206153869629
+final_delay_time:0.034447669982910156
+********************
+timestamp:2024-04-20 14:54:00
+chunk_duration:0.8678228855133057
+chunk_speech_to_text_time:0.6250929832458496
+final_delay_time:0.025187969207763672
+********************
+timestamp:2024-04-20 14:54:16
+chunk_duration:0.7430565357208252
+chunk_speech_to_text_time:0.7512404918670654
+timestamp:2024-04-20 14:54:18
+chunk_duration:1.364058494567871
+chunk_speech_to_text_time:0.6927688121795654
+final_delay_time:0.07579350471496582
+********************
+timestamp:2024-04-20 14:54:34
+chunk_duration:1.1940770149230957
+chunk_speech_to_text_time:0.7079312801361084
+final_delay_time:0.030816078186035156
+********************
+timestamp:2024-04-20 14:54:50
+chunk_duration:0.6973848342895508
+chunk_speech_to_text_time:0.7657525539398193
+final_delay_time:0.09224390983581543
+********************
+timestamp:2024-04-20 14:55:06
+chunk_duration:1.6120705604553223
+chunk_speech_to_text_time:0.8254139423370361
+final_delay_time:0.04603290557861328
+********************
+timestamp:2024-04-20 14:55:21
+chunk_duration:0.6079432964324951
+chunk_speech_to_text_time:0.7791600227355957
+final_delay_time:0.02220916748046875
+********************
+timestamp:2024-04-20 14:55:40
+chunk_duration:1.4418175220489502
+chunk_speech_to_text_time:0.7111105918884277
+final_delay_time:0.13773202896118164
+********************
+timestamp:2024-04-20 14:56:02
+chunk_duration:0.6660206317901611
+chunk_speech_to_text_time:0.7059032917022705
+final_delay_time:0.04553794860839844
+********************
+timestamp:2024-04-20 14:56:26
+chunk_duration:2.355626106262207
+chunk_speech_to_text_time:0.7772283554077148
+final_delay_time:0.015203714370727539
+********************
+timestamp:2024-04-20 14:56:44
+chunk_duration:1.6896538734436035
+chunk_speech_to_text_time:0.757098913192749
+final_delay_time:0.06184864044189453
+********************
+timestamp:2024-04-20 14:57:03
+chunk_duration:1.3640484809875488
+chunk_speech_to_text_time:0.817389726638794
+final_delay_time:0.09196019172668457
+********************
+timestamp:2024-04-20 14:57:21
+chunk_duration:3.0998647212982178
+chunk_speech_to_text_time:1.0511577129364014
+final_delay_time:0.01742243766784668
+********************
+timestamp:2024-04-20 14:57:40
+chunk_duration:1.1859314441680908
+chunk_speech_to_text_time:1.0002684593200684
+timestamp:2024-04-20 14:57:43
+chunk_duration:1.6170194149017334
+chunk_speech_to_text_time:0.9033234119415283
+final_delay_time:0.05173659324645996
+********************
+timestamp:2024-04-20 14:58:09
+chunk_duration:4.454816579818726
+chunk_speech_to_text_time:1.2918109893798828
+final_delay_time:0.035503387451171875
+********************
+timestamp:2024-04-20 14:58:25
+chunk_duration:1.3641254901885986
+chunk_speech_to_text_time:0.6912248134613037
+final_delay_time:0.08671450614929199
+********************
+timestamp:2024-04-20 14:58:42
+chunk_duration:1.6111643314361572
+chunk_speech_to_text_time:0.7997448444366455
+final_delay_time:0.10296273231506348
+********************
+timestamp:2024-04-20 14:58:55
+chunk_duration:1.8601679801940918
+chunk_speech_to_text_time:0.8452470302581787
+final_delay_time:0.02974677085876465
+********************
+timestamp:2024-04-20 14:59:11
+chunk_duration:1.9839696884155273
+chunk_speech_to_text_time:0.8465991020202637
+final_delay_time:0.10549163818359375
+********************
+timestamp:2024-04-20 14:59:26
+chunk_duration:1.4880397319793701
+chunk_speech_to_text_time:0.9228999614715576
+final_delay_time:0.07164907455444336
+********************
+timestamp:2024-04-20 14:59:51
+chunk_duration:2.479196071624756
+chunk_speech_to_text_time:0.9269497394561768
+timestamp:2024-04-20 14:59:53
+chunk_duration:0.8212568759918213
+chunk_speech_to_text_time:0.7944390773773193
+final_delay_time:0.039505720138549805
+********************
+timestamp:2024-04-20 15:02:10
+chunk_duration:1.6111156940460205
+chunk_speech_to_text_time:0.9480781555175781
+final_delay_time:0.1002647876739502
+********************
+timestamp:2024-04-20 15:02:42
+chunk_duration:0.5420534610748291
+chunk_speech_to_text_time:0.9131896495819092
+final_delay_time:0.052323341369628906
+********************
+timestamp:2024-04-20 15:03:34
+chunk_duration:0.6199519634246826
+chunk_speech_to_text_time:0.7684793472290039
+timestamp:2024-04-20 15:03:35
+chunk_duration:0.6199827194213867
+chunk_speech_to_text_time:0.6679635047912598
+final_delay_time:0.02017045021057129
+********************
+timestamp:2024-04-20 15:03:56
+chunk_duration:1.1153738498687744
+chunk_speech_to_text_time:0.8024792671203613
+final_delay_time:0.03847050666809082
+********************
+timestamp:2024-04-20 15:04:51
+chunk_duration:0.5419652462005615
+chunk_speech_to_text_time:0.7069175243377686
+timestamp:2024-04-20 15:04:54
+chunk_duration:1.9831347465515137
+chunk_speech_to_text_time:0.7642574310302734
+final_delay_time:0.008414268493652344
+********************
+timestamp:2024-04-20 15:05:15
+chunk_duration:2.1546356678009033
+chunk_speech_to_text_time:1.4776694774627686
+final_delay_time:0.013572216033935547
+********************
+timestamp:2024-04-20 15:05:31
+chunk_duration:0.7436997890472412
+chunk_speech_to_text_time:0.5538625717163086
+final_delay_time:0.015000343322753906
+********************
+timestamp:2024-04-20 15:06:49
+chunk_duration:0.665851354598999
+chunk_speech_to_text_time:0.6442673206329346
+final_delay_time:0.02556133270263672
+********************
+timestamp:2024-04-20 15:08:01
+chunk_duration:0.6200120449066162
+chunk_speech_to_text_time:0.7226724624633789
+final_delay_time:0.021828651428222656
+********************
+timestamp:2024-04-20 15:08:24
+chunk_duration:2.2781641483306885
+chunk_speech_to_text_time:0.868140697479248
+final_delay_time:0.04518580436706543
+********************
+timestamp:2024-04-20 15:09:03
+chunk_duration:1.0701372623443604
+chunk_speech_to_text_time:0.5839221477508545
+final_delay_time:0.012192487716674805
+********************
+timestamp:2024-04-20 15:10:39
+chunk_duration:1.6121189594268799
+chunk_speech_to_text_time:0.8248460292816162
+final_delay_time:0.010614395141601562
+********************
+timestamp:2024-04-20 15:11:12
+chunk_duration:1.9831008911132812
+chunk_speech_to_text_time:0.8457508087158203
+final_delay_time:0.008793830871582031
+********************
+timestamp:2024-04-20 15:13:49
+chunk_duration:0.6193604469299316
+chunk_speech_to_text_time:0.8098099231719971
+timestamp:2024-04-20 15:13:51
+chunk_duration:1.6079752445220947
+chunk_speech_to_text_time:0.690589189529419
+timestamp:2024-04-20 15:13:52
+chunk_duration:0.5377376079559326
+chunk_speech_to_text_time:0.5531005859375
+final_delay_time:0.011097908020019531
+********************
+timestamp:2024-04-20 15:14:11
+chunk_duration:5.33178186416626
+chunk_speech_to_text_time:1.322446584701538
+final_delay_time:0.012810468673706055
+********************
+timestamp:2024-04-20 15:14:38
+chunk_duration:1.488050937652588
+chunk_speech_to_text_time:0.8187119960784912
+final_delay_time:0.011345386505126953
+********************
+timestamp:2024-04-20 15:15:13
+chunk_duration:2.348224639892578
+chunk_speech_to_text_time:0.9806106090545654
+final_delay_time:0.08326506614685059
+********************
+timestamp:2024-04-20 15:15:44
+chunk_duration:0.5420191287994385
+chunk_speech_to_text_time:0.6962525844573975
+final_delay_time:0.03546476364135742
+********************
+timestamp:2024-04-20 15:16:48
+chunk_duration:1.4101364612579346
+chunk_speech_to_text_time:1.1690640449523926
+final_delay_time:0.0208892822265625
+********************
+timestamp:2024-04-20 15:17:16
+chunk_duration:1.2400763034820557
+chunk_speech_to_text_time:0.8345155715942383
+final_delay_time:0.010290145874023438
+********************
+timestamp:2024-04-20 15:17:32
+chunk_duration:0.666062593460083
+chunk_speech_to_text_time:0.8014686107635498
+final_delay_time:0.007344722747802734
+********************
+timestamp:2024-04-20 15:18:07
+chunk_duration:1.362452745437622
+chunk_speech_to_text_time:1.072765588760376
+final_delay_time:0.011588811874389648
+********************
+timestamp:2024-04-20 15:18:28
+chunk_duration:0.9139626026153564
+chunk_speech_to_text_time:0.7387135028839111
+final_delay_time:0.019352436065673828
+********************
+timestamp:2024-04-20 15:19:00
+chunk_duration:1.487067699432373
+chunk_speech_to_text_time:0.847632884979248
+final_delay_time:0.01105809211730957
+********************
+timestamp:2024-04-20 15:19:35
+chunk_duration:0.868046760559082
+chunk_speech_to_text_time:0.8051447868347168
+final_delay_time:0.015526294708251953
+********************
+timestamp:2024-04-20 15:21:11
+chunk_duration:0.665959358215332
+chunk_speech_to_text_time:0.6432723999023438
+final_delay_time:0.008846521377563477
+********************
+timestamp:2024-04-20 15:21:30
+chunk_duration:1.3182225227355957
+chunk_speech_to_text_time:0.7621297836303711
+final_delay_time:0.008832931518554688
+********************
+timestamp:2024-04-20 15:22:54
+chunk_duration:0.6659801006317139
+chunk_speech_to_text_time:1.1216745376586914
+final_delay_time:0.007936954498291016
+********************
+timestamp:2024-04-20 15:23:09
+chunk_duration:1.3640642166137695
+chunk_speech_to_text_time:0.6881930828094482
+final_delay_time:0.007478952407836914
+********************
+timestamp:2024-04-20 15:23:33
+chunk_duration:2.153177499771118
+chunk_speech_to_text_time:1.2825899124145508
+final_delay_time:0.01290273666381836
+********************
+timestamp:2024-04-20 15:23:50
+chunk_duration:0.573993444442749
+chunk_speech_to_text_time:0.7788524627685547
+timestamp:2024-04-20 15:23:51
+chunk_duration:0.6689953804016113
+chunk_speech_to_text_time:0.6368772983551025
+final_delay_time:0.009450197219848633
+********************
+timestamp:2024-04-20 15:24:06
+chunk_duration:0.8680529594421387
+chunk_speech_to_text_time:0.798429012298584
+final_delay_time:0.016860485076904297
+********************
+timestamp:2024-04-20 15:24:23
+chunk_duration:1.3180577754974365
+chunk_speech_to_text_time:1.1060006618499756
+final_delay_time:0.0305330753326416
+********************
+timestamp:2024-04-20 15:24:37
+chunk_duration:0.6199970245361328
+chunk_speech_to_text_time:0.7467894554138184
+final_delay_time:0.010492563247680664
+********************
+timestamp:2024-04-20 15:24:53
+chunk_duration:0.992051362991333
+chunk_speech_to_text_time:1.1242449283599854
+final_delay_time:0.010401487350463867
+********************
+timestamp:2024-04-20 15:25:07
+chunk_duration:0.6199572086334229
+chunk_speech_to_text_time:0.82265305519104
+final_delay_time:0.009451150894165039
+********************
+timestamp:2024-04-20 15:25:22
+chunk_duration:0.5736677646636963
+chunk_speech_to_text_time:0.7376241683959961
+final_delay_time:0.011601686477661133
+********************
+timestamp:2024-04-20 15:25:46
+chunk_duration:1.0385081768035889
+chunk_speech_to_text_time:0.8193440437316895
+final_delay_time:0.015218019485473633
+********************
+timestamp:2024-04-20 15:26:09
+chunk_duration:0.7440328598022461
+chunk_speech_to_text_time:0.8304214477539062
+final_delay_time:0.015799760818481445
+********************
+timestamp:2024-04-20 15:26:59
+chunk_duration:0.6199007034301758
+chunk_speech_to_text_time:0.8883943557739258
+final_delay_time:0.014223098754882812
+********************
+timestamp:2024-04-20 15:27:22
+chunk_duration:2.232201337814331
+chunk_speech_to_text_time:1.1431291103363037
+final_delay_time:0.010496377944946289
+********************
+timestamp:2024-04-20 15:27:38
+chunk_duration:1.613044261932373
+chunk_speech_to_text_time:1.1109421253204346
+final_delay_time:0.01917719841003418
+********************
+timestamp:2024-04-20 15:27:57
+chunk_duration:2.6047415733337402
+chunk_speech_to_text_time:2.529346227645874
+final_delay_time:0.010564565658569336
+********************
+timestamp:2024-04-20 15:28:11
+chunk_duration:0.8220012187957764
+chunk_speech_to_text_time:0.9215483665466309
+final_delay_time:0.007698535919189453
+********************
+timestamp:2024-04-20 15:28:30
+chunk_duration:0.5741832256317139
+chunk_speech_to_text_time:0.8503446578979492
+final_delay_time:0.010724306106567383
+********************
+timestamp:2024-04-20 15:28:50
+chunk_duration:1.1624321937561035
+chunk_speech_to_text_time:0.8688158988952637
+final_delay_time:0.014791011810302734
+********************
+timestamp:2024-04-20 15:29:05
+chunk_duration:1.6124823093414307
+chunk_speech_to_text_time:0.8529977798461914
+final_delay_time:0.011674642562866211
+********************
+timestamp:2024-04-20 15:29:36
+chunk_duration:1.6900880336761475
+chunk_speech_to_text_time:1.191880226135254
+final_delay_time:0.028172969818115234
+********************
+timestamp:2024-04-20 15:29:59
+chunk_duration:1.65816330909729
+chunk_speech_to_text_time:1.1361658573150635
+final_delay_time:0.013488292694091797
+********************
+timestamp:2024-04-20 15:30:17
+chunk_duration:0.8213999271392822
+chunk_speech_to_text_time:0.9994995594024658
+final_delay_time:0.009465932846069336
+********************
+timestamp:2024-04-20 15:30:34
+chunk_duration:2.106921672821045
+chunk_speech_to_text_time:1.0336649417877197
+final_delay_time:0.017604827880859375
+********************
+timestamp:2024-04-20 15:30:54
+chunk_duration:2.1532044410705566
+chunk_speech_to_text_time:1.2430813312530518
+final_delay_time:0.015552759170532227
+********************
+timestamp:2024-04-20 15:31:35
+chunk_duration:1.284909725189209
+chunk_speech_to_text_time:0.9113729000091553
+final_delay_time:0.01105189323425293
+********************
+timestamp:2024-04-20 15:31:56
+chunk_duration:1.3631222248077393
+chunk_speech_to_text_time:0.8877589702606201
+final_delay_time:0.11416172981262207
+********************
+timestamp:2024-04-20 15:32:17
+chunk_duration:1.2389328479766846
+chunk_speech_to_text_time:1.4609787464141846
+final_delay_time:0.009238958358764648
+********************
+timestamp:2024-04-20 15:32:39
+chunk_duration:1.3641228675842285
+chunk_speech_to_text_time:0.7605528831481934
+final_delay_time:0.014323949813842773
+********************
+timestamp:2024-04-20 15:32:54
+chunk_duration:0.7440285682678223
+chunk_speech_to_text_time:0.8805828094482422
+final_delay_time:0.009545326232910156
+********************
+timestamp:2024-04-20 15:34:11
+chunk_duration:1.2780489921569824
+chunk_speech_to_text_time:1.3040060997009277
+final_delay_time:0.011833667755126953
+********************
+timestamp:2024-04-20 15:34:28
+chunk_duration:2.3560755252838135
+chunk_speech_to_text_time:0.8986051082611084
+final_delay_time:0.00991964340209961
+********************
+timestamp:2024-04-20 15:34:44
+chunk_duration:1.1620805263519287
+chunk_speech_to_text_time:0.7031867504119873
+final_delay_time:0.01140451431274414
+********************
+timestamp:2024-04-20 15:35:08
+chunk_duration:1.6115915775299072
+chunk_speech_to_text_time:0.837773323059082
+final_delay_time:0.0062215328216552734
+********************
+timestamp:2024-04-20 15:35:24
+chunk_duration:0.6200330257415771
+chunk_speech_to_text_time:0.7931036949157715
+final_delay_time:0.0208737850189209
+********************
+timestamp:2024-04-20 15:35:44
+chunk_duration:1.4421226978302002
+chunk_speech_to_text_time:0.9058389663696289
+final_delay_time:0.012724876403808594
+********************
+timestamp:2024-04-20 15:36:05
+chunk_duration:0.9463183879852295
+chunk_speech_to_text_time:0.9038164615631104
+final_delay_time:0.012247800827026367
+********************
+timestamp:2024-04-20 15:36:34
+chunk_duration:0.8204600811004639
+chunk_speech_to_text_time:0.8999969959259033
+final_delay_time:0.0068511962890625
+********************
+timestamp:2024-04-20 15:36:49
+chunk_duration:0.5737588405609131
+chunk_speech_to_text_time:0.7876183986663818
+final_delay_time:0.009011507034301758
+********************
+timestamp:2024-04-20 15:37:49
+chunk_duration:1.1940617561340332
+chunk_speech_to_text_time:0.813021183013916
+final_delay_time:0.011413335800170898
+********************
+timestamp:2024-04-20 15:38:10
+chunk_duration:0.6192440986633301
+chunk_speech_to_text_time:0.8989899158477783
+final_delay_time:0.007883548736572266
+********************
+timestamp:2024-04-20 15:38:47
+chunk_duration:0.6200740337371826
+chunk_speech_to_text_time:0.7946321964263916
+final_delay_time:0.008734941482543945
+********************
+timestamp:2024-04-20 15:39:23
+chunk_duration:0.6659269332885742
+chunk_speech_to_text_time:0.7632534503936768
+final_delay_time:0.015455007553100586
+********************
+timestamp:2024-04-20 15:40:08
+chunk_duration:0.619999885559082
+chunk_speech_to_text_time:0.7138245105743408
+final_delay_time:0.007872343063354492
+********************
+timestamp:2024-04-20 15:40:36
+chunk_duration:0.5652866363525391
+chunk_speech_to_text_time:0.6861999034881592
+final_delay_time:0.011967897415161133
+********************
+timestamp:2024-04-20 15:40:59
+chunk_duration:0.5733118057250977
+chunk_speech_to_text_time:0.7547695636749268
+final_delay_time:0.008705854415893555
+********************
+timestamp:2024-04-20 15:41:35
+chunk_duration:2.278167247772217
+chunk_speech_to_text_time:1.0843496322631836
+final_delay_time:0.019603252410888672
+********************
+timestamp:2024-04-20 15:42:41
+chunk_duration:0.9920172691345215
+chunk_speech_to_text_time:0.9776194095611572
+final_delay_time:0.010785579681396484
+********************
+timestamp:2024-04-20 15:43:24
+chunk_duration:1.488208532333374
+chunk_speech_to_text_time:0.7989602088928223
+final_delay_time:0.009192705154418945
+********************
+timestamp:2024-04-20 15:46:27
+chunk_duration:2.355534076690674
+chunk_speech_to_text_time:1.0974152088165283
+final_delay_time:0.008334636688232422
+********************
+timestamp:2024-04-20 15:46:57
+chunk_duration:1.9380757808685303
+chunk_speech_to_text_time:0.832831859588623
+final_delay_time:0.00925135612487793
+********************
+timestamp:2024-04-20 15:47:17
+chunk_duration:0.5419888496398926
+chunk_speech_to_text_time:0.6662147045135498
+final_delay_time:0.011486530303955078
+********************
+timestamp:2024-04-20 15:48:07
+chunk_duration:2.5262014865875244
+chunk_speech_to_text_time:1.0770070552825928
+final_delay_time:0.013387918472290039
+********************
+timestamp:2024-04-20 15:48:48
+chunk_duration:1.7361056804656982
+chunk_speech_to_text_time:0.8926329612731934
+final_delay_time:0.009627580642700195
+********************
+timestamp:2024-04-20 15:49:08
+chunk_duration:0.9920814037322998
+chunk_speech_to_text_time:0.9069781303405762
+final_delay_time:0.006680011749267578
+********************
+timestamp:2024-04-20 15:49:28
+chunk_duration:0.5737285614013672
+chunk_speech_to_text_time:0.6071579456329346
+final_delay_time:0.009755134582519531
+********************
+timestamp:2024-04-20 15:50:11
+chunk_duration:0.7899537086486816
+chunk_speech_to_text_time:0.7032105922698975
+timestamp:2024-04-20 15:50:11
+chunk_duration:0.9413561820983887
+chunk_speech_to_text_time:0.5241599082946777
+final_delay_time:0.013628005981445312
+********************
+timestamp:2024-04-20 15:50:35
+chunk_duration:1.3629708290100098
+chunk_speech_to_text_time:0.8857128620147705
+final_delay_time:0.011927127838134766
+********************
+timestamp:2024-04-20 15:50:52
+chunk_duration:0.6978869438171387
+chunk_speech_to_text_time:0.7994012832641602
+timestamp:2024-04-20 15:50:54
+chunk_duration:0.6199238300323486
+chunk_speech_to_text_time:0.7412848472595215
+final_delay_time:0.0086822509765625
+********************
+timestamp:2024-04-20 15:51:09
+chunk_duration:0.6200389862060547
+chunk_speech_to_text_time:0.6368842124938965
+final_delay_time:0.006791830062866211
+********************
+timestamp:2024-04-20 15:51:27
+chunk_duration:0.6659126281738281
+chunk_speech_to_text_time:0.6658966541290283
+timestamp:2024-04-20 15:51:30
+chunk_duration:2.8052401542663574
+chunk_speech_to_text_time:0.9373974800109863
+timestamp:2024-04-20 15:51:30
+chunk_duration:0.7436642646789551
+chunk_speech_to_text_time:0.581801176071167
+final_delay_time:0.008161067962646484
+********************
+timestamp:2024-04-20 15:51:46
+chunk_duration:0.6198351383209229
+chunk_speech_to_text_time:0.6809868812561035
+timestamp:2024-04-20 15:51:50
+chunk_duration:2.43855881690979
+chunk_speech_to_text_time:1.1090800762176514
+final_delay_time:0.011545896530151367
+********************
+timestamp:2024-04-20 15:52:11
+chunk_duration:2.5581769943237305
+chunk_speech_to_text_time:1.134516954421997
+timestamp:2024-04-20 15:52:12
+chunk_duration:1.2552595138549805
+chunk_speech_to_text_time:0.7179434299468994
+final_delay_time:0.0139617919921875
+********************
+timestamp:2024-04-20 15:52:38
+chunk_duration:2.107346296310425
+chunk_speech_to_text_time:1.092743158340454
+final_delay_time:0.016563892364501953
+********************
+timestamp:2024-04-20 15:52:54
+chunk_duration:0.573927640914917
+chunk_speech_to_text_time:0.6373910903930664
+final_delay_time:0.011898517608642578
+********************
+timestamp:2024-04-20 15:53:56
+chunk_duration:2.4334969520568848
+chunk_speech_to_text_time:0.9780983924865723
+timestamp:2024-04-20 15:53:59
+chunk_duration:3.1002354621887207
+chunk_speech_to_text_time:1.0349299907684326
+final_delay_time:0.021329402923583984
+********************
+timestamp:2024-04-20 15:54:20
+chunk_duration:0.8217916488647461
+chunk_speech_to_text_time:0.862220287322998
+final_delay_time:0.008310794830322266
+********************
+timestamp:2024-04-20 15:54:44
+chunk_duration:4.262776851654053
+chunk_speech_to_text_time:1.0942943096160889
+timestamp:2024-04-20 15:54:46
+chunk_duration:2.0597872734069824
+chunk_speech_to_text_time:0.7544584274291992
+timestamp:2024-04-20 15:54:48
+chunk_duration:1.5660789012908936
+chunk_speech_to_text_time:0.8699741363525391
+final_delay_time:0.009898900985717773
+********************
+timestamp:2024-04-20 15:55:09
+chunk_duration:0.6199147701263428
+chunk_speech_to_text_time:0.7818446159362793
+timestamp:2024-04-20 15:55:11
+chunk_duration:1.1158556938171387
+chunk_speech_to_text_time:0.844010591506958
+final_delay_time:0.034183502197265625
+********************
+timestamp:2024-04-20 15:55:32
+chunk_duration:1.566105604171753
+chunk_speech_to_text_time:1.1921651363372803
+final_delay_time:0.03532075881958008
+********************
+timestamp:2024-04-20 15:55:51
+chunk_duration:2.2321038246154785
+chunk_speech_to_text_time:0.8335793018341064
+timestamp:2024-04-20 15:55:56
+chunk_duration:3.8428268432617188
+chunk_speech_to_text_time:1.0033175945281982
+timestamp:2024-04-20 15:55:56
+chunk_duration:0.7900536060333252
+chunk_speech_to_text_time:0.555908203125
+final_delay_time:0.016313791275024414
+********************
+timestamp:2024-04-20 15:56:21
+chunk_duration:0.6658823490142822
+chunk_speech_to_text_time:0.6114468574523926
+timestamp:2024-04-20 15:56:23
+chunk_duration:1.1912319660186768
+chunk_speech_to_text_time:0.6703321933746338
+final_delay_time:0.010226964950561523
+********************
+timestamp:2024-04-20 15:56:49
+chunk_duration:2.106402635574341
+chunk_speech_to_text_time:0.7939326763153076
+final_delay_time:0.017526626586914062
+********************
