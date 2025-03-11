@@ -29,19 +29,19 @@ import json
 import os
 import gc
 
-rms_threshold = 40
+rms_threshold = 60
 short_normalize = (1.0 / 32768.0)
 chunk = 1024
 audio_format = pyaudio.paInt16
 channels = 1
-# rate = 44100
-rate = 192000
+rate = 44100
+#rate = 192000
 s_width = 2
 split_silence_time = 0.5
 final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
-log_filename = "logs/microphone_log.txt"
+log_filename = "/home/rice/microphone_services/logs/home_paraplegia/microphone_log_home_paraplegia_S2.txt"
 file_lock = threading.Lock()
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
 TIMEOUT = 30
@@ -93,6 +93,7 @@ class Recorder:
         self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"],
                                                     region="westeurope", speech_recognition_language=lang)
         self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=("", 0,))
+        
         self.log = open(log_filename, "a+")
         self.speaker_reco_start_time = 0
         self.speaker_reco_end_time = 0
@@ -122,6 +123,7 @@ class Recorder:
         if result.text:
             with file_lock:
                 self.log.write("speech_to_text_time:" + str(end_time - start_time) + "\n")
+                self.log.flush()
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
@@ -208,6 +210,7 @@ class Recorder:
                 if prof_dict:
                     self.log.write("chunk_speaker_recognition_time:" +
                                    str(self.speaker_reco_end_time - self.speaker_reco_start_time) + "\n")
+                self.log.flush()
             ident_speaker_id = ident_speaker_id[0]
             # Add a turn piece only if the user said something more than the phrase to end the turn
             if sentence:
@@ -335,6 +338,7 @@ class Recorder:
                             final_delay = time_after_final_chunk_transcription - time_after_final_silence
                             self.log.write("final_delay_time:" + str(final_delay) + "\n" \
                                            "********************\n")
+                            self.log.flush()
                         print("Recognized string:", self.dialogue_turn.get_text())
                         xml_string = self.dialogue_turn.to_xml_string()
                         print("Sending to client:", xml_string)

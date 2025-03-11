@@ -9,11 +9,8 @@ This script logs data related to the dialogue and vision from the client
 """
 import socket
 
-log_dialogue_filename = "logs/home_paraplegia/client_dialogue_log_paraplegia.txt"
-log_vision_filename = "logs/client_vision_log_paraplegia.txt"
-
-dialogue_logfile = open(log_dialogue_filename, 'a+')
-vision_logfile = open(log_vision_filename, 'a+')
+log_dialogue_filename = "/home/rice/microphone_services/logs/home_paraplegia/client_dialogue_log_home_paraplegia_S2.txt"
+log_vision_filename = "/home/rice/microphone_services/logs/home_paraplegia/client_vision_log_home_paraplegia_S2.txt"
 
 if __name__ == '__main__':
     server_recorder_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -31,6 +28,7 @@ if __name__ == '__main__':
         while True:
             data_chunk = connection.recv(1024).decode('utf-8')
             print("* Data received *")
+            print(data_chunk)
             if not data_chunk:
                 print("Client disconnected!")
                 break
@@ -38,11 +36,14 @@ if __name__ == '__main__':
             messages = accumulated_data.split("\n")
             # Process complete messages and update accumulated_data with any remaining partial message
             for i in range(len(messages)-1):
+                print(messages[i])
                 if messages[i]:
                     if messages[i].split("#")[0] == "d":
-                        dialogue_logfile.write(messages[i].split("#")[1] + "\n")
+                        with open(log_dialogue_filename, 'a+') as dialogue_logfile:
+                            dialogue_logfile.write(messages[i].split("#")[1] + "\n")
                     else:
-                        vision_logfile.write(messages[i].split("#")[1] + "\n")
+                        with open(log_vision_filename, 'a+') as vision_logfile:
+                            vision_logfile.write(messages[i].split("#")[1] + "\n")
 
             # The last element might be a partial message
             accumulated_data = messages[-1]
