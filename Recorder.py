@@ -31,10 +31,12 @@ import gc
 
 rms_threshold = 60
 short_normalize = (1.0 / 32768.0)
-chunk = 1024
+chunk = 2048
 audio_format = pyaudio.paInt16
 channels = 1
-rate = 44100
+# rate for PC and Raspberry Pi
+rate = 48000
+# Rate for AlterEgo
 # rate = 192000
 s_width = 2
 split_silence_time = 0.5
