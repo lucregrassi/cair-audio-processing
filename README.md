@@ -13,3 +13,7 @@ The audio can be recorded in different languages, however, the server currently 
   
 Once the registration is completed, the client continues the dialogue by saying the starting sentence of the dialogue with the new user and returns to listen thanks to the *audio_recorder* service.
 
+Steps to install pyaudio on Raspberry:
+$ sudo apt update
+$ sudo apt install portaudio19-dev python3-pyaudio python3-dev -y
+$ pip install pyaudio

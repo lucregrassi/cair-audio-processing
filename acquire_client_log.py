@@ -8,11 +8,16 @@ Affiliation: RICE, DIBRIS, University of Genoa, Italy
 This script logs data related to the dialogue and vision from the client
 """
 import socket
+import os
 
-log_dialogue_filename = "/home/rice/microphone_services/logs/home_paraplegia/client_dialogue_log_home_paraplegia_S2.txt"
-log_vision_filename = "/home/rice/microphone_services/logs/home_paraplegia/client_vision_log_home_paraplegia_S2.txt"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_dialogue_filename = os.path.join(script_dir, "logs", "home_paraplegia", "client_dialogue_log_home_paraplegia_S3.txt")
+log_vision_filename = os.path.join(script_dir, "logs", "home_paraplegia", "client_vision_log_home_paraplegia_S3.txt")
+print(f"Logging client dialogue to: {log_dialogue_filename}")
+print(f"Logging client vision to: {log_vision_filename}")
 
 if __name__ == '__main__':
+    # Create the socket - server side: waits for the client to connect
     server_recorder_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_recorder_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_recorder_socket.bind(("0.0.0.0", 9092))

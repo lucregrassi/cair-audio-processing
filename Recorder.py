@@ -41,7 +41,10 @@ split_silence_time = 0.5
 final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
-log_filename = "/home/rice/microphone_services/logs/home_paraplegia/microphone_log_home_paraplegia_S2.txt"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_filename = os.path.join(script_dir, "logs", "home_paraplegia", "audio_recorder_log_home_paraplegia_S3.txt")
+print(f"Logging to: {log_filename}")
+
 file_lock = threading.Lock()
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
 TIMEOUT = 30
@@ -63,7 +66,7 @@ class Recorder:
         self.p = pyaudio.PyAudio()
         info = self.p.get_host_api_info_by_index(0)
         num_devices = info.get('deviceCount')
-        usb_keywords = ["USB-MIC", "USB PnP Audio Device"]
+        usb_keywords = ["USB-MIC", "USB PnP Audio Device", "USB Microphone"]
         chosen_device = "default microphone"
         input_device = -1
         for i in range(0, num_devices):

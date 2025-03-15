@@ -1,0 +1,64 @@
+timestamp:2025-03-15 17:27:23
+chunk_duration:1.2800533771514893
+chunk_speech_to_text_time:0.5198028087615967
+final_delay_time:0.008444070816040039
+********************
+timestamp:2025-03-15 17:27:50
+chunk_duration:1.9660906791687012
+chunk_speech_to_text_time:0.6488707065582275
+final_delay_time:0.013350963592529297
+********************
+timestamp:2025-03-15 17:32:07
+chunk_duration:1.5360467433929443
+chunk_speech_to_text_time:0.6450231075286865
+final_delay_time:0.006975650787353516
+********************
+timestamp:2025-03-15 17:32:35
+chunk_duration:2.0040321350097656
+chunk_speech_to_text_time:0.5850043296813965
+timestamp:2025-03-15 17:32:42
+chunk_duration:3.1998260021209717
+chunk_speech_to_text_time:0.6776986122131348
+final_delay_time:0.006458759307861328
+********************
+timestamp:2025-03-15 17:33:11
+chunk_duration:1.1910364627838135
+chunk_speech_to_text_time:0.5677840709686279
+final_delay_time:0.006567478179931641
+********************
+timestamp:2025-03-15 17:33:37
+chunk_duration:1.2720324993133545
+chunk_speech_to_text_time:0.553661584854126
+final_delay_time:0.012810230255126953
+********************
+timestamp:2025-03-15 17:34:14
+chunk_duration:4.73612117767334
+chunk_speech_to_text_time:0.8403465747833252
+timestamp:2025-03-15 17:34:21
+chunk_duration:6.945333003997803
+chunk_speech_to_text_time:1.000213623046875
+final_delay_time:0.009941816329956055
+********************
+timestamp:2025-03-15 17:39:58
+chunk_duration:1.2278563976287842
+chunk_speech_to_text_time:0.5906131267547607
+final_delay_time:0.020399093627929688
+********************
+timestamp:2025-03-15 17:40:16
+chunk_duration:2.5370426177978516
+chunk_speech_to_text_time:0.6856105327606201
+final_delay_time:0.007548332214355469
+********************
+timestamp:2025-03-15 17:40:38
+chunk_duration:1.1980290412902832
+chunk_speech_to_text_time:0.5758056640625
+final_delay_time:0.00679326057434082
+********************
+timestamp:2025-03-15 17:41:09
+chunk_duration:1.1500258445739746
+chunk_speech_to_text_time:0.5166687965393066
+final_delay_time:0.006048679351806641
+********************
+timestamp:2025-03-15 17:41:41
+chunk_duration:2.9389655590057373
+chunk_speech_to_text_time:0.7103118896484375
