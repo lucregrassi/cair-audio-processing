@@ -31,13 +31,16 @@ import gc
 
 rms_threshold = 60
 short_normalize = (1.0 / 32768.0)
-chunk = 512
-audio_format = pyaudio.paInt16
-channels = 1
+
 # rate for PC and Raspberry Pi
 rate = 44100
 # Rate for AlterEgo
 # rate = 192000
+chunk = 4096
+frames_per_buffer = 8192
+audio_format = pyaudio.paInt16
+channels = 1
+
 s_width = 2
 split_silence_time = 0.5
 final_silence_time = 2
@@ -82,11 +85,11 @@ class Recorder:
         if input_device == -1:
             print("Using default", chosen_device)
             self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=True,
-                                      frames_per_buffer=chunk, start=False)
+                                      frames_per_buffer=frames_per_buffer, start=False)
         else:
             print("Using", chosen_device)
             self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=True,
-                                      frames_per_buffer=chunk, start=False, input_device_index=input_device)
+                                      frames_per_buffer=frames_per_buffer, start=False, input_device_index=input_device)
 
         self.prev_input = []
         self.max_chunks = 20
@@ -259,8 +262,8 @@ class Recorder:
         end = time.time() + split_silence_time
         timeout = time.time() + 30
         while current <= end:
-            read_available = self.stream.get_read_available()
-            print(f"stream data available: {read_available}")
+            # read_available = self.stream.get_read_available()
+            # print(f"stream data available: {read_available}")
             data = self.stream.read(chunk, exception_on_overflow=False)
             if self.rms(data) >= rms_threshold:
                 end = time.time() + split_silence_time
@@ -309,9 +312,9 @@ class Recorder:
                 end = time.time() + final_silence_time
                 timeout = False
                 while current <= end:
-                    read_available = self.stream.get_read_available()
-                    print(f"stream data available: {read_available}")
-                    audio_input = self.stream.read(chunk, exception_on_overflow=False)
+                    # read_available = self.stream.get_read_available()
+                    # print(f"stream data available: {read_available}")
+                    audio_input = self.stream.read(chunk, exception_on_overflow=True)
                     rms_val = self.rms(audio_input)
                     if rms_val > rms_threshold:
                         self.record()
