@@ -15,7 +15,7 @@ import os
 
 endpoint = "https://cairspeakerrecognition.cognitiveservices.azure.com"
 _ = load_dotenv(find_dotenv())
-subscription_key = os.getenv("COGNITIVE_SERVICE_KEY")
+subscription_key = os.getenv("AZURE_SPEECH_KEY")
 
 
 def from_speech_to_wav(output_filename):

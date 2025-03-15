@@ -95,7 +95,7 @@ class Recorder:
         self.recognized_text = ""
         self.mode = "continuous"
         self.root = ET.Element("response")
-        self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"],
+        self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["AZURE_SPEECH_KEY"],
                                                     region="westeurope", speech_recognition_language=lang)
         self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=("", 0,))
         
@@ -192,7 +192,7 @@ class Recorder:
                     # Extract the recognized language and redefine the speech config object for future recognitions.
                     language = result.properties[
                         speechsdk.PropertyId.SpeechServiceConnection_AutoDetectSourceLanguageResult]
-                    self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"],
+                    self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["AZURE_SPEECH_KEY"],
                                                                 region="westeurope",
                                                                 speech_recognition_language=language)
                 else:

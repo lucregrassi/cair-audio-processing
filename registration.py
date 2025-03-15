@@ -123,7 +123,7 @@ if __name__ == '__main__':
             language = "en-US"
         print("The language has been set to", language)
 
-    speech_config = speechsdk.SpeechConfig(subscription=os.environ["COGNITIVE_SERVICE_KEY"], region="westeurope",
+    speech_config = speechsdk.SpeechConfig(subscription=os.environ["AZURE_SPEECH_KEY"], region="westeurope",
                                            speech_recognition_language=language)
 
     # Create the socket - server side: waits for the client to connect
