@@ -223,3 +223,8 @@ chunk_duration:0.5117716789245605
 chunk_speech_to_text_time:0.4952075481414795
 final_delay_time:0.007352113723754883
 ********************
+timestamp:2025-03-15 23:54:36
+chunk_duration:0.7416825294494629
+chunk_speech_to_text_time:0.7811679840087891
+final_delay_time:0.01196599006652832
+********************

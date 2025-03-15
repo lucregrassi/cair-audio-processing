@@ -11,8 +11,8 @@ import socket
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-log_dialogue_filename = os.path.join(script_dir, "logs", "home_paraplegia", "client_dialogue_log_home_paraplegia_S3.txt")
-log_vision_filename = os.path.join(script_dir, "logs", "home_paraplegia", "client_vision_log_home_paraplegia_S3.txt")
+log_dialogue_filename = os.path.join(script_dir, "logs", "home_paraplegia", "client_dialogue_log_P3.txt")
+log_vision_filename = os.path.join(script_dir, "logs", "home_paraplegia", "client_vision_log_P3.txt")
 print(f"Logging client dialogue to: {log_dialogue_filename}")
 print(f"Logging client vision to: {log_vision_filename}")
 
