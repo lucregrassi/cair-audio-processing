@@ -84,11 +84,11 @@ class Recorder:
                     chosen_device = device_name
         if input_device == -1:
             print("Using default", chosen_device)
-            self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=True,
+            self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
                                       frames_per_buffer=frames_per_buffer, start=False)
         else:
             print("Using", chosen_device)
-            self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=True,
+            self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
                                       frames_per_buffer=frames_per_buffer, start=False, input_device_index=input_device)
 
         self.prev_input = []

@@ -1,0 +1,6 @@
+timestamp:2025-03-16 00:01:09
+first_request_response_time:0.835368156433
+ack_sentence_speaking_time:2.91679310799
+second_request_response_time:0.751741886139
+second_sentence_speaking_time:5.24760723114
+********************
