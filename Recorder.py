@@ -35,7 +35,7 @@ chunk = 512
 audio_format = pyaudio.paInt16
 channels = 1
 # rate for PC and Raspberry Pi
-rate = 32000
+rate = 44100
 # Rate for AlterEgo
 # rate = 192000
 s_width = 2
