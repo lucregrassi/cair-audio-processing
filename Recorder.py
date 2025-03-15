@@ -31,11 +31,11 @@ import gc
 
 rms_threshold = 60
 short_normalize = (1.0 / 32768.0)
-chunk = 2048
+chunk = 512
 audio_format = pyaudio.paInt16
 channels = 1
 # rate for PC and Raspberry Pi
-rate = 48000
+rate = 32000
 # Rate for AlterEgo
 # rate = 192000
 s_width = 2
@@ -290,6 +290,7 @@ class Recorder:
             self.t1.start()
 
     def listen_continuous(self, microphone_socket):
+        iteration_count = 0
         while True:
             print_colored("Waiting for the client to connect", "blue")
             connection, address = microphone_socket.accept()
@@ -324,6 +325,12 @@ class Recorder:
                         if len(self.prev_input) > self.max_chunks:
                             self.prev_input = self.prev_input[1:]
                         current = time.time()
+
+                # Update iteration count and perform garbage collection
+                iteration_count += 1
+                if iteration_count % 10 == 0:
+                    gc.collect()
+
                 if self.dialogue_turn.get_text() not in ["", ""] or timeout:
                     print("Something recognized or timeout")
                     self.stream.stop_stream()
