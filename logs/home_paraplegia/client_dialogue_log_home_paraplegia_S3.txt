@@ -70,3 +70,53 @@ second_request_response_time:1.29803180695
 first_response_speaking_time:17.8641548157
 second_sentence_speaking_time:5.85650587082
 ********************
+timestamp:2025-03-15 18:08:56
+first_request_response_time:1.24292707443
+ack_sentence_speaking_time:4.89317083359
+second_request_response_time:1.02689194679
+second_sentence_speaking_time:8.58179998398
+********************
+timestamp:2025-03-15 18:09:16
+first_request_response_time:1.47129106522
+ack_sentence_speaking_time:3.57257795334
+second_request_response_time:1.07404613495
+first_response_speaking_time:10.7383430004
+second_sentence_speaking_time:8.03162908554
+********************
+timestamp:2025-03-15 18:09:48
+ack_sentence_speaking_time:1.72117996216
+first_request_response_time:3.50455307961
+second_request_response_time:1.23413419724
+first_response_speaking_time:17.0078129768
+second_sentence_speaking_time:10.6407361031
+********************
+timestamp:2025-03-15 18:10:32
+first_request_response_time:2.07023191452
+ack_sentence_speaking_time:2.37883806229
+second_request_response_time:1.63188886642
+first_response_speaking_time:20.5087409019
+second_sentence_speaking_time:11.5193960667
+********************
+timestamp:2025-03-15 18:11:14
+first_request_response_time:1.98974084854
+ack_sentence_speaking_time:2.80687689781
+second_request_response_time:2.23032903671
+first_response_speaking_time:23.9372680187
+second_sentence_speaking_time:14.4347338676
+********************
+timestamp:2025-03-15 18:12:05
+ack_sentence_speaking_time:2.79824995995
+first_request_response_time:2.91497898102
+second_request_response_time:1.94476485252
+first_response_speaking_time:28.1926050186
+second_sentence_speaking_time:8.93929481506
+********************
+timestamp:2025-03-15 18:12:54
+first_request_response_time:2.00973892212
+ack_sentence_speaking_time:3.14041304588
+second_request_response_time:1.81457209587
+first_response_speaking_time:19.6071419716
+second_sentence_speaking_time:20.3133761883
+********************
+timestamp:2025-03-15 18:13:43
+ack_sentence_speaking_time:8.64628410339

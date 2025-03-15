@@ -17,3 +17,6 @@ Steps to install pyaudio on Raspberry:
 $ sudo apt update
 $ sudo apt install portaudio19-dev python3-pyaudio python3-dev -y
 $ pip install pyaudio
+
+If errors occur during the installation of pyaudio with Python 3.13 on Mac, try to execute the following commands:
+$ pip install --upgrade pip setuptools wheel

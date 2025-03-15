@@ -1,9 +1,7 @@
 requests
-pyaudio
 azure-cognitiveservices-speech
 numpy
-google-cloud-speech
-gTTS
 playsound
 python-dotenv
+pyaudio
 git+https://github.com/lucregrassi/cair_libraries.git@v4.0#egg=cair_libraries
