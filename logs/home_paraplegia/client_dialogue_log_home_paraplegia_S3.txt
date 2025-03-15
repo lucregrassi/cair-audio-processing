@@ -311,3 +311,86 @@ second_request_response_time:1.93498897552
 first_response_speaking_time:7.40736103058
 second_sentence_speaking_time:3.8088080883
 ********************
+timestamp:2025-03-15 22:20:36
+first_request_response_time:0.784687042236
+ack_sentence_speaking_time:3.63197493553
+second_request_response_time:0.849617958069
+first_response_speaking_time:4.19506382942
+second_sentence_speaking_time:4.27877998352
+********************
+timestamp:2025-03-15 22:30:12
+first_request_response_time:0.879989862442
+ack_sentence_speaking_time:3.11624598503
+second_request_response_time:1.43144011497
+first_response_speaking_time:3.53116798401
+second_sentence_speaking_time:5.37890410423
+********************
+timestamp:2025-03-15 22:37:00
+first_request_response_time:0.935601949692
+ack_sentence_speaking_time:2.80386304855
+second_request_response_time:1.31109499931
+first_response_speaking_time:3.78941893578
+second_sentence_speaking_time:4.60895800591
+********************
+timestamp:2025-03-15 23:24:19
+first_request_response_time:1.24902701378
+ack_sentence_speaking_time:2.18652701378
+second_request_response_time:0.743610858917
+second_sentence_speaking_time:6.1322991848
+********************
+timestamp:2025-03-15 23:25:32
+first_request_response_time:0.913923978806
+ack_sentence_speaking_time:1.26723599434
+second_request_response_time:0.839455842972
+first_response_speaking_time:4.08351492882
+second_sentence_speaking_time:5.55478191376
+********************
+timestamp:2025-03-15 23:26:10
+first_request_response_time:1.09996199608
+ack_sentence_speaking_time:3.10081386566
+second_request_response_time:1.07405591011
+first_response_speaking_time:5.56506991386
+second_sentence_speaking_time:5.2767291069
+********************
+timestamp:2025-03-15 23:26:43
+first_request_response_time:1.2535431385
+ack_sentence_speaking_time:1.71148991585
+second_request_response_time:0.966756105423
+first_response_speaking_time:8.45024991035
+second_sentence_speaking_time:6.02606892586
+********************
+timestamp:2025-03-15 23:29:29
+first_request_response_time:1.03404211998
+ack_sentence_speaking_time:1.74735212326
+second_request_response_time:1.2198240757
+first_response_speaking_time:6.27925801277
+second_sentence_speaking_time:6.1635119915
+********************
+timestamp:2025-03-15 23:29:48
+first_request_response_time:0.85871219635
+ack_sentence_speaking_time:1.85553908348
+second_request_response_time:1.00829792023
+first_response_speaking_time:4.99177908897
+second_sentence_speaking_time:5.84848618507
+********************
+timestamp:2025-03-15 23:31:35
+first_request_response_time:1.18949389458
+ack_sentence_speaking_time:2.96899390221
+second_request_response_time:1.21884417534
+first_response_speaking_time:6.6287548542
+second_sentence_speaking_time:9.16000580788
+********************
+timestamp:2025-03-15 23:36:04
+first_request_response_time:1.21821594238
+ack_sentence_speaking_time:2.81859993935
+second_request_response_time:1.07869791985
+first_response_speaking_time:6.01363897324
+second_sentence_speaking_time:8.23217105865
+********************
+timestamp:2025-03-15 23:40:53
+first_request_response_time:1.0984609127
+ack_sentence_speaking_time:1.95360803604
+second_request_response_time:1.45134520531
+first_response_speaking_time:7.12081193924
+second_sentence_speaking_time:15.2517549992
+********************

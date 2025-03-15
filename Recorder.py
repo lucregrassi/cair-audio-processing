@@ -47,7 +47,7 @@ final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-log_filename = os.path.join(script_dir, "logs", "home_paraplegia", "audio_recorder_log_home_paraplegia_S3.txt")
+log_filename = os.path.join(script_dir, "logs", "home_paraplegia", "audio_recorder_log_P3.txt")
 print(f"Logging to: {log_filename}")
 
 file_lock = threading.Lock()
@@ -142,7 +142,7 @@ class Recorder:
         else:
             print("T1: Not able to perform speech to text!")
         del speech_recognizer
-        gc.collect()
+
         # Delete the original wav file without final silence
         if os.path.exists(wav_filename):
             os.remove(wav_filename)
@@ -232,7 +232,7 @@ class Recorder:
             if cancellation_details.reason == speechsdk.CancellationReason.Error:
                 print(f"T1: Error details: {cancellation_details.error_details}")
         del speech_recognizer
-        gc.collect()
+
         # Delete the original wav file without final silence
         if os.path.exists(wav_filename):
             os.remove(wav_filename)
@@ -332,11 +332,6 @@ class Recorder:
                         if len(self.prev_input) > self.max_chunks:
                             self.prev_input = self.prev_input[1:]
                         current = time.time()
-
-                # Update iteration count and perform garbage collection
-                iteration_count += 1
-                if iteration_count % 10 == 0:
-                    gc.collect()
 
                 if self.dialogue_turn.get_text() not in ["", ""] or timeout:
                     print("Something recognized or timeout")
