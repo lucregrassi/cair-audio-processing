@@ -259,6 +259,8 @@ class Recorder:
         end = time.time() + split_silence_time
         timeout = time.time() + 30
         while current <= end:
+            read_available = self.stream.get_read_available()
+            print(f"stream data available: {read_available}")
             data = self.stream.read(chunk, exception_on_overflow=False)
             if self.rms(data) >= rms_threshold:
                 end = time.time() + split_silence_time
@@ -307,6 +309,8 @@ class Recorder:
                 end = time.time() + final_silence_time
                 timeout = False
                 while current <= end:
+                    read_available = self.stream.get_read_available()
+                    print(f"stream data available: {read_available}")
                     audio_input = self.stream.read(chunk, exception_on_overflow=False)
                     rms_val = self.rms(audio_input)
                     if rms_val > rms_threshold:
