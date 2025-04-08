@@ -314,7 +314,7 @@ class Recorder:
                 while current <= end:
                     # read_available = self.stream.get_read_available()
                     # print(f"stream data available: {read_available}")
-                    audio_input = self.stream.read(chunk, exception_on_overflow=True)
+                    audio_input = self.stream.read(chunk, exception_on_overflow=False)
                     rms_val = self.rms(audio_input)
                     if rms_val > rms_threshold:
                         self.record()
