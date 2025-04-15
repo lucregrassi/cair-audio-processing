@@ -69,27 +69,27 @@ class Recorder:
     def __init__(self, lang, auto_detect_language=True):
         self.auto_detect_language = auto_detect_language
         self.p = pyaudio.PyAudio()
-        info = self.p.get_host_api_info_by_index(0)
-        num_devices = info.get('deviceCount')
-        usb_keywords = ["USB-MIC", "USB PnP Audio Device", "USB Microphone"]
-        chosen_device = "default microphone"
-        input_device = -1
-        for i in range(0, num_devices):
-            device_info = self.p.get_device_info_by_host_api_device_index(0, i)
-            device_name = device_info.get('name')
-            print("Device found: ", device_name, " info: ", device_info)
-            if (device_info.get('maxInputChannels')) > 0:
-                if any(keyword in device_name for keyword in usb_keywords):
-                    input_device = i
-                    chosen_device = device_name
-        if input_device == -1:
-            print("Using default", chosen_device)
-            self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
+        #info = self.p.get_host_api_info_by_index(0)
+        #num_devices = info.get('deviceCount')
+        #usb_keywords = ["USB-MIC", "USB PnP Audio Device", "USB Microphone"]
+        #chosen_device = "default microphone"
+        #input_device = -1
+        #for i in range(0, num_devices):
+        #    device_info = self.p.get_device_info_by_host_api_device_index(0, i)
+        #    device_name = device_info.get('name')
+        #    print("Device found: ", device_name, " info: ", device_info)
+        #    if (device_info.get('maxInputChannels')) > 0:
+        #        if any(keyword in device_name for keyword in usb_keywords):
+        #            input_device = i
+        #            chosen_device = device_name
+        #if input_device == -1:
+        #    print("Using default", chosen_device)
+        self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
                                       frames_per_buffer=frames_per_buffer, start=False)
-        else:
-            print("Using", chosen_device)
-            self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
-                                      frames_per_buffer=frames_per_buffer, start=False, input_device_index=input_device)
+        #else:
+        #     print("Using", chosen_device)
+        #    self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
+        #                              frames_per_buffer=frames_per_buffer, start=False, input_device_index=input_device)
 
         self.prev_input = []
         self.max_chunks = 20
