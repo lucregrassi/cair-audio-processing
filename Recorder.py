@@ -27,7 +27,6 @@ import string
 import time
 import json
 import os
-import gc
 
 rms_threshold = 60
 short_normalize = (1.0 / 32768.0)
@@ -69,28 +68,8 @@ class Recorder:
     def __init__(self, lang, auto_detect_language=True):
         self.auto_detect_language = auto_detect_language
         self.p = pyaudio.PyAudio()
-        #info = self.p.get_host_api_info_by_index(0)
-        #num_devices = info.get('deviceCount')
-        #usb_keywords = ["USB-MIC", "USB PnP Audio Device", "USB Microphone"]
-        #chosen_device = "default microphone"
-        #input_device = -1
-        #for i in range(0, num_devices):
-        #    device_info = self.p.get_device_info_by_host_api_device_index(0, i)
-        #    device_name = device_info.get('name')
-        #    print("Device found: ", device_name, " info: ", device_info)
-        #    if (device_info.get('maxInputChannels')) > 0:
-        #        if any(keyword in device_name for keyword in usb_keywords):
-        #            input_device = i
-        #            chosen_device = device_name
-        #if input_device == -1:
-        #    print("Using default", chosen_device)
         self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
                                       frames_per_buffer=frames_per_buffer, start=False)
-        #else:
-        #     print("Using", chosen_device)
-        #    self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
-        #                              frames_per_buffer=frames_per_buffer, start=False, input_device_index=input_device)
-
         self.prev_input = []
         self.max_chunks = 20
         # Initialize object that will contain the data related to the dialogue turn
@@ -101,7 +80,7 @@ class Recorder:
         self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["AZURE_SPEECH_KEY"],
                                                     region="westeurope", speech_recognition_language=lang)
         self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=("", 0,))
-        
+
         self.log = open(log_filename, "a+")
         self.speaker_reco_start_time = 0
         self.speaker_reco_end_time = 0
