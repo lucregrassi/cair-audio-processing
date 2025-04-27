@@ -189,7 +189,7 @@ class Recorder:
                 t2.join()
                 print("T1: T2 has completed the identification")
             now = datetime.now()
-
+            self.chunk_counter += 1
             self.accumulate_log("timestamp", now.strftime("%Y-%m-%d %H:%M:%S"))
             self.accumulate_log(f"chunk_{self.chunk_counter}_duration", wav_duration)
             self.accumulate_log(f"chunk_{self.chunk_counter}_speech_to_text_time", end_time - start_time)
@@ -264,7 +264,6 @@ class Recorder:
         wf.writeframes(recording)
         wf.close()
         print_colored("Recording saved. Return to listening", "green")
-        self.chunk_counter += 1
         if self.mode == "continuous":
             self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=(filename, wav_duration,))
             self.t1.start()
@@ -304,6 +303,7 @@ class Recorder:
                             timeout = True
                             print_colored("SILENCE TIMEOUT", "red")
                             connection.send("timeout".encode('utf-8'))
+                            self.chunk_counter = 0
                             break
                         self.prev_input.append(audio_input)
                         if len(self.prev_input) > self.max_chunks:
@@ -396,6 +396,7 @@ class Recorder:
                     # Useless to surround with a try - except because send does not care
                     connection.send(xml_string.encode('utf-8'))
                     self.clear_log()
+                    self.chunk_counter = 0
                     print_colored("Waiting for client to be ready", "blue")
                     sentence_type = connection.recv(256).decode('utf-8')
                     if sentence_type == "":
