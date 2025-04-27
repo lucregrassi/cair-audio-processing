@@ -189,6 +189,7 @@ class Recorder:
                 t2.join()
                 print("T1: T2 has completed the identification")
             now = datetime.now()
+
             self.accumulate_log("timestamp", now.strftime("%Y-%m-%d %H:%M:%S"))
             self.accumulate_log(f"chunk_{chunk_counter}_duration", wav_duration)
             self.accumulate_log(f"chunk_{chunk_counter}_speech_to_text_time", end_time - start_time)
