@@ -126,7 +126,7 @@ class Recorder:
         if os.path.exists(wav_filename):
             os.remove(wav_filename)
 
-    def speech_and_speaker_recognition(self, wav_filename, wav_duration):
+    def speech_and_speaker_recognition(self, wav_filename, wav_duration, chunk_counter):
         if os.path.isfile("profiles.json"):
             with open('profiles.json', 'r', encoding='utf-8') as f:
                 prof_dict = json.load(f)
@@ -189,12 +189,11 @@ class Recorder:
                 t2.join()
                 print("T1: T2 has completed the identification")
             now = datetime.now()
-            self.chunk_counter += 1
             self.accumulate_log("timestamp", now.strftime("%Y-%m-%d %H:%M:%S"))
-            self.accumulate_log(f"chunk_{self.chunk_counter}_duration", wav_duration)
-            self.accumulate_log(f"chunk_{self.chunk_counter}_speech_to_text_time", end_time - start_time)
+            self.accumulate_log(f"chunk_{chunk_counter}_duration", wav_duration)
+            self.accumulate_log(f"chunk_{chunk_counter}_speech_to_text_time", end_time - start_time)
             if prof_dict:
-                self.accumulate_log(f"chunk_{self.chunk_counter}_speaker_recognition_time",
+                self.accumulate_log(f"chunk_{chunk_counter}_speaker_recognition_time",
                                     self.speaker_reco_end_time - self.speaker_reco_start_time)
             ident_speaker_id = ident_speaker_id[0]
             # Add a turn piece only if the user said something more than the phrase to end the turn
@@ -264,8 +263,10 @@ class Recorder:
         wf.writeframes(recording)
         wf.close()
         print_colored("Recording saved. Return to listening", "green")
+        self.chunk_counter += 1
         if self.mode == "continuous":
-            self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=(filename, wav_duration,))
+            self.t1 = threading.Thread(target=self.speech_and_speaker_recognition,
+                                       args=(filename, wav_duration, self.chunk_counter,))
             self.t1.start()
         else:
             self.t1 = threading.Thread(target=self.speech_recognition, args=(filename,))
