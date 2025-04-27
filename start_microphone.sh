@@ -5,4 +5,3 @@ sleep 10
 cd /home/rice/cair-audio-processing
 source /home/rice/cair-audio-processing/venv/bin/activate
 python3 /home/rice/cair-audio-processing/audio_recorder.py > /home/rice/audio_recorder_log.txt 2>&1 &
-python3 /home/rice/cair-audio-processing/acquire_client_log.py > /home/rice/acquire_client_log.txt 2>&1 &
