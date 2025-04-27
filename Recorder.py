@@ -282,7 +282,6 @@ class Recorder:
             print_colored("Listening", "green")
             while True:
                 self.dialogue_turn = DialogueTurn()
-                self.clear_log() # Clear the log buffer at the beginning of each turn
                 # Update times for final silence
                 current = time.time()
                 end = time.time() + final_silence_time
@@ -392,6 +391,7 @@ class Recorder:
                     print("Sending to client:", xml_string)
                     # Useless to surround with a try - except because send does not care
                     connection.send(xml_string.encode('utf-8'))
+                    self.clear_log()
                     print_colored("Waiting for client to be ready", "blue")
                     sentence_type = connection.recv(256).decode('utf-8')
                     if sentence_type == "":
