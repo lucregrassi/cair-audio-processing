@@ -78,10 +78,11 @@ class Recorder:
 
         self.speaker_reco_start_time = 0
         self.speaker_reco_end_time = 0
-        self.log_buffer = []
+        self.log_buffer = {}
+        self.chunk_counter = 0
 
     def accumulate_log(self, key, value):
-        self.log_buffer.append({key: value})
+        self.log_buffer[key] = value
 
     def clear_log(self):
         self.log_buffer.clear()
@@ -190,10 +191,10 @@ class Recorder:
             now = datetime.now()
 
             self.accumulate_log("timestamp", now.strftime("%Y-%m-%d %H:%M:%S"))
-            self.accumulate_log("chunk_duration", wav_duration)
-            self.accumulate_log("chunk_speech_to_text_time", end_time - start_time)
+            self.accumulate_log(f"chunk_{self.chunk_counter}_duration", wav_duration)
+            self.accumulate_log(f"chunk_{self.chunk_counter}_speech_to_text_time", end_time - start_time)
             if prof_dict:
-                self.accumulate_log("chunk_speaker_recognition_time",
+                self.accumulate_log(f"chunk_{self.chunk_counter}_speaker_recognition_time",
                                     self.speaker_reco_end_time - self.speaker_reco_start_time)
             ident_speaker_id = ident_speaker_id[0]
             # Add a turn piece only if the user said something more than the phrase to end the turn
@@ -263,6 +264,7 @@ class Recorder:
         wf.writeframes(recording)
         wf.close()
         print_colored("Recording saved. Return to listening", "green")
+        self.chunk_counter += 1
         if self.mode == "continuous":
             self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=(filename, wav_duration,))
             self.t1.start()
