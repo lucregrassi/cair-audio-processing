@@ -45,11 +45,6 @@ split_silence_time = 0.5
 final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-log_filename = os.path.join(script_dir, "logs", "home_paraplegia", "audio_recorder_log_P3.txt")
-print(f"Logging to: {log_filename}")
-
-file_lock = threading.Lock()
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
 TIMEOUT = 30
 
@@ -69,7 +64,7 @@ class Recorder:
         self.auto_detect_language = auto_detect_language
         self.p = pyaudio.PyAudio()
         self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
-                                      frames_per_buffer=frames_per_buffer, start=False)
+                                  frames_per_buffer=frames_per_buffer, start=False)
         self.prev_input = []
         self.max_chunks = 20
         # Initialize object that will contain the data related to the dialogue turn
@@ -81,9 +76,15 @@ class Recorder:
                                                     region="westeurope", speech_recognition_language=lang)
         self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=("", 0,))
 
-        self.log = open(log_filename, "a+")
         self.speaker_reco_start_time = 0
         self.speaker_reco_end_time = 0
+        self.log_buffer = {}
+
+    def accumulate_log(self, key, value):
+        self.log_buffer[key] = value
+
+    def clear_log(self):
+        self.log_buffer.clear()
 
     def speaker_recognition(self, wav_filename, prof_dict, ident_spk):
         prof_ids = ','.join(prof_dict.keys())
@@ -108,9 +109,7 @@ class Recorder:
         end_time = time.time()
         # If something has been recognized by Microsoft
         if result.text:
-            with file_lock:
-                self.log.write("speech_to_text_time:" + str(end_time - start_time) + "\n")
-                self.log.flush()
+            self.accumulate_log("speech_to_text_time", end_time - start_time)
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
@@ -189,15 +188,13 @@ class Recorder:
                 t2.join()
                 print("T1: T2 has completed the identification")
             now = datetime.now()
-            date_time_str = now.strftime("%Y-%m-%d %H:%M:%S")
-            with file_lock:
-                self.log.write("timestamp:" + date_time_str + "\n")
-                self.log.write("chunk_duration:" + str(wav_duration) + "\n")
-                self.log.write("chunk_speech_to_text_time:" + str(end_time - start_time) + "\n")
-                if prof_dict:
-                    self.log.write("chunk_speaker_recognition_time:" +
-                                   str(self.speaker_reco_end_time - self.speaker_reco_start_time) + "\n")
-                self.log.flush()
+
+            self.accumulate_log("timestamp", now.strftime("%Y-%m-%d %H:%M:%S"))
+            self.accumulate_log("chunk_duration", wav_duration)
+            self.accumulate_log("chunk_speech_to_text_time", end_time - start_time)
+            if prof_dict:
+                self.accumulate_log("chunk_speaker_recognition_time",
+                                    self.speaker_reco_end_time - self.speaker_reco_start_time)
             ident_speaker_id = ident_speaker_id[0]
             # Add a turn piece only if the user said something more than the phrase to end the turn
             if sentence:
@@ -274,7 +271,6 @@ class Recorder:
             self.t1.start()
 
     def listen_continuous(self, microphone_socket):
-        iteration_count = 0
         while True:
             print_colored("Waiting for the client to connect", "blue")
             connection, address = microphone_socket.accept()
@@ -286,6 +282,7 @@ class Recorder:
             print_colored("Listening", "green")
             while True:
                 self.dialogue_turn = DialogueTurn()
+                self.clear_log() # Clear the log buffer at the beginning of each turn
                 # Update times for final silence
                 current = time.time()
                 end = time.time() + final_silence_time
@@ -327,16 +324,17 @@ class Recorder:
                         print("Waiting for last thread to finish transcription")
                         self.t1.join()
                         time_after_final_chunk_transcription = time.time()
-                        with file_lock:
-                            final_delay = time_after_final_chunk_transcription - time_after_final_silence
-                            self.log.write("final_delay_time:" + str(final_delay) + "\n" \
-                                           "********************\n")
-                            self.log.flush()
+
+                        final_delay = time_after_final_chunk_transcription - time_after_final_silence
+                        self.accumulate_log("final_delay_time", final_delay)
+                        final_payload = {
+                            "transcription": self.dialogue_turn.to_xml_string(),
+                            "logs": self.log_buffer
+                        }
                         print("Recognized string:", self.dialogue_turn.get_text())
-                        xml_string = self.dialogue_turn.to_xml_string()
-                        print("Sending to client:", xml_string)
+                        print("Sending to client:", final_payload)
                         # Useless to surround with a try - except because send does not care
-                        connection.send(xml_string.encode('utf-8'))
+                        connection.sendall(json.dumps(final_payload).encode('utf-8'))
                     print_colored("Waiting for client to be ready", "blue")
                     client_msg = connection.recv(256).decode('utf-8')
                     if client_msg == "":
@@ -353,7 +351,7 @@ class Recorder:
         while True:
             print_colored("Waiting for the client to connect", "blue")
             connection, address = server_recorder_socket.accept()
-            print_colored("Waiting for client to be ready",  "blue")
+            print_colored("Waiting for client to be ready", "blue")
             connection.recv(256).decode('utf-8')
             self.stream.start_stream()
             print_colored("Listening", "green")
