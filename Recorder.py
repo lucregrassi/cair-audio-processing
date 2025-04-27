@@ -317,7 +317,7 @@ class Recorder:
                         time_after_final_silence = time.time()
                         # as soon as the user has finished talking, send an ack to the server
                         connection.send("user finished talking".encode('utf-8'))
-                        # To check if client is still connected and has received the message
+                        # To check if a client is still connected and has received the message
                         client_msg = connection.recv(256).decode('utf-8')
                         if client_msg == "":
                             print("Client disconnected from socket!")
@@ -336,6 +336,8 @@ class Recorder:
                         print("Sending to client:", final_payload)
                         # Useless to surround with a try - except because send does not care
                         connection.sendall(json.dumps(final_payload).encode('utf-8'))
+                        self.clear_log()
+                        self.chunk_counter = 0
                     print_colored("Waiting for client to be ready", "blue")
                     client_msg = connection.recv(256).decode('utf-8')
                     if client_msg == "":
