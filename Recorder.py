@@ -78,7 +78,7 @@ class Recorder:
 
         self.speaker_reco_start_time = 0
         self.speaker_reco_end_time = 0
-        self.log_buffer = {}
+        self.log_buffer = []
 
     def accumulate_log(self, key, value):
         self.log_buffer.append({key: value})
