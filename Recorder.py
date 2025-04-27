@@ -81,7 +81,7 @@ class Recorder:
         self.log_buffer = {}
 
     def accumulate_log(self, key, value):
-        self.log_buffer[key] = value
+        self.log_buffer.append({key: value})
 
     def clear_log(self):
         self.log_buffer.clear()
