@@ -53,4 +53,4 @@ if __name__ == '__main__':
 
     # Create an instance of the Recorder class with the auto_detect_language parameter
     a = Recorder(language, auto_detect_language)
-    a.listen_continuous(server_recorder_socket)
+    a.listen_and_split(server_recorder_socket)

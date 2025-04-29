@@ -41,12 +41,12 @@ audio_format = pyaudio.paInt16
 channels = 1
 
 s_width = 2
-split_silence_time = 0.5
-final_silence_time = 2
+SHORT_SILENCE_DURATION = 0.5
+LONG_SILENCE_DURATION = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
-TIMEOUT = 30
+TIMEOUT = 60
 
 
 def print_colored(message, color):
@@ -80,6 +80,7 @@ class Recorder:
         self.speaker_reco_end_time = 0
         self.log_buffer = {}
         self.chunk_counter = 0
+        self.last_speech_time = time.time()  # when was the last real speech recognized
 
     def accumulate_log(self, key, value):
         self.log_buffer[key] = value
@@ -108,7 +109,7 @@ class Recorder:
         start_time = time.time()
         result = speech_recognizer.recognize_once_async().get()
         end_time = time.time()
-        # If something has been recognized by Microsoft
+        # If Microsoft has recognized something
         if result.text:
             self.accumulate_log("speech_to_text_time", end_time - start_time)
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
@@ -199,6 +200,9 @@ class Recorder:
             ident_speaker_id = ident_speaker_id[0]
             # Add a turn piece only if the user said something more than the phrase to end the turn
             if sentence:
+                print_colored("T1: Something was recognized! Resetting last speech time.", "blue")
+                # only now do we know the user truly spoke, so reset the timeout anchor
+                self.last_speech_time = time.time()
                 turn_piece = TurnPiece(ident_speaker_id, sentence, language, wav_duration)
                 self.dialogue_turn.add_turn_piece(turn_piece)
         elif result.reason == speechsdk.ResultReason.NoMatch:
@@ -228,7 +232,7 @@ class Recorder:
         return rms * 1000
 
     def record(self):
-        print_colored("Noise detected: start recording", "blue")
+        print_colored("Noise detected, start recording.", "blue")
         rec = []
         if self.prev_input:
             for c in self.prev_input:
@@ -236,14 +240,14 @@ class Recorder:
 
         start_time = time.time()
         current = time.time()
-        end = time.time() + split_silence_time
+        end = time.time() + SHORT_SILENCE_DURATION
         timeout = time.time() + 30
         while current <= end:
             # read_available = self.stream.get_read_available()
             # print(f"stream data available: {read_available}")
             data = self.stream.read(chunk, exception_on_overflow=False)
             if self.rms(data) >= rms_threshold:
-                end = time.time() + split_silence_time
+                end = time.time() + SHORT_SILENCE_DURATION
             current = time.time()
             rec.append(data)
             # Limit the audio duration to 1 minute
@@ -263,7 +267,7 @@ class Recorder:
         wf.setframerate(rate)
         wf.writeframes(recording)
         wf.close()
-        print_colored("Recording saved. Return to listening", "green")
+        print_colored("Recording saved, return to listening.", "blue")
         self.chunk_counter += 1
         if self.mode == "continuous":
             self.t1 = threading.Thread(target=self.speech_and_speaker_recognition,
@@ -273,49 +277,53 @@ class Recorder:
             self.t1 = threading.Thread(target=self.speech_recognition, args=(filename,))
             self.t1.start()
 
-    def listen_continuous(self, microphone_socket):
+    def listen_and_split(self, microphone_socket):
         while True:
-            print_colored("Waiting for the client to connect", "blue")
+            print_colored("Waiting for the client to connect...", "green")
             connection, address = microphone_socket.accept()
-            print_colored("Waiting for client to be ready", "blue")
+            print_colored("Waiting for the client to be ready...", "green")
             connection.recv(256).decode('utf-8')
             self.stream.start_stream()
-            # Initialize start time for timeout
-            timeout_start_time = time.time()
-            print_colored("Listening", "green")
+
+            # initialize the timeout anchor “now” (no speech yet)
+            self.last_speech_time = time.time()
+            print_colored("Listening...", "green")
+
             while True:
                 self.dialogue_turn = DialogueTurn()
                 # Update times for final silence
                 current = time.time()
-                end = time.time() + final_silence_time
+                end = time.time() + LONG_SILENCE_DURATION
                 timeout = False
+
                 while current <= end:
                     # read_available = self.stream.get_read_available()
                     # print(f"stream data available: {read_available}")
                     audio_input = self.stream.read(chunk, exception_on_overflow=False)
                     rms_val = self.rms(audio_input)
+
                     if rms_val > rms_threshold:
                         self.record()
-                        print("Reset end time and start of silence")
-                        end = time.time() + final_silence_time
-                        timeout_start_time = time.time()
+                        end = time.time() + LONG_SILENCE_DURATION
                     else:
-                        timeout_end_time = time.time()
-                        if timeout_end_time - timeout_start_time > TIMEOUT:
+                        if time.time() - self.last_speech_time > TIMEOUT:
                             timeout = True
-                            print_colored("SILENCE TIMEOUT", "red")
+                            print_colored("TIMEOUT", "red")
                             connection.send("timeout".encode('utf-8'))
+                            # Let's assume the user has talked to avoid continuously sending timeout
+                            self.last_speech_time = time.time()
                             self.chunk_counter = 0
                             break
+                        # buffer a bit of ambient noise for pre-roll on next record()
                         self.prev_input.append(audio_input)
                         if len(self.prev_input) > self.max_chunks:
                             self.prev_input = self.prev_input[1:]
                         current = time.time()
 
                 if self.dialogue_turn.get_text() not in ["", ""] or timeout:
-                    print("Something recognized or timeout")
                     self.stream.stop_stream()
                     if not timeout:
+                        print_colored("Sending ack to the client as the user said something!", "green")
                         time_after_final_silence = time.time()
                         # as soon as the user has finished talking, send an ack to the server
                         connection.send("user finished talking".encode('utf-8'))
@@ -324,23 +332,24 @@ class Recorder:
                         if client_msg == "":
                             print("Client disconnected from socket!")
                             break
-                        print("Waiting for last thread to finish transcription")
+                        print_colored("Waiting for last thread to finish transcription...", "green")
                         self.t1.join()
                         time_after_final_chunk_transcription = time.time()
 
                         final_delay = time_after_final_chunk_transcription - time_after_final_silence
                         self.accumulate_log("final_delay_time", final_delay)
                         final_payload = {
-                            "transcription": self.dialogue_turn.to_xml_string(),
+                            "xml": self.dialogue_turn.to_xml_string(),
                             "logs": self.log_buffer
                         }
-                        print("Recognized string:", self.dialogue_turn.get_text())
-                        print("Sending to client:", final_payload)
-                        # Useless to surround with a try - except because send does not care
+                        print_colored("Sending final payload to the client...", "green")
+                        print(f"transcription: {self.dialogue_turn.get_text()}\n"
+                              f"xml: {final_payload['xml']}\n"
+                              f"logs: {final_payload['logs']}")
                         connection.sendall(json.dumps(final_payload).encode('utf-8'))
                         self.clear_log()
                         self.chunk_counter = 0
-                    print_colored("Waiting for client to be ready", "blue")
+                    print_colored("Waiting for client to be ready...", "green")
                     client_msg = connection.recv(256).decode('utf-8')
                     if client_msg == "":
                         print_colored("Client disconnected from socket!", "red")
@@ -348,88 +357,4 @@ class Recorder:
                     # Empty the dialogue turn in case in the meanwhile a thread has written something
                     self.dialogue_turn = DialogueTurn()
                     self.stream.start_stream()
-                    # Reset timeout start time
-                    timeout_start_time = time.time()
-                    print_colored("Listening", "green")
-
-    def listen_wait(self, server_recorder_socket):
-        while True:
-            print_colored("Waiting for the client to connect", "blue")
-            connection, address = server_recorder_socket.accept()
-            print_colored("Waiting for client to be ready", "blue")
-            connection.recv(256).decode('utf-8')
-            self.stream.start_stream()
-            print_colored("Listening", "green")
-            sentence_type = ""
-
-            while True:
-                self.dialogue_turn = DialogueTurn()
-                current = time.time()
-                end = time.time() + final_silence_time
-                if sentence_type == "w":
-                    while True:
-                        if any(elem in self.dialogue_turn.get_text() for elem in exit_keywords):
-                            break
-                        audio_input = self.stream.read(chunk, exception_on_overflow=False)
-                        rms_val = self.rms(audio_input)
-                        if rms_val > rms_threshold:
-                            self.record()
-                        else:
-                            self.prev_input.append(audio_input)
-                            if len(self.prev_input) > self.max_chunks:
-                                self.prev_input = self.prev_input[1:]
-                else:
-                    while current <= end:
-                        audio_input = self.stream.read(chunk, exception_on_overflow=False)
-                        rms_val = self.rms(audio_input)
-                        if rms_val > rms_threshold:
-                            end = time.time() + final_silence_time
-                            self.record()
-                        else:
-                            self.prev_input.append(audio_input)
-                            if len(self.prev_input) > self.max_chunks:
-                                self.prev_input = self.prev_input[1:]
-                            current = time.time()
-                if self.dialogue_turn.get_text() not in ["", " "]:
-                    self.stream.stop_stream()
-                    print("Recognized string:", self.dialogue_turn.get_text())
-                    xml_string = self.dialogue_turn.to_xml_string()
-                    print("Sending to client:", xml_string)
-                    # Useless to surround with a try - except because send does not care
-                    connection.send(xml_string.encode('utf-8'))
-                    self.clear_log()
-                    self.chunk_counter = 0
-                    print_colored("Waiting for client to be ready", "blue")
-                    sentence_type = connection.recv(256).decode('utf-8')
-                    if sentence_type == "":
-                        print_colored("Client disconnected from socket!", "red")
-                        break
-                    # Empty the dialogue turn in case in the meanwhile a thread has written something
-                    self.dialogue_turn = DialogueTurn()
-                    self.stream.start_stream()
-                    print_colored("Listening", "green")
-
-    def listen_once(self):
-        self.mode = "once"
-        print_colored("Listening", "green")
-        self.recognized_text = ""
-        self.stream.start_stream()
-        while True:
-            current = time.time()
-            end = time.time() + final_silence_time
-            while current <= end:
-                audio_input = self.stream.read(chunk, exception_on_overflow=False)
-                rms_val = self.rms(audio_input)
-                if rms_val > rms_threshold:
-                    end = time.time() + final_silence_time
-                    self.record()
-                else:
-                    self.prev_input.append(audio_input)
-                    if len(self.prev_input) > self.max_chunks:
-                        self.prev_input = self.prev_input[1:]
-                    current = time.time()
-            if self.recognized_text != "":
-                self.stream.stop_stream()
-                self.recognized_text = self.recognized_text.strip()
-                print("Recognized string:", self.recognized_text)
-                return self.recognized_text
+                    print_colored("Listening...", "green")
