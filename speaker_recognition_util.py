@@ -88,7 +88,7 @@ def create_profile():
         'Ocp-Apim-Subscription-Key': subscription_key,
         'Content-Type': 'application/json'
     }
-    response = requests.request("POST", url, headers=headers, data=raw_data)
+    response = requests.request("POST", url, headers=headers, data=raw_data, timeout=10)
     print(response.text)
     new_profile_id = response.json()['profileId']
     return new_profile_id
@@ -168,5 +168,6 @@ def identify_speaker(prof_ids, filename):
 #     os.remove("profiles.json")
 
 # create_enrollment("5a138df0-34ec-4807-93a5-ffcfa1658b6f", "5a138df0-34ec-4807-93a5-ffcfa1658b6f/20221202-120642.wav")
+
 
 # delete_profile("f3cb60c4-553a-4c47-9b80-e7276506f0ae")

@@ -28,15 +28,16 @@ import time
 import json
 import os
 
-rms_threshold = 60
+rms_threshold = 50
 short_normalize = (1.0 / 32768.0)
 
 # rate for PC and Raspberry Pi
-rate = 44100
+# rate = 44100
 # Rate for AlterEgo
 # rate = 192000
-chunk = 4096
-frames_per_buffer = 8192
+rate = 16000
+chunk = 2048
+frames_per_buffer = 4096
 audio_format = pyaudio.paInt16
 channels = 1
 
@@ -47,6 +48,14 @@ exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
 TIMEOUT = 60
+
+SUPPORTED_STT_LANGUAGES = [
+    "it-IT",
+    "en-US",
+    "fr-FR",
+    "es-ES",
+    "de-DE",
+]
 
 
 def print_colored(message, color):
