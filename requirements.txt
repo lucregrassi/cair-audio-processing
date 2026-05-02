@@ -5,5 +5,4 @@ playsound
 python-dotenv~=1.0.1
 pyaudio~=0.2.14
 git+https://github.com/lucregrassi/cair_libraries.git@v4.0#egg=cair_libraries
-
-cair_libraries
+webrtcvad

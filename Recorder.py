@@ -19,6 +19,7 @@ from datetime import datetime
 import azure.cognitiveservices.speech as speechsdk
 import xml.etree.cElementTree as ET
 import threading
+import webrtcvad
 import pyaudio
 import struct
 import math
@@ -28,6 +29,7 @@ import time
 import json
 import os
 
+# With VAD, the RMS threshold can usually be lower than with RMS-only detection.
 rms_threshold = 100
 short_normalize = (1.0 / 32768.0)
 
@@ -36,12 +38,19 @@ short_normalize = (1.0 / 32768.0)
 # Rate for AlterEgo
 # rate = 192000
 rate = 16000
-chunk = 2048
-frames_per_buffer = 2048
 audio_format = pyaudio.paInt16
 channels = 1
-
 s_width = 2
+
+# WebRTC VAD only accepts 10, 20 or 30 ms PCM frames.
+VAD_AGGRESSIVENESS = 3  # 0 = permissive, 3 = very aggressive
+VAD_FRAME_DURATION_MS = 30
+VAD_FRAME_SIZE = int(rate * VAD_FRAME_DURATION_MS / 1000)  # 480 samples at 16 kHz
+
+# Keep the old names for compatibility, but audio reads now use VAD_FRAME_SIZE.
+chunk = VAD_FRAME_SIZE
+frames_per_buffer = VAD_FRAME_SIZE
+
 SHORT_SILENCE_DURATION = 0.5
 LONG_SILENCE_DURATION = 2
 MAX_CHUNK_DURATION = 12
@@ -82,6 +91,9 @@ class Recorder:
             frames_per_buffer=frames_per_buffer,
             start=False
         )
+
+        self.vad = webrtcvad.Vad(VAD_AGGRESSIVENESS)
+
         self.prev_input = []
         self.max_chunks = 20
 
@@ -96,10 +108,10 @@ class Recorder:
             speech_recognition_language=lang
         )
 
-        # Essential change 1: keep track of all recognition threads, not only the last one.
+        # Keep track of all recognition threads, not only the last one.
         self.recognition_threads = []
 
-        # Essential change 2: protect shared data written by recognition threads.
+        # Protect shared data written by recognition threads.
         self.lock = threading.Lock()
 
         self.speaker_reco_start_time = 0
@@ -258,7 +270,7 @@ class Recorder:
                 self.last_speech_time = time.time()
                 turn_piece = TurnPiece(ident_speaker_id, sentence, language, wav_duration)
 
-                # Essential change 2: protect dialogue_turn from concurrent writes.
+                # Protect dialogue_turn from concurrent writes.
                 with self.lock:
                     self.dialogue_turn.add_turn_piece(turn_piece)
 
@@ -289,8 +301,24 @@ class Recorder:
         rms = math.pow(sum_squares / count, 0.5)
         return rms * 1000
 
+    def is_speech(self, audio_frame):
+        """
+        Returns True only if the frame is classified as speech by WebRTC VAD
+        and its RMS is above the configured threshold.
+        """
+        rms_val = self.rms(audio_frame)
+
+        try:
+            vad_speech = self.vad.is_speech(audio_frame, rate)
+        except Exception as e:
+            print("VAD error:", e)
+            vad_speech = False
+
+        print("RMS:", rms_val, "VAD:", vad_speech)
+        return vad_speech and rms_val >= rms_threshold
+
     def record(self):
-        print_colored("Noise detected, start recording.", "blue")
+        print_colored("Voice detected, start recording.", "blue")
         rec = []
         if self.prev_input:
             for c in self.prev_input:
@@ -302,14 +330,14 @@ class Recorder:
         timeout = time.time() + MAX_CHUNK_DURATION
 
         while current <= end:
-            # read_available = self.stream.get_read_available()
-            # print(f"stream data available: {read_available}")
-            data = self.stream.read(chunk, exception_on_overflow=False)
-            if self.rms(data) >= rms_threshold:
+            # WebRTC VAD requires frames of 10, 20 or 30 ms.
+            data = self.stream.read(VAD_FRAME_SIZE, exception_on_overflow=False)
+            if self.is_speech(data):
                 end = time.time() + SHORT_SILENCE_DURATION
             current = time.time()
             rec.append(data)
-            # Limit the audio duration to 1 minute
+
+            # Limit the audio duration to avoid overly long chunks.
             if time.time() > timeout:
                 break
 
@@ -331,7 +359,7 @@ class Recorder:
 
         self.chunk_counter += 1
 
-        # Essential change 1: create a thread and store it in the thread list.
+        # Create a thread and store it in the thread list.
         if self.mode == "continuous":
             t = threading.Thread(
                 target=self.speech_and_speaker_recognition,
@@ -368,21 +396,16 @@ class Recorder:
                 timeout = False
 
                 while current <= end:
-                    # read_available = self.stream.get_read_available()
-                    # print(f"stream data available: {read_available}")
-                    audio_input = self.stream.read(chunk, exception_on_overflow=False)
-                    rms_val = self.rms(audio_input)
-                    # print("RMS:", rms_val)
+                    # WebRTC VAD requires frames of 10, 20 or 30 ms.
+                    audio_input = self.stream.read(VAD_FRAME_SIZE, exception_on_overflow=False)
 
-                    if rms_val > rms_threshold:
+                    if self.is_speech(audio_input):
                         self.record()
                         end = time.time() + LONG_SILENCE_DURATION
                     else:
                         if time.time() - self.last_speech_time > TIMEOUT:
                             timeout = True
                             print_colored("TIMEOUT", "red")
-
-                            # Essential change 3: use sendall instead of send.
                             connection.sendall("timeout".encode('utf-8'))
 
                             # Let's assume the user has talked to avoid continuously sending timeout
@@ -407,7 +430,6 @@ class Recorder:
                         time_after_final_silence = time.time()
 
                         # As soon as the user has finished talking, send an ack to the server.
-                        # Essential change 3: use sendall instead of send.
                         connection.sendall("user finished talking".encode('utf-8'))
 
                         # To check if a client is still connected and has received the message
@@ -418,7 +440,7 @@ class Recorder:
 
                         print_colored("Waiting for all transcription threads to finish...", "green")
 
-                        # Essential change 1: wait for all recognition threads, not only the last one.
+                        # Wait for all recognition threads, not only the last one.
                         for t in self.recognition_threads:
                             t.join()
                         self.recognition_threads = []
@@ -432,13 +454,14 @@ class Recorder:
                                 "xml": self.dialogue_turn.to_xml_string(),
                                 "logs": dict(self.log_buffer)
                             }
+                            transcription_text = self.dialogue_turn.get_text()
 
                         print_colored("Sending final payload to the client...", "green")
-                        print(f"transcription: {self.dialogue_turn.get_text()}\n"
+                        print(f"transcription: {transcription_text}\n"
                               f"xml: {final_payload['xml']}\n"
                               f"logs: {final_payload['logs']}")
 
-                        connection.sendall(json.dumps(final_payload).encode('utf-8'))
+                        connection.sendall((json.dumps(final_payload, ensure_ascii=True) + "\n").encode('utf-8'))
                         self.clear_log()
                         self.chunk_counter = 0
 
