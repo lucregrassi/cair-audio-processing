@@ -28,7 +28,7 @@ import time
 import json
 import os
 
-rms_threshold = 50
+rms_threshold = 100
 short_normalize = (1.0 / 32768.0)
 
 # rate for PC and Raspberry Pi
@@ -37,13 +37,14 @@ short_normalize = (1.0 / 32768.0)
 # rate = 192000
 rate = 16000
 chunk = 2048
-frames_per_buffer = 4096
+frames_per_buffer = 2048
 audio_format = pyaudio.paInt16
 channels = 1
 
 s_width = 2
 SHORT_SILENCE_DURATION = 0.5
 LONG_SILENCE_DURATION = 2
+MAX_CHUNK_DURATION = 12
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
 # Seconds of silence after which the audio recorder writes "timeout" on the socket
@@ -59,7 +60,7 @@ SUPPORTED_STT_LANGUAGES = [
 
 
 def print_colored(message, color):
-    """Prints an error message in red."""
+    """Prints a colored message."""
     if color == "red":
         print(f"\033[91m{message}\033[0m")
     elif color == "blue":
@@ -72,18 +73,34 @@ class Recorder:
     def __init__(self, lang, auto_detect_language=True):
         self.auto_detect_language = auto_detect_language
         self.p = pyaudio.PyAudio()
-        self.stream = self.p.open(format=audio_format, channels=channels, rate=rate, input=True, output=False,
-                                  frames_per_buffer=frames_per_buffer, start=False)
+        self.stream = self.p.open(
+            format=audio_format,
+            channels=channels,
+            rate=rate,
+            input=True,
+            output=False,
+            frames_per_buffer=frames_per_buffer,
+            start=False
+        )
         self.prev_input = []
         self.max_chunks = 20
+
         # Initialize object that will contain the data related to the dialogue turn
         self.dialogue_turn = DialogueTurn()
         self.recognized_text = ""
         self.mode = "continuous"
         self.root = ET.Element("response")
-        self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["AZURE_SPEECH_KEY"],
-                                                    region="westeurope", speech_recognition_language=lang)
-        self.t1 = threading.Thread(target=self.speech_and_speaker_recognition, args=("", 0,))
+        self.speech_config = speechsdk.SpeechConfig(
+            subscription=os.environ["AZURE_SPEECH_KEY"],
+            region="westeurope",
+            speech_recognition_language=lang
+        )
+
+        # Essential change 1: keep track of all recognition threads, not only the last one.
+        self.recognition_threads = []
+
+        # Essential change 2: protect shared data written by recognition threads.
+        self.lock = threading.Lock()
 
         self.speaker_reco_start_time = 0
         self.speaker_reco_end_time = 0
@@ -92,10 +109,12 @@ class Recorder:
         self.last_speech_time = time.time()  # when was the last real speech recognized
 
     def accumulate_log(self, key, value):
-        self.log_buffer[key] = value
+        with self.lock:
+            self.log_buffer[key] = value
 
     def clear_log(self):
-        self.log_buffer.clear()
+        with self.lock:
+            self.log_buffer.clear()
 
     def speaker_recognition(self, wav_filename, prof_dict, ident_spk):
         prof_ids = ','.join(prof_dict.keys())
@@ -114,10 +133,14 @@ class Recorder:
     def speech_recognition(self, wav_filename):
         print("T1: Performing speech to text...")
         audio_input = speechsdk.AudioConfig(filename=wav_filename)
-        speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_input)
+        speech_recognizer = speechsdk.SpeechRecognizer(
+            speech_config=self.speech_config,
+            audio_config=audio_input
+        )
         start_time = time.time()
         result = speech_recognizer.recognize_once_async().get()
         end_time = time.time()
+
         # If Microsoft has recognized something
         if result.text:
             self.accumulate_log("speech_to_text_time", end_time - start_time)
@@ -142,18 +165,25 @@ class Recorder:
                 prof_dict = json.load(f)
         else:
             prof_dict = {}
+
         # Specify where the audio should be taken
         audio_config = speechsdk.AudioConfig(filename=wav_filename)
 
         ident_speaker_id = ["00000000-0000-0000-0000-000000000000"]
-        t2 = threading.Thread(target=self.speaker_recognition, args=(format(wav_filename), prof_dict, ident_speaker_id))
+        t2 = threading.Thread(
+            target=self.speaker_recognition,
+            args=(format(wav_filename), prof_dict, ident_speaker_id)
+        )
         if prof_dict:
             t2.start()
 
         # Configure the speech_recognizer based on the auto_detect_language parameter
         if self.auto_detect_language:
             # If there are no speaker registered and no one has talked, auto-detect the language to add tag to xml
-            if self.dialogue_turn.is_empty():
+            with self.lock:
+                dialogue_turn_is_empty = self.dialogue_turn.is_empty()
+
+            if dialogue_turn_is_empty:
                 print("Performing speech to text with auto-detection of language...")
                 auto_detect_source_language_config = speechsdk.languageconfig.AutoDetectSourceLanguageConfig(
                     languages=["en-US", "it-IT"]
@@ -173,47 +203,65 @@ class Recorder:
                 speech_config=self.speech_config,
                 audio_config=audio_config
             )
+
         start_time = time.time()
-        # Attendi il risultato del riconoscimento vocale
         result = speech_recognizer.recognize_once()
         end_time = time.time()
+
         # Se qualcosa è stato riconosciuto
         if result.reason == speechsdk.ResultReason.RecognizedSpeech:
             if self.auto_detect_language:
-                if self.dialogue_turn.is_empty():
+                with self.lock:
+                    dialogue_turn_is_empty = self.dialogue_turn.is_empty()
+
+                if dialogue_turn_is_empty:
                     # Extract the recognized language and redefine the speech config object for future recognitions.
                     language = result.properties[
-                        speechsdk.PropertyId.SpeechServiceConnection_AutoDetectSourceLanguageResult]
-                    self.speech_config = speechsdk.SpeechConfig(subscription=os.environ["AZURE_SPEECH_KEY"],
-                                                                region="westeurope",
-                                                                speech_recognition_language=language)
+                        speechsdk.PropertyId.SpeechServiceConnection_AutoDetectSourceLanguageResult
+                    ]
+                    self.speech_config = speechsdk.SpeechConfig(
+                        subscription=os.environ["AZURE_SPEECH_KEY"],
+                        region="westeurope",
+                        speech_recognition_language=language
+                    )
                 else:
                     language = ""
             else:
                 language = self.speech_config.speech_recognition_language
+
             sentence = result.text.translate(str.maketrans('', '', string.punctuation)).lower()
             if len(sentence) > 512:
                 print("STT string exceeds 512 characters - truncated")
                 sentence = sentence[:512]
+
             if prof_dict:
                 t2.join()
                 print("T1: T2 has completed the identification")
-            now = datetime.now()
 
+            now = datetime.now()
             self.accumulate_log("timestamp", now.strftime("%Y-%m-%d %H:%M:%S"))
             self.accumulate_log(f"chunk_{chunk_counter}_duration", wav_duration)
             self.accumulate_log(f"chunk_{chunk_counter}_speech_to_text_time", end_time - start_time)
+
             if prof_dict:
-                self.accumulate_log(f"chunk_{chunk_counter}_speaker_recognition_time",
-                                    self.speaker_reco_end_time - self.speaker_reco_start_time)
+                self.accumulate_log(
+                    f"chunk_{chunk_counter}_speaker_recognition_time",
+                    self.speaker_reco_end_time - self.speaker_reco_start_time
+                )
+
             ident_speaker_id = ident_speaker_id[0]
+
             # Add a turn piece only if the user said something more than the phrase to end the turn
             if sentence:
                 print_colored("T1: Something was recognized! Resetting last speech time.", "blue")
                 # only now do we know the user truly spoke, so reset the timeout anchor
                 self.last_speech_time = time.time()
                 turn_piece = TurnPiece(ident_speaker_id, sentence, language, wav_duration)
-                self.dialogue_turn.add_turn_piece(turn_piece)
+
+                # Essential change 2: protect dialogue_turn from concurrent writes.
+                with self.lock:
+                    self.dialogue_turn.add_turn_piece(turn_piece)
+
         elif result.reason == speechsdk.ResultReason.NoMatch:
             print("T1: No speech recognized.")
         elif result.reason == speechsdk.ResultReason.Canceled:
@@ -221,6 +269,7 @@ class Recorder:
             print(f"T1: Recognition canceled: {cancellation_details.reason}")
             if cancellation_details.reason == speechsdk.CancellationReason.Error:
                 print(f"T1: Error details: {cancellation_details.error_details}")
+
         del speech_recognizer
 
         # Delete the original wav file without final silence
@@ -250,7 +299,8 @@ class Recorder:
         start_time = time.time()
         current = time.time()
         end = time.time() + SHORT_SILENCE_DURATION
-        timeout = time.time() + 30
+        timeout = time.time() + MAX_CHUNK_DURATION
+
         while current <= end:
             # read_available = self.stream.get_read_available()
             # print(f"stream data available: {read_available}")
@@ -262,6 +312,7 @@ class Recorder:
             # Limit the audio duration to 1 minute
             if time.time() > timeout:
                 break
+
         end_time = time.time()
         wav_duration = end_time - start_time
         self.prev_input = []
@@ -277,14 +328,23 @@ class Recorder:
         wf.writeframes(recording)
         wf.close()
         print_colored("Recording saved, return to listening.", "blue")
+
         self.chunk_counter += 1
+
+        # Essential change 1: create a thread and store it in the thread list.
         if self.mode == "continuous":
-            self.t1 = threading.Thread(target=self.speech_and_speaker_recognition,
-                                       args=(filename, wav_duration, self.chunk_counter,))
-            self.t1.start()
+            t = threading.Thread(
+                target=self.speech_and_speaker_recognition,
+                args=(filename, wav_duration, self.chunk_counter,)
+            )
         else:
-            self.t1 = threading.Thread(target=self.speech_recognition, args=(filename,))
-            self.t1.start()
+            t = threading.Thread(
+                target=self.speech_recognition,
+                args=(filename,)
+            )
+
+        t.start()
+        self.recognition_threads.append(t)
 
     def listen_and_split(self, microphone_socket):
         while True:
@@ -294,12 +354,14 @@ class Recorder:
             connection.recv(256).decode('utf-8')
             self.stream.start_stream()
 
-            # initialize the timeout anchor “now” (no speech yet)
+            # initialize the timeout anchor "now" (no speech yet)
             self.last_speech_time = time.time()
             print_colored("Listening...", "green")
 
             while True:
-                self.dialogue_turn = DialogueTurn()
+                with self.lock:
+                    self.dialogue_turn = DialogueTurn()
+
                 # Update times for final silence
                 current = time.time()
                 end = time.time() + LONG_SILENCE_DURATION
@@ -310,6 +372,7 @@ class Recorder:
                     # print(f"stream data available: {read_available}")
                     audio_input = self.stream.read(chunk, exception_on_overflow=False)
                     rms_val = self.rms(audio_input)
+                    # print("RMS:", rms_val)
 
                     if rms_val > rms_threshold:
                         self.record()
@@ -318,52 +381,76 @@ class Recorder:
                         if time.time() - self.last_speech_time > TIMEOUT:
                             timeout = True
                             print_colored("TIMEOUT", "red")
-                            connection.send("timeout".encode('utf-8'))
+
+                            # Essential change 3: use sendall instead of send.
+                            connection.sendall("timeout".encode('utf-8'))
+
                             # Let's assume the user has talked to avoid continuously sending timeout
                             self.last_speech_time = time.time()
                             self.chunk_counter = 0
                             break
+
                         # buffer a bit of ambient noise for pre-roll on next record()
                         self.prev_input.append(audio_input)
                         if len(self.prev_input) > self.max_chunks:
                             self.prev_input = self.prev_input[1:]
                         current = time.time()
 
-                if self.dialogue_turn.get_text() not in ["", ""] or timeout:
+                with self.lock:
+                    has_text = self.dialogue_turn.get_text() not in ["", ""]
+
+                if has_text or timeout:
                     self.stream.stop_stream()
+
                     if not timeout:
                         print_colored("Sending ack to the client as the user said something!", "green")
                         time_after_final_silence = time.time()
-                        # as soon as the user has finished talking, send an ack to the server
-                        connection.send("user finished talking".encode('utf-8'))
+
+                        # As soon as the user has finished talking, send an ack to the server.
+                        # Essential change 3: use sendall instead of send.
+                        connection.sendall("user finished talking".encode('utf-8'))
+
                         # To check if a client is still connected and has received the message
                         client_msg = connection.recv(256).decode('utf-8')
                         if client_msg == "":
                             print("Client disconnected from socket!")
                             break
-                        print_colored("Waiting for last thread to finish transcription...", "green")
-                        self.t1.join()
-                        time_after_final_chunk_transcription = time.time()
 
+                        print_colored("Waiting for all transcription threads to finish...", "green")
+
+                        # Essential change 1: wait for all recognition threads, not only the last one.
+                        for t in self.recognition_threads:
+                            t.join()
+                        self.recognition_threads = []
+
+                        time_after_final_chunk_transcription = time.time()
                         final_delay = time_after_final_chunk_transcription - time_after_final_silence
                         self.accumulate_log("final_delay_time", final_delay)
-                        final_payload = {
-                            "xml": self.dialogue_turn.to_xml_string(),
-                            "logs": self.log_buffer
-                        }
+
+                        with self.lock:
+                            final_payload = {
+                                "xml": self.dialogue_turn.to_xml_string(),
+                                "logs": dict(self.log_buffer)
+                            }
+
                         print_colored("Sending final payload to the client...", "green")
                         print(f"transcription: {self.dialogue_turn.get_text()}\n"
                               f"xml: {final_payload['xml']}\n"
                               f"logs: {final_payload['logs']}")
+
                         connection.sendall(json.dumps(final_payload).encode('utf-8'))
                         self.clear_log()
                         self.chunk_counter = 0
+
                     print_colored("Waiting for client to be ready...", "green")
                     client_msg = connection.recv(256).decode('utf-8')
                     if client_msg == "":
                         print_colored("Client disconnected from socket!", "red")
                         break
+
                     # Empty the dialogue turn in case in the meanwhile a thread has written something
-                    self.dialogue_turn = DialogueTurn()
+                    with self.lock:
+                        self.dialogue_turn = DialogueTurn()
+
                     self.stream.start_stream()
                     print_colored("Listening...", "green")

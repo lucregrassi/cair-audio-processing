@@ -47,7 +47,7 @@ final_silence_time = 2
 exit_keywords = ["passo e chiudo", "cosa ne pensi"]
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-log_filename = os.path.join(script_dir, "logs", "home_paraplegia", "audio_recorder_log_P3.txt")
+log_filename = os.path.join(script_dir, "logs", "home_paraplegia", "audio_recorder_log_P4.txt")
 print(f"Logging to: {log_filename}")
 
 file_lock = threading.Lock()
