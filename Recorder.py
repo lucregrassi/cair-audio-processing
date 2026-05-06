@@ -30,7 +30,7 @@ import json
 import os
 
 # With VAD, the RMS threshold can usually be lower than with RMS-only detection.
-rms_threshold = 100
+rms_threshold = 70
 short_normalize = (1.0 / 32768.0)
 
 # rate for PC and Raspberry Pi
